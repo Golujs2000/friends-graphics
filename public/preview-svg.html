@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friends Graphics - Favicon SVG Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0b0f19;
+      color: #f1f5f9;
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #ff6a00;
+    }
+    p {
+      color: #94a3b8;
+      margin-top: 5px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      max-width: 1000px;
+    }
+    .card {
+      padding: 24px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .card-light {
+      background: #ffffff;
+      color: #1e293b;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .card-dark {
+      background: #111827;
+      color: #ffffff;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .preview-box {
+      width: 280px;
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-box {
+      width: 220px;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: #ff6a00;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Friends Graphics Custom SVG Emblem</h1>
+  <p>Vector reproduction of the 3D fluid 'F' ribbon & pixel mosaic emblem.</p>
+
+  <div class="grid">
+    <!-- Light Mode (Original Match) -->
+    <div class="card card-light">
+      <span class="title">Full Presentation (Light)</span>
+      <div class="preview-box">
+        <img src="/favicon-f.svg" alt="F Emblem Full" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <a href="/favicon-f.svg" download class="btn">Download SVG</a>
+    </div>
+
+    <!-- Dark Mode -->
+    <div class="card card-dark">
+      <span class="title">Cropped Icon (Dark Mode)</span>
+      <div class="icon-box">
+        <img src="/favicon-f-icon.svg" alt="F Emblem Icon" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <a href="/favicon-f-icon.svg" download class="btn">Download Icon SVG</a>
+    </div>
+
+    <!-- App Favicon Simulation (Different sizes) -->
+    <div class="card card-dark">
+      <span class="title">Favicon Scale Sizes (64px / 32px / 16px)</span>
+      <div style="display: flex; align-items: center; gap: 20px; height: 220px;">
+        <div style="width: 64px; height: 64px; background: white; border-radius: 12px; padding: 6px; display: flex; align-items: center; justify-content: center;">
+          <img src="/favicon-f-icon.svg" style="width: 100%; height: 100%;">
+        </div>
+        <div style="width: 32px; height: 32px; background: white; border-radius: 8px; padding: 3px; display: flex; align-items: center; justify-content: center;">
+          <img src="/favicon-f-icon.svg" style="width: 100%; height: 100%;">
+        </div>
+        <div style="width: 20px; height: 20px; background: white; border-radius: 4px; padding: 2px; display: flex; align-items: center; justify-content: center;">
+          <img src="/favicon-f-icon.svg" style="width: 100%; height: 100%;">
+        </div>
+      </div>
+      <span style="font-size: 12px; color: #94a3b8;">Sharp at every resolution</span>
+    </div>
+  </div>
+</body>
+</html>
