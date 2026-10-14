@@ -4,28 +4,36 @@ import { companyDetails } from '../data/servicesData';
 
 const faqs = [
   {
-    q: "What printing services does Friends Graphics provide?",
-    a: "We provide banner, poster, offset, business card, brochure, flyer, flex, vinyl stickers, wedding cards, pamphlets, letterheads, and other customized commercial and personal printing services under one roof."
+    q: "What printing and fabrication services does Friends Graphics provide?",
+    a: "We provide comprehensive printing and signage under one roof: Flex and banner printing, election campaign materials (plastic, paper & nylon election flags, national flags, T-flags), LED acrylic & ACP glow sign boards, brass sign boards, visiting cards, brochures, pamphlets, bill books, books, calendars, PVC ID cards, vinyl stickers, and commercial offset printing."
   },
   {
-    q: "Do you accept bulk orders?",
-    a: "Yes! Bulk and commercial printing requirements can be accommodated easily with customized wholesale tier pricing, whether you need 5,000 visiting cards or 100,000 offset printed pamphlets."
+    q: "Do you supply election campaign material (Chunaw Prachar Samagri) and flags?",
+    a: "Yes! We are a leading wholesale supplier in Patna for Lok Sabha, Vidhan Sabha, Panchayat, and Municipal elections. We manufacture plastic election flags, paper election flags, knitted nylon flags, national paper flags, vehicle/table T-flags, candidate badges, campaign caps, canopy tents, and high-volume election posters with express turnaround."
   },
   {
-    q: "Can I provide my own design?",
-    a: "Yes. Customers can provide print-ready artwork (PDF, CorelDraw CDR, Illustrator AI, Photoshop PSD, or high-res JPEG) or discuss design requirements with our team for tailored artwork creation."
+    q: "Do you fabricate LED Acrylic & ACP Glow Sign Boards?",
+    a: "Yes, we fabricate 3D acrylic LED letter sign boards, CNC routed ACP glow signs, outdoor ACP facade cladding, and mirror-polished solid brass/SS signboards with high-grade waterproof Samsung LED modules and on-site installation across Bihar."
   },
   {
-    q: "Do you provide banner and poster printing in different sizes?",
-    a: "Yes, sizes can be completely customized according to your exact requirement — from compact 2x3 ft roll-up standees to gigantic 20x40 ft outdoor hoardings."
+    q: "Do you print custom carbonless NCR bill books and corporate stationery?",
+    a: "Yes! We manufacture duplicate, triplicate, and quadruplicate carbonless NCR bill books, invoice registers, delivery challans, cash vouchers, letterheads, and corporate presentation folders with sequential numbering and micro-perforations."
   },
   {
-    q: "How can I get a quotation?",
+    q: "Do you accept bulk commercial orders?",
+    a: "Yes! Bulk requirements are fulfilled with dedicated wholesale tier pricing, whether you need 50,000 election flags, 100,000 pamphlets, 5,000 student ID cards, or large-scale outdoor flex hoardings."
+  },
+  {
+    q: "Can I provide my own design or do you design in-house?",
+    a: "Both! Customers can provide print-ready artwork (PDF, CorelDraw CDR, Illustrator AI, Photoshop PSD, or high-res JPEG) or collaborate with our experienced in-house graphic design team in Patna."
+  },
+  {
+    q: "How can I get an instant quotation?",
     a: `Contact Friends Graphics directly through phone (${companyDetails.phonePrimary}), WhatsApp (+91 7992421080), or use the instant quote generator on this site.`
   },
   {
     q: "When was Friends Graphics established and where is it located?",
-    a: `Friends Graphics was established in ${companyDetails.established}. We are centrally located at ${companyDetails.address}. You can walk in during business hours (10 AM to 8:30 PM) to inspect physical material swatches.`
+    a: `Friends Graphics was established in ${companyDetails.established}. We are centrally located at ${companyDetails.address}. You can walk in during business hours (10 AM to 8:30 PM) to inspect physical material swatches and samples.`
   }
 ];
 

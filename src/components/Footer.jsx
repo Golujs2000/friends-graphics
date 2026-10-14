@@ -11,20 +11,12 @@ export default function Footer() {
           {/* Col 1: Brand */}
           <div className="space-y-4">
             <Link to="/" className="inline-block">
-              <div className="bg-[#121826] px-3.5 py-2 rounded-xl shadow-md border border-white/15 inline-flex items-center gap-3">
+              <div className="bg-white px-3.5 py-2 rounded-2xl shadow-lg border border-white/20 inline-flex items-center gap-3">
                 <img
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="Friends Graphics Logo"
-                  className="h-11 w-auto object-contain"
+                  className="h-12 w-auto object-contain"
                 />
-                <div className="flex flex-col text-left">
-                  <span className="text-lg font-black text-[#ff6a00] leading-none tracking-tight font-['Rozha_One',_'Yatra_One',_'Noto_Serif_Devanagari',_serif]">
-                    फ्रेन्ड्स ग्राफिक्स
-                  </span>
-                  <span className="text-[8px] font-bold uppercase text-slate-300 tracking-[0.22em] mt-1">
-                    NEXT GENERATION OF PRINTING HUB
-                  </span>
-                </div>
               </div>
             </Link>
 

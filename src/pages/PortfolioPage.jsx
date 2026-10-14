@@ -103,16 +103,79 @@ const portfolioItems = [
     desc: "5mm dense foam sunboard with matte laminated direct print."
   },
   {
-    title: "Royal Wedding Box Invitation Suite",
-    category: "wedding",
-    categoryName: "Wedding & Packaging",
-    image: "/images/wedding_box.png",
-    desc: "Rigid MDF box wedding invite with gold hot foil stamping."
+    title: "Chunaw Prachar Flags & National T-Flags",
+    category: "election",
+    categoryName: "Election & Flags (चुनाव)",
+    image: "/images/plastic_election_flags.jpg",
+    desc: "Plastic, paper & knitted nylon election flags, national paper flags and car hood T-flags."
+  },
+  {
+    title: "Election Campaign Poster & Publicity Materials",
+    category: "election",
+    categoryName: "Election & Flags (चुनाव)",
+    image: "/images/campaign_posters.jpg",
+    desc: "12x18 and 18x24 inch multi-color candidate campaign posters with voter appeal layout."
+  },
+  {
+    title: "Candidate Badges, Promotion Caps & Canopy Tent",
+    category: "election",
+    categoryName: "Election & Flags (चुनाव)",
+    image: "/images/Canopy Tent.png",
+    desc: "Turnkey election management publicity kits with canopy tents, badges, and candidate caps."
+  },
+  {
+    title: "3D LED Acrylic Letters Storefront Sign",
+    category: "signage",
+    categoryName: "LED & Sign Boards",
+    image: "/images/Glossy LED Acrylic 3D Letters.png",
+    desc: "Precision laser-cut 3D cast acrylic frontlit letters with waterproof Samsung LED modules."
+  },
+  {
+    title: "CNC Routed LED ACP Glow Sign Board",
+    category: "signage",
+    categoryName: "LED & Sign Boards",
+    image: "/images/LED Glow Sign Board & Box.png",
+    desc: "Exterior grade ACP box with routed groove and warm white acrylic inlay illumination."
+  },
+  {
+    title: "Outdoor Heavy ACP Cladding & Metal Sign Board",
+    category: "signage",
+    categoryName: "LED & Sign Boards",
+    image: "/images/Stainless Steel Sign Board (Outdoor).png",
+    desc: "Architectural weatherproof ACP facade and premium mirror-finish brass and SS metal signage."
+  },
+  {
+    title: "Custom Carbonless NCR Duplicate/Triplicate Bill Books",
+    category: "stationery",
+    categoryName: "Bill Books & Books",
+    image: "/images/custom_bill_books_invoice_printing (1).png",
+    desc: "Multi-color numbered invoice books with micro-perforation and hardbound binding."
+  },
+  {
+    title: "Coaching Study Material & Academic Book Production",
+    category: "stationery",
+    categoryName: "Bill Books & Books",
+    image: "/images/Full Production Book Printing & Publication.png",
+    desc: "IIT-JEE / NEET study modules and institution books with hot melt perfect binding."
+  },
+  {
+    title: "Institutional PVC Student ID Cards & Satin Lanyards",
+    category: "idcards",
+    categoryName: "ID Cards & Lanyards",
+    image: "/images/institue_id_cards.png",
+    desc: "Photographic thermal PVC identity cards with customized 16mm/20mm sublimation satin lanyards."
+  },
+  {
+    title: "Custom Multi-Color Sublimation Neck Lanyards",
+    category: "idcards",
+    categoryName: "ID Cards & Lanyards",
+    image: "/images/customized_lanyards.png",
+    desc: "High-density satin ribbons with metal dog hooks and safety breakaway clasps."
   },
   {
     title: "Wall & Desk Corporate Calendar",
-    category: "offset",
-    categoryName: "Offset & Commercial",
+    category: "stationery",
+    categoryName: "Bill Books & Books",
     image: "/images/Wall & Desk Calendar Printing.png",
     desc: "Wire-O bound 12-month calendar on 250 GSM coated board."
   },
@@ -134,11 +197,14 @@ const portfolioItems = [
 
 const categories = [
   { id: "all", label: "All Works" },
+  { id: "election", label: "Election & Flags (चुनाव)" },
+  { id: "signage", label: "LED & Sign Boards" },
+  { id: "stationery", label: "Bill Books & Books" },
+  { id: "idcards", label: "ID Cards & Lanyards" },
   { id: "banners", label: "Banners & Flex" },
   { id: "cards", label: "Visiting Cards" },
   { id: "flyers", label: "Brochures & Flyers" },
   { id: "vinyl", label: "Vinyl & Stickers" },
-  { id: "wedding", label: "Wedding Packaging" },
   { id: "offset", label: "Commercial Offset" }
 ];
 
@@ -169,7 +235,7 @@ export default function PortfolioPage() {
             See Our <span className="brand-gradient-text">Printing Work</span>
           </h1>
           <p className="text-sm sm:text-base text-slate-400 mt-3 leading-relaxed">
-            Real samples delivered for retail stores, coaching institutes, corporate brands, and weddings in Patna since 2014.
+            Real samples delivered for retail stores, coaching institutes, corporate brands, and businesses in Patna since 2014.
           </p>
         </div>
 

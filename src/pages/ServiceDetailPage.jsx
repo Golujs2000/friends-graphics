@@ -41,8 +41,15 @@ export default function ServiceDetailPage() {
         <div className="bg-[#0f1420]/80 border border-white/10 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-7 space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/15 text-[#ff6a00] border border-[#ff6a00]/30">
-                <span>Service #{service.id} • Professional Printing</span>
+              <div className="flex flex-wrap items-center gap-2">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/15 text-[#ff6a00] border border-[#ff6a00]/30">
+                  <span>Service #{service.id} • Professional Printing</span>
+                </div>
+                {service.hindiTitle && (
+                  <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-[#ff6a00]/10 text-[#ff6a00] border border-[#ff6a00]/25">
+                    <span>{service.hindiTitle}</span>
+                  </div>
+                )}
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
                 {service.title} in <span className="brand-gradient-text">Patna</span>
@@ -235,7 +242,7 @@ export default function ServiceDetailPage() {
           <div className="flex items-center justify-between mb-6">
             <h4 className="text-lg font-bold text-white">Explore Other Services</h4>
             <Link to="/services" className="text-xs font-bold text-[#ff6a00] hover:underline">
-              All 8 Services →
+              All {servicesData.length} Services →
             </Link>
           </div>
 

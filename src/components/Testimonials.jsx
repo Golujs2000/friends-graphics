@@ -34,7 +34,7 @@ export default function Testimonials() {
             What Our <span className="brand-gradient-text">Customers Say</span>
           </h2>
           <p className="text-sm sm:text-base text-slate-400 mt-3">
-            Trusted by hundreds of local businesses, coaching institutes, and wedding planners across Patna.
+            Trusted by hundreds of local businesses, coaching institutes, and event organizers across Patna.
           </p>
         </div>
 

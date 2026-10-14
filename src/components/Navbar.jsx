@@ -16,19 +16,19 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="bg-white/95 hover:bg-white px-2.5 py-1 rounded-xl shadow-md border border-white/20 transition-all flex items-center h-11">
+            <div className="bg-white hover:bg-white px-3 py-1.5 rounded-xl shadow-md border border-white/25 transition-all flex items-center h-12 group-hover:shadow-[#ff6a00]/25">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Friends Graphics - Next Generation of Printing Hub"
-                className="h-9 w-auto object-contain"
+                className="h-9 sm:h-10 w-auto object-contain"
               />
             </div>
-            <div className="flex flex-col">
-              <span className="text-base sm:text-2xl font-black text-[#ff6a00] leading-none tracking-tight font-['Rozha_One',_'Yatra_One',_'Noto_Serif_Devanagari',_serif] drop-shadow-[0_1px_4px_rgba(255,106,0,0.3)]">
+            <div className="hidden lg:flex flex-col">
+              <span className="text-xl font-black text-[#ff6a00] leading-none tracking-tight font-['Rozha_One',_'Yatra_One',_'Noto_Serif_Devanagari',_serif] drop-shadow-[0_1px_4px_rgba(255,106,0,0.3)]">
                 फ्रेन्ड्स ग्राफिक्स
               </span>
-              <span className="text-[7px] sm:text-[9px] font-bold uppercase text-slate-200 tracking-[0.22em] mt-1 leading-none">
-                NEXT GENERATION OF PRINTING HUB
+              <span className="text-[9px] font-bold uppercase text-slate-300 tracking-[0.2em] mt-1 leading-none">
+                BARI PATH, PATNA
               </span>
             </div>
           </Link>
@@ -69,27 +69,37 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {servicesDropdownOpen && (
-                <div className="absolute top-full left-0 w-72 pt-2 z-50">
-                  <div className="bg-[#0f1420] border border-white/10 rounded-xl shadow-2xl p-2.5 backdrop-blur-xl">
-                    <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 py-1.5 border-b border-white/5 mb-1">
-                      All Printing Solutions
+                <div className="absolute top-full -left-16 w-[560px] pt-2 z-50">
+                  <div className="bg-[#0f1420]/95 border border-white/10 rounded-2xl shadow-2xl p-3 backdrop-blur-xl">
+                    <div className="flex items-center justify-between text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 py-1.5 border-b border-white/10 mb-2">
+                      <span>All Printing &amp; Fabrication Solutions</span>
+                      <span className="text-[#ff6a00]">{servicesData.length} Services</span>
                     </div>
-                    {servicesData.map((svc) => (
-                      <Link
-                        key={svc.slug}
-                        to={`/services/${svc.slug}`}
-                        className="flex items-center justify-between px-3 py-2 rounded-lg text-sm text-slate-300 hover:text-white hover:bg-white/5 transition-all group"
-                      >
-                        <span>{svc.title}</span>
-                        <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 text-[#ff6a00] transition-opacity" />
-                      </Link>
-                    ))}
-                    <div className="pt-2 mt-1 border-t border-white/5">
+                    <div className="grid grid-cols-2 gap-1.5 max-h-[70vh] overflow-y-auto pr-1">
+                      {servicesData.map((svc) => (
+                        <Link
+                          key={svc.slug}
+                          to={`/services/${svc.slug}`}
+                          className="flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all group"
+                        >
+                          <div className="truncate pr-2">
+                            <span className="block truncate text-xs font-semibold text-slate-200 group-hover:text-white">{svc.title}</span>
+                            {svc.hindiTitle && (
+                              <span className="block truncate text-[11px] text-[#ff6a00] font-medium">{svc.hindiTitle}</span>
+                            )}
+                          </div>
+                          <span className="text-[10px] text-slate-500 group-hover:text-[#ff6a00] font-mono shrink-0">
+                            #{svc.id}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="pt-2.5 mt-2 border-t border-white/10">
                       <Link
                         to="/services"
-                        className="block text-center text-xs font-bold text-[#ff6a00] hover:underline py-1"
+                        className="block text-center text-xs font-bold text-[#ff6a00] hover:text-[#ff8a00] hover:underline py-1"
                       >
-                        Explore All Services →
+                        Explore All Services Catalog →
                       </Link>
                     </div>
                   </div>
@@ -197,15 +207,21 @@ export default function Navbar() {
           >
             All Services
           </Link>
-          <div className="pl-4 space-y-2 border-l border-white/10 my-1">
+          <div className="pl-3 space-y-1 border-l border-white/10 my-2 max-h-56 overflow-y-auto pr-1">
             {servicesData.map((svc) => (
               <Link
                 key={svc.slug}
                 to={`/services/${svc.slug}`}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block text-sm text-slate-400 hover:text-[#ff6a00] py-1"
+                className="flex items-center justify-between text-xs text-slate-400 hover:text-[#ff6a00] py-1.5"
               >
-                {svc.title}
+                <div className="truncate pr-2">
+                  <span className="block truncate text-slate-200">{svc.title}</span>
+                  {svc.hindiTitle && (
+                    <span className="block truncate text-[10px] text-[#ff6a00]">{svc.hindiTitle}</span>
+                  )}
+                </div>
+                <span className="text-[10px] text-slate-500 font-mono">#{svc.id}</span>
               </Link>
             ))}
           </div>

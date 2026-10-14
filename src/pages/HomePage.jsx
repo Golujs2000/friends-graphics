@@ -15,7 +15,8 @@ import {
   Utensils,
   Megaphone,
   CheckCircle2,
-  Phone
+  Phone,
+  Flag
 } from 'lucide-react';
 import { servicesData, companyDetails, industriesData } from '../data/servicesData';
 import StatsBar from '../components/StatsBar';
@@ -26,6 +27,7 @@ import FAQAccordion from '../components/FAQAccordion';
 import QuickQuoteForm from '../components/QuickQuoteForm';
 
 const iconMap = {
+  Flag,
   Store,
   HeartPulse,
   GraduationCap,
@@ -169,7 +171,15 @@ export default function HomePage() {
 
                 {/* Content */}
                 <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="text-lg font-bold text-white group-hover:text-[#ff6a00] transition-colors mb-1.5">
+                  <div className="flex items-center justify-between gap-2 mb-1.5 min-h-[18px]">
+                    {svc.hindiTitle ? (
+                      <span className="text-xs font-bold text-[#ff6a00] truncate">{svc.hindiTitle}</span>
+                    ) : (
+                      <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">{svc.shortTitle}</span>
+                    )}
+                    <span className="text-[10px] text-slate-500 font-mono shrink-0">#{svc.id}</span>
+                  </div>
+                  <h3 className="text-base sm:text-lg font-bold text-white group-hover:text-[#ff6a00] transition-colors mb-1.5 leading-snug">
                     <Link to={`/services/${svc.slug}`} className="hover:text-[#ff6a00] transition-colors block">
                       {svc.title}
                     </Link>
@@ -207,7 +217,7 @@ export default function HomePage() {
               to="/services"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold text-sm transition-all"
             >
-              <span>View All 8 Printing Services in Detail</span>
+              <span>View All {servicesData.length} Printing Services in Detail</span>
               <ArrowRight className="w-4 h-4 text-[#ff6a00]" />
             </Link>
           </div>

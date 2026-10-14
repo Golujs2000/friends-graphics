@@ -51,9 +51,16 @@ export default function ServicesPage() {
                 {/* Content */}
                 <div className={`lg:col-span-7 space-y-5 ${isEven ? 'lg:order-1' : ''}`}>
                   <div>
-                    <span className="text-xs uppercase font-bold tracking-wider text-[#ff6a00]">
-                      {svc.tagline}
-                    </span>
+                    <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                      <span className="text-xs uppercase font-bold tracking-wider text-[#ff6a00]">
+                        {svc.tagline}
+                      </span>
+                      {svc.hindiTitle && (
+                        <span className="px-2.5 py-0.5 rounded-full bg-[#ff6a00]/15 text-[#ff6a00] border border-[#ff6a00]/30 text-xs font-bold">
+                          {svc.hindiTitle}
+                        </span>
+                      )}
+                    </div>
                     <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-1">
                       <Link to={`/services/${svc.slug}`} className="hover:text-[#ff6a00] transition-colors">
                         {svc.title}
