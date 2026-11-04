@@ -19,6 +19,10 @@ dist-ssr/
 .env.local
 .env.*.local
 
+# Firebase
+.firebase/
+firebase-debug.log*
+
 # Editor & OS files
 .vscode/
 .idea/

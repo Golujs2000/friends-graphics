@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, Phone, MessageCircle, ArrowRight } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, MessageCircle, ArrowRight, Flag } from 'lucide-react';
 import { servicesData, companyDetails } from '../data/servicesData';
 
 export default function Navbar() {
@@ -11,7 +11,38 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 bg-[#080b11]/90 backdrop-blur-md border-b border-white/10 transition-all">
+    <header className="sticky top-0 z-50 bg-[#080b11]/95 backdrop-blur-md border-b border-white/10 transition-all">
+      {/* Top Chunav Samagri Announcement Bar */}
+      <div className="bg-gradient-to-r from-red-600 via-[#ff6a00] to-amber-600 text-white text-xs py-1 px-4 shadow-inner">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
+          <div className="flex items-center justify-center sm:justify-start gap-2 font-medium">
+            <span className="bg-black/35 text-amber-200 text-[10px] font-black uppercase px-2 py-0.5 rounded-full border border-white/20 shrink-0 flex items-center gap-1">
+              <Flag className="w-2.5 h-2.5 fill-amber-200" />
+              <span>चुनाव प्रचार सामग्री</span>
+            </span>
+            <span className="truncate text-[11px] sm:text-xs">
+              बिहार के नं. 1 थोक निर्माता — झंडे, पोस्टर, बैनर, टोपी, बैज व कैनोपी टेंट | Wholesale Election Hub
+            </span>
+          </div>
+          <div className="flex items-center justify-center gap-3 text-[11px] font-bold shrink-0">
+            <a href={`tel:${companyDetails.phonePrimary}`} className="hover:underline flex items-center gap-1">
+              <Phone className="w-3 h-3" />
+              <span>{companyDetails.phonePrimary}</span>
+            </a>
+            <span className="opacity-60">|</span>
+            <a
+              href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे चुनाव प्रचार सामग्री (Election Campaign Materials) की थोक रेट लिस्ट चाहिए।")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-200 flex items-center gap-1 font-extrabold"
+            >
+              <MessageCircle className="w-3 h-3 fill-white" />
+              <span>WhatsApp रेट लिस्ट</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Brand Logo */}
@@ -34,7 +65,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex items-center gap-7">
+          <nav className="hidden md:flex items-center gap-6">
             <Link
               to="/"
               className={`text-sm font-semibold transition-colors relative py-1 ${
@@ -45,6 +76,18 @@ export default function Navbar() {
               {isActive('/') && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#ff6a00] rounded-full"></span>
               )}
+            </Link>
+
+            {/* Chunav Samagri Featured Highlight Link */}
+            <Link
+              to="/services?category=election"
+              className="text-xs sm:text-sm font-bold transition-all py-1 px-2.5 rounded-lg bg-gradient-to-r from-red-600/25 to-[#ff6a00]/25 border border-[#ff6a00]/40 text-[#ff8a00] hover:text-white hover:bg-[#ff6a00] flex items-center gap-1.5 shadow-[0_0_12px_rgba(255,106,0,0.2)]"
+            >
+              <span className="text-sm">🚩</span>
+              <span>चुनाव सामग्री</span>
+              <span className="px-1.5 py-0.2 rounded bg-red-600 text-[9px] font-black text-white uppercase tracking-wider">
+                HOT
+              </span>
             </Link>
 
             {/* Services Dropdown */}
@@ -193,6 +236,21 @@ export default function Navbar() {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-[#0d121c] border-b border-white/10 px-4 pt-3 pb-6 space-y-3">
+          {/* Highlighted Mobile Chunav Link */}
+          <Link
+            to="/services?category=election"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between p-3 rounded-xl bg-gradient-to-r from-red-600/25 via-[#ff6a00]/25 to-amber-600/25 border border-[#ff6a00]/50 text-white font-bold text-sm shadow-md"
+          >
+            <div className="flex items-center gap-2">
+              <span className="text-base">🚩</span>
+              <span>चुनाव प्रचार सामग्री (Election Material)</span>
+            </div>
+            <span className="px-2 py-0.5 rounded bg-red-600 text-[10px] font-black text-white uppercase tracking-wider">
+              HOT
+            </span>
+          </Link>
+
           <Link
             to="/"
             onClick={() => setMobileMenuOpen(false)}
@@ -205,7 +263,7 @@ export default function Navbar() {
             onClick={() => setMobileMenuOpen(false)}
             className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
           >
-            All Services
+            All Printing Services
           </Link>
           <div className="pl-3 space-y-1 border-l border-white/10 my-2 max-h-56 overflow-y-auto pr-1">
             {servicesData.map((svc) => (
