@@ -15,10 +15,24 @@ import {
 } from 'lucide-react';
 import { companyDetails } from '../data/servicesData';
 import StatsBar from '../components/StatsBar';
+import SEOHead from '../components/SEOHead';
+import { getBreadcrumbSchema } from '../data/schemaData';
 
 export default function AboutPage() {
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: 'About Friends Graphics', url: '/about' }
+  ];
+
   return (
     <div className="py-12 sm:py-16 space-y-20">
+      <SEOHead
+        title="About Friends Graphics — Master Printing Press in Patna Since 2014"
+        description="Learn about Friends Graphics (Bari Path, Patna), founded in 2014 by Ranjan Sharma. Over 12+ years of excellence in election campaign publicity, offset printing, and signage."
+        canonicalPath="/about"
+        keywords="about friends graphics patna, ranjan sharma printer, printing press established 2014 bari path"
+        schemaJson={getBreadcrumbSchema(breadcrumbs)}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-8">

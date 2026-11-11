@@ -151,25 +151,37 @@ export default function Navbar() {
             </div>
 
             <Link
-              to="/about"
+              to="/locations"
               className={`text-sm font-semibold transition-colors relative py-1 ${
-                isActive('/about') ? 'text-[#ff6a00]' : 'text-slate-300 hover:text-[#ff6a00]'
+                isActive('/locations') ? 'text-[#ff6a00]' : 'text-slate-300 hover:text-[#ff6a00]'
               }`}
             >
-              About Us
-              {isActive('/about') && (
+              Locations
+              {isActive('/locations') && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#ff6a00] rounded-full"></span>
               )}
             </Link>
 
             <Link
-              to="/why-us"
+              to="/blog"
               className={`text-sm font-semibold transition-colors relative py-1 ${
-                isActive('/why-us') ? 'text-[#ff6a00]' : 'text-slate-300 hover:text-[#ff6a00]'
+                isActive('/blog') ? 'text-[#ff6a00]' : 'text-slate-300 hover:text-[#ff6a00]'
               }`}
             >
-              Why Us
-              {isActive('/why-us') && (
+              Guides
+              {isActive('/blog') && (
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#ff6a00] rounded-full"></span>
+              )}
+            </Link>
+
+            <Link
+              to="/about"
+              className={`text-sm font-semibold transition-colors relative py-1 ${
+                isActive('/about') ? 'text-[#ff6a00]' : 'text-slate-300 hover:text-[#ff6a00]'
+              }`}
+            >
+              About
+              {isActive('/about') && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#ff6a00] rounded-full"></span>
               )}
             </Link>
@@ -284,18 +296,39 @@ export default function Navbar() {
             ))}
           </div>
           <Link
+            to="/locations"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
+          >
+            Locations &amp; Coverage (Patna &amp; Bihar)
+          </Link>
+          <Link
+            to="/blog"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
+          >
+            Printing Guides &amp; Knowledge Hub
+          </Link>
+          <Link
+            to="/testimonials"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
+          >
+            Client Reviews &amp; Testimonials
+          </Link>
+          <Link
+            to="/faqs"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
+          >
+            Frequently Asked Questions
+          </Link>
+          <Link
             to="/about"
             onClick={() => setMobileMenuOpen(false)}
             className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
           >
             About Us
-          </Link>
-          <Link
-            to="/why-us"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-semibold py-2 text-slate-200 hover:text-[#ff6a00]"
-          >
-            Why Us
           </Link>
           <Link
             to="/portfolio"

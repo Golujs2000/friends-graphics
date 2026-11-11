@@ -15,6 +15,8 @@ import {
 } from 'lucide-react';
 import { servicesData, companyDetails } from '../data/servicesData';
 import QuickQuoteForm from '../components/QuickQuoteForm';
+import SEOHead from '../components/SEOHead';
+import { getServiceSchema, getBreadcrumbSchema } from '../data/schemaData';
 
 export default function ServiceDetailPage() {
   const { slug } = useParams();
@@ -25,8 +27,29 @@ export default function ServiceDetailPage() {
     return <Navigate to="/services" replace />;
   }
 
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: 'Services', url: '/services' },
+    { name: service.title, url: `/services/${service.slug}` }
+  ];
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      getServiceSchema(service),
+      getBreadcrumbSchema(breadcrumbs)
+    ]
+  };
+
   return (
     <div className="py-10 sm:py-16">
+      <SEOHead
+        title={`${service.title} ${service.hindiTitle ? `(${service.hindiTitle})` : ''} — Manufacturer & Printing in Patna`}
+        description={service.shortDesc || service.fullDesc?.slice(0, 160)}
+        canonicalPath={`/services/${service.slug}`}
+        ogImage={service.heroImage}
+        schemaJson={serviceSchema}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Breadcrumb & Navigation */}
         <div className="flex items-center gap-2 text-xs font-semibold text-slate-400">

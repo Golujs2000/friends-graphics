@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MessageCircle, ZoomIn, X, ArrowRight, Sparkles } from 'lucide-react';
 import { companyDetails } from '../data/servicesData';
+import SEOHead from '../components/SEOHead';
+import { getBreadcrumbSchema } from '../data/schemaData';
 
 const portfolioItems = [
   {
@@ -216,8 +218,20 @@ export default function PortfolioPage() {
     ? portfolioItems
     : portfolioItems.filter(item => item.category === activeTab);
 
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: 'Portfolio', url: '/portfolio' }
+  ];
+
   return (
     <div className="py-12 sm:py-16 space-y-16">
+      <SEOHead
+        title="Printing Work Portfolio & Signage Project Showcase — Patna"
+        description="Browse real project photos of election flags, large format flex banners, 3D acrylic LED signboards, and commercial offset printing by Friends Graphics in Patna."
+        canonicalPath="/portfolio"
+        keywords="printing portfolio patna, sign board photos patna, election flags samples"
+        schemaJson={getBreadcrumbSchema(breadcrumbs)}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-8">

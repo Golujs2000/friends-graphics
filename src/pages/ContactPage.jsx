@@ -14,12 +14,26 @@ import {
 } from 'lucide-react';
 import { companyDetails } from '../data/servicesData';
 import QuickQuoteForm from '../components/QuickQuoteForm';
+import SEOHead from '../components/SEOHead';
+import { getBreadcrumbSchema } from '../data/schemaData';
 
 export default function ContactPage() {
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(companyDetails.address)}`;
 
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: 'Contact Us', url: '/contact' }
+  ];
+
   return (
     <div className="py-12 sm:py-16 space-y-16">
+      <SEOHead
+        title="Contact Friends Graphics — Bari Path Printing Press, Phone & Map"
+        description="Contact Friends Graphics in Popular Palace, Bari Path, Patna. Call +91 7992421080 or chat on WhatsApp for quotes on election flags, banners, and offset printing."
+        canonicalPath="/contact"
+        keywords="contact friends graphics patna, bari path printing shop phone number, popular palace langartoli patna"
+        schemaJson={getBreadcrumbSchema(breadcrumbs)}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-8">

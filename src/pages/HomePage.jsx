@@ -26,6 +26,8 @@ import Testimonials from '../components/Testimonials';
 import FAQAccordion from '../components/FAQAccordion';
 import QuickQuoteForm from '../components/QuickQuoteForm';
 import ChunavSamagriShowcase from '../components/ChunavSamagriShowcase';
+import SEOHead from '../components/SEOHead';
+import { getLocalBusinessSchema, getWebSiteSchema } from '../data/schemaData';
 
 const iconMap = {
   Flag,
@@ -40,22 +42,38 @@ const iconMap = {
 };
 
 export default function HomePage() {
+  const homeSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      getLocalBusinessSchema(),
+      getWebSiteSchema()
+    ]
+  };
+
   return (
     <div className="space-y-0">
+      <SEOHead
+        title="Friends Graphics — चुनाव प्रचार सामग्री एवं Printing Services in Patna"
+        description="Bihar's leading printing press & wholesale election campaign material hub in Bari Path, Patna. Plastic & nylon flags, candidate posters, canopy tents, LED sign boards & offset printing."
+        canonicalPath="/"
+        keywords="printing press patna, chunav prachar samagri bihar, election flag manufacturer patna, flex printing bari path, led acrylic sign board, bari path printing shop"
+        schemaJson={homeSchema}
+      />
+
       {/* 1. Hero Section (Panoramic Studio Background) */}
       <section className="relative w-full min-h-[580px] lg:min-h-[640px] flex items-center bg-[#080b11] py-12 lg:py-16 overflow-hidden">
         {/* Full-width Background Image with Right Positioning */}
         <div
-          className="absolute inset-0 z-0 bg-cover bg-no-repeat bg-[center_right]"
+          className="absolute inset-0 z-0 bg-cover bg-no-repeat bg-[center_right] sm:bg-right"
           style={{
-            backgroundImage: `linear-gradient(to right, rgba(8,11,17,0.96) 0%, rgba(8,11,17,0.88) 32%, rgba(8,11,17,0.48) 50%, rgba(8,11,17,0.05) 70%, transparent 100%), url('/images/hero-bg.png')`
+            backgroundImage: `linear-gradient(to right, rgba(8,11,17,0.98) 0%, rgba(8,11,17,0.92) 36%, rgba(8,11,17,0.60) 65%, rgba(8,11,17,0.25) 85%, rgba(8,11,17,0.65) 100%), url('/images/hero-bg-election.jpg')`
           }}
         />
 
         {/* Ambient Subtle Radial Glow */}
-        <div className="absolute inset-0 bg-radial from-[#ff6a00]/8 to-transparent pointer-events-none z-1" />
+        <div className="absolute inset-0 bg-radial from-[#ff6a00]/10 via-transparent to-transparent pointer-events-none z-1" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="max-w-3xl">
             {/* Tagline */}
             <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-extrabold uppercase tracking-wider text-amber-400 mb-3 bg-red-600/20 border border-[#ff6a00]/40 px-3.5 py-1 rounded-full shadow-lg">
@@ -140,6 +158,39 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+
+          {/* Right Floating Quick Highlights (Desktop Only) */}
+          <div className="hidden xl:flex flex-col gap-3.5 shrink-0 w-72">
+            <div className="bg-[#0f1422]/85 backdrop-blur-md border border-red-500/35 rounded-2xl p-4 shadow-2xl flex items-center gap-3 hover:border-red-400 transition-all hover:-translate-y-1">
+              <div className="w-10 h-10 rounded-xl bg-red-600/20 border border-red-500/40 flex items-center justify-center shrink-0 text-red-400">
+                <Flag className="w-5 h-5 fill-red-500" />
+              </div>
+              <div>
+                <div className="text-xs font-black text-white">चुनावी झंडे • थोक भाव</div>
+                <div className="text-[11px] text-amber-300 font-semibold">प्लास्टिक, नायलॉन व साटन</div>
+              </div>
+            </div>
+
+            <div className="bg-[#0f1422]/85 backdrop-blur-md border border-[#ff6a00]/35 rounded-2xl p-4 shadow-2xl flex items-center gap-3 hover:border-[#ff6a00] transition-all hover:-translate-y-1">
+              <div className="w-10 h-10 rounded-xl bg-[#ff6a00]/20 border border-[#ff6a00]/40 flex items-center justify-center shrink-0 text-[#ff6a00]">
+                <Zap className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-xs font-black text-white">24h एक्सप्रेस प्रिंटिंग</div>
+                <div className="text-[11px] text-slate-300">1 लाख+ दैनिक निर्माण क्षमता</div>
+              </div>
+            </div>
+
+            <div className="bg-[#0f1422]/85 backdrop-blur-md border border-emerald-500/35 rounded-2xl p-4 shadow-2xl flex items-center gap-3 hover:border-emerald-400 transition-all hover:-translate-y-1">
+              <div className="w-10 h-10 rounded-xl bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center shrink-0 text-emerald-400">
+                <CheckCircle2 className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-xs font-black text-white">कैंडिडेट प्रचार किट</div>
+                <div className="text-[11px] text-emerald-300">कैनोपी, पोस्टर, टोपी व बैज</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -161,13 +212,6 @@ export default function HomePage() {
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mt-2">
               From everyday business stationery and LED signboards to retail packaging and large-format commercial prints, Friends Graphics has you covered.
-            </p>
-          </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
-              Complete Printing Solutions <span className="brand-gradient-text">Under One Roof</span>
-            </h2>
-            <p className="text-sm sm:text-base text-slate-400 mt-2">
-              From everyday business stationery to promotional materials and large-format outdoor prints, Friends Graphics has you covered.
             </p>
           </div>
 

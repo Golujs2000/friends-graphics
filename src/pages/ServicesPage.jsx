@@ -1,36 +1,203 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, MessageCircle, CheckCircle2, ShieldCheck } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
+import { ArrowRight, MessageCircle, CheckCircle2, ShieldCheck, Flag, Sparkles, Layers, Building2 } from 'lucide-react';
 import { servicesData, companyDetails } from '../data/servicesData';
 import QuickQuoteForm from '../components/QuickQuoteForm';
+import SEOHead from '../components/SEOHead';
+import { getBreadcrumbSchema } from '../data/schemaData';
+
+const electionSlugs = [
+  'plastic-election-flag',
+  'paper-election-flag',
+  'nylon-election-flag',
+  'national-paper-flag',
+  'election-campaign-poster',
+  'election-management-services',
+  'flex-printing-services'
+];
+
+const signageSlugs = [
+  'led-acrylic-sign-board',
+  'led-acp-glow-sign-board',
+  'outdoor-acp-sign-board',
+  'brass-sign-board',
+  'led-sign-boards'
+];
+
+const commercialSlugs = [
+  'bill-book-printing-services',
+  'book-printing-services',
+  'calendar-printing-services',
+  'pamphlet-printing-services',
+  'id-card-printing-services',
+  'offset-printing-services'
+];
 
 export default function ServicesPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialCategory = searchParams.get('category') || 'all';
+  const [activeTab, setActiveTab] = useState(initialCategory);
+
+  useEffect(() => {
+    const cat = searchParams.get('category');
+    if (cat && cat !== activeTab) {
+      setActiveTab(cat);
+    }
+  }, [searchParams]);
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    if (tab === 'all') {
+      searchParams.delete('category');
+      setSearchParams(searchParams);
+    } else {
+      setSearchParams({ category: tab });
+    }
+  };
+
+  const filteredServices = servicesData.filter((svc) => {
+    if (activeTab === 'election') return electionSlugs.includes(svc.slug);
+    if (activeTab === 'signage') return signageSlugs.includes(svc.slug);
+    if (activeTab === 'commercial') return commercialSlugs.includes(svc.slug);
+    return true;
+  });
+
   return (
     <div className="py-12 sm:py-16">
+      <SEOHead
+        title={
+          activeTab === 'election'
+            ? "चुनाव प्रचार सामग्री थोक निर्माता — झंडे, पोस्टर, कैनोपी टेंट | Election Materials Patna"
+            : "Commercial Printing Services & Signage Hub in Patna, Bihar"
+        }
+        description={
+          activeTab === 'election'
+            ? "Bihar's #1 wholesale supplier of election campaign materials (Chunav Prachar Samagri), flags, candidate wall posters, canopy tents, caps, badges, and rally T-shirts in Patna."
+            : "Complete commercial printing and signage solutions in Patna. Flex printing, 3D acrylic LED boards, ACP glow signs, carbonless bill books, visiting cards, and offset printing."
+        }
+        canonicalPath={activeTab === 'election' ? '/services?category=election' : '/services'}
+        keywords="commercial printing patna, chunav prachar samagri bihar, sign board maker patna, flex printing services, offset printing bari path"
+        schemaJson={getBreadcrumbSchema([
+          { name: 'Home', url: '/' },
+          { name: activeTab === 'election' ? 'Election Materials' : 'All Services', url: '/services' }
+        ])}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Page Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/10 border border-[#ff6a00]/25 text-[#ff6a00] mb-3">
-            <span>Our Full Printing Spectrum</span>
+        <div className="text-center max-w-4xl mx-auto mb-12 space-y-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-wider bg-gradient-to-r from-red-600/20 via-[#ff6a00]/25 to-amber-500/20 border border-[#ff6a00]/40 text-[#ff8a00]">
+            <Flag className="w-3.5 h-3.5 fill-current" />
+            <span>चुनाव प्रचार सामग्री एवं संपूर्ण प्रिंटिंग कैटलॉग • FULL SPECTRUM</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight">
-            Professional Printing Services in <span className="brand-gradient-text">Patna</span>
+
+          <h1 className="text-3xl sm:text-5xl font-black text-white leading-tight">
+            Printing &amp; Election Services in <span className="brand-gradient-text">Patna, Bihar</span>
           </h1>
-          <p className="text-sm sm:text-base text-slate-400 mt-3 leading-relaxed">
-            Established in {companyDetails.established}, Friends Graphics provides state-of-the-art printing solutions for businesses, institutions, events, and individuals across Bihar.
+
+          <p className="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
+            Established in {companyDetails.established}, Friends Graphics is Bihar's premier manufacturing &amp; printing hub for 
+            <strong> चुनाव प्रचार सामग्री (Election Campaign Materials)</strong>, outdoor signage, LED glow boards, and bulk commercial offset printing.
           </p>
+
+          {/* Category Filter Tabs */}
+          <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4">
+            <button
+              onClick={() => handleTabChange('all')}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                activeTab === 'all'
+                  ? 'bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white shadow-lg shadow-[#ff6a00]/30'
+                  : 'bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10'
+              }`}
+            >
+              सभी सेवाएं • All Services ({servicesData.length})
+            </button>
+
+            <button
+              onClick={() => handleTabChange('election')}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-black transition-all flex items-center gap-1.5 ${
+                activeTab === 'election'
+                  ? 'bg-gradient-to-r from-red-600 via-[#ff6a00] to-amber-600 text-white shadow-xl shadow-red-600/30 ring-2 ring-[#ff6a00]'
+                  : 'bg-red-950/40 hover:bg-red-900/50 text-amber-300 border border-red-500/30'
+              }`}
+            >
+              <span>🚩</span>
+              <span>चुनाव प्रचार सामग्री (Election Materials)</span>
+              <span className="px-1.5 py-0.2 rounded bg-black/40 text-[10px] font-mono text-white">
+                {electionSlugs.length}
+              </span>
+            </button>
+
+            <button
+              onClick={() => handleTabChange('signage')}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                activeTab === 'signage'
+                  ? 'bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white shadow-lg shadow-[#ff6a00]/30'
+                  : 'bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10'
+              }`}
+            >
+              🏢 साइनेज व बोर्ड • Signage ({signageSlugs.length})
+            </button>
+
+            <button
+              onClick={() => handleTabChange('commercial')}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                activeTab === 'commercial'
+                  ? 'bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white shadow-lg shadow-[#ff6a00]/30'
+                  : 'bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10'
+              }`}
+            >
+              🖨️ ऑफसेट व कमर्शियल • Offset ({commercialSlugs.length})
+            </button>
+          </div>
         </div>
+
+        {/* Election Category Spotlight Header */}
+        {activeTab === 'election' && (
+          <div className="mb-12 bg-gradient-to-r from-red-950/70 via-[#1c120c] to-amber-950/60 border border-red-500/40 rounded-2xl p-6 sm:p-8 text-center space-y-3">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase bg-red-600 text-white">
+              <span>🚩 चुनावी विशेष थोक दरें (Wholesale Election Rates)</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-black text-white">
+              बिहार का संपूर्ण चुनाव प्रचार सामग्री थोक निर्माण केंद्र
+            </h2>
+            <p className="text-sm text-slate-300 max-w-2xl mx-auto">
+              प्लास्टिक व नायलॉन झंडे, वॉल पोस्टर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और वोटर पर्ची — सीधे पटना बारी पथ स्थित कारखाने से मंगवाएं। 
+              24 से 48 घंटे में पूरे बिहार में डिलीवरी।
+            </p>
+            <div className="pt-2">
+              <a
+                href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे चुनाव प्रचार सामग्री (झंडे, पोस्टर, कैनोपी, टोपी, बैज) की थोक रेट लिस्ट चाहिए।")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#25d366] text-black font-extrabold text-xs sm:text-sm shadow-lg hover:scale-105 transition-all"
+              >
+                <MessageCircle className="w-4 h-4 fill-black" />
+                <span>चुनावी थोक रेट लिस्ट प्राप्त करें (WhatsApp)</span>
+              </a>
+            </div>
+          </div>
+        )}
 
         {/* Services List / Cards */}
         <div className="space-y-12">
-          {servicesData.map((svc, index) => {
+          {filteredServices.map((svc, index) => {
             const isEven = index % 2 === 1;
+            const isElectionItem = electionSlugs.includes(svc.slug);
+
             return (
               <div
                 key={svc.slug}
                 id={svc.slug}
-                className={`bg-[#0f1420]/80 border border-white/10 rounded-3xl p-6 sm:p-10 hover:border-[#ff6a00]/40 transition-all shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center`}
+                className={`bg-[#0f1420]/80 border ${
+                  isElectionItem ? 'border-amber-500/30 hover:border-[#ff6a00]' : 'border-white/10 hover:border-[#ff6a00]/40'
+                } rounded-3xl p-6 sm:p-10 transition-all shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative overflow-hidden`}
               >
+                {isElectionItem && (
+                  <div className="absolute top-0 right-0 bg-red-600 text-white text-[10px] font-black uppercase px-4 py-1 rounded-bl-xl shadow-md flex items-center gap-1">
+                    <span>🚩 चुनाव प्रचार सामग्री</span>
+                  </div>
+                )}
+
                 {/* Visual / Image */}
                 <div className={`lg:col-span-5 ${isEven ? 'lg:order-2' : ''}`}>
                   <Link
@@ -109,7 +276,9 @@ export default function ServicesPage() {
                     </Link>
 
                     <a
-                      href={`https://wa.me/${companyDetails.whatsappNumber}?text=Hi%20Friends%20Graphics,%20I%20would%20like%20a%20quotation%20for%20${encodeURIComponent(svc.title)}.`}
+                      href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent(
+                        `नमस्ते फ्रेंड्स ग्राफिक्स! मुझे "${svc.hindiTitle || svc.title}" की थोक दर और सैंपल चाहिए।`
+                      )}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-4 py-2.5 rounded-xl bg-[#25d366]/15 hover:bg-[#25d366] text-[#25d366] hover:text-black font-bold text-xs flex items-center gap-2 border border-[#25d366]/30 transition-all"
@@ -126,7 +295,7 @@ export default function ServicesPage() {
 
         {/* Global Quote Form Section */}
         <div className="mt-20">
-          <QuickQuoteForm />
+          <QuickQuoteForm preselectedService="Plastic Election Flag" />
         </div>
       </div>
     </div>

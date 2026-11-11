@@ -16,10 +16,24 @@ import {
 import { companyDetails } from '../data/servicesData';
 import WhyUsGrid from '../components/WhyUsGrid';
 import Testimonials from '../components/Testimonials';
+import SEOHead from '../components/SEOHead';
+import { getBreadcrumbSchema } from '../data/schemaData';
 
 export default function WhyUsPage() {
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: 'Why Us', url: '/why-us' }
+  ];
+
   return (
     <div className="py-12 sm:py-16 space-y-20">
+      <SEOHead
+        title="Why Choose Friends Graphics — Precision, Fast Turnaround & Factory Rates"
+        description="Discover why businesses, political candidates, and institutions across Bihar choose Friends Graphics for commercial printing, signage fabrication, and election publicity."
+        canonicalPath="/why-us"
+        keywords="why choose friends graphics, reliable printing press patna, best printing quality bihar"
+        schemaJson={getBreadcrumbSchema(breadcrumbs)}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-8">

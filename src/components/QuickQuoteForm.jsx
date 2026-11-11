@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Send, CheckCircle2, MessageCircle, Sparkles } from 'lucide-react';
 import { servicesData, companyDetails } from '../data/servicesData';
+import { trackQuoteFormSubmit, trackWhatsAppClick } from '../utils/analyticsEvents';
 
 export default function QuickQuoteForm({ preselectedService = '', className = '' }) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    service: preselectedService || 'Banner Printing',
+    service: preselectedService || 'Plastic Election Flag (प्लास्टिक चुनाव झंडा)',
     size: '',
     quantity: '',
     notes: '',
@@ -38,6 +39,8 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
       (formData.notes ? `📝 *Requirements:* ${formData.notes}\n` : '') +
       `------------------------------------\n` +
       `Estd. ${companyDetails.established} • Sent via friendsgraphicss.com`;
+
+    trackQuoteFormSubmit(formData.service, formData.quantity || 'Unspecified', 'quick_quote_form');
 
     const encoded = encodeURIComponent(message);
     setSubmitted(true);
@@ -118,12 +121,42 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
                 onChange={handleChange}
                 className="w-full px-3.5 py-2.5 rounded-lg bg-[#141b29] border border-white/10 text-white text-sm focus:border-[#ff6a00] focus:outline-none focus:ring-1 focus:ring-[#ff6a00] transition-colors"
               >
-                {servicesData.map((s) => (
-                  <option key={s.slug} value={s.title}>
-                    {s.title}
+                <optgroup label="🚩 चुनाव प्रचार सामग्री (Election Campaign Materials)">
+                  <option value="Plastic Election Flag (प्लास्टिक चुनाव झंडा)">
+                    प्लास्टिक चुनाव झंडा (Plastic Election Flag)
                   </option>
-                ))}
-                <option value="Custom Printing Requirement">Other Custom Printing</option>
+                  <option value="Nylon & Satin Election Flag (नायलॉन व साटन झंडा)">
+                    नायलॉन व साटन झंडा (Nylon & Satin Car/HQ Flag)
+                  </option>
+                  <option value="Paper Election Flag (कागज़ चुनाव झंडा)">
+                    कागज़ चुनाव झंडा (Paper Election Flag)
+                  </option>
+                  <option value="Election Campaign Poster (चुनावी प्रचार पोस्टर)">
+                    चुनावी प्रचार पोस्टर (Candidate Wall Posters)
+                  </option>
+                  <option value="Canopy Tents & Campaign Kits (कैनोपी टेंट व प्रचार किट)">
+                    कैनोपी टेंट व वोटर सहायता किट (Canopy Tents & Kits)
+                  </option>
+                  <option value="Election Caps, Badges & T-Shirts (टोपी, बैज व टी-शर्ट)">
+                    प्रचार टोपी, बैज व टी-शर्ट (Caps, Badges & T-Shirts)
+                  </option>
+                  <option value="National Paper Flag & T-Flags (राष्ट्रीय तिरंगा व कार टी-फ्लैग)">
+                    राष्ट्रीय तिरंगा एवं कार टी-फ्लैग (National & T-Flags)
+                  </option>
+                  <option value="Election Flex Banners (चुनावी फ्लेक्स बैनर)">
+                    चुनावी फ्लेक्स बैनर व होर्डिंग्स (Flex Banners)
+                  </option>
+                </optgroup>
+                <optgroup label="🖨️ अन्य प्रिंटिंग व साइनेज (Commercial Printing & Signage)">
+                  {servicesData
+                    .filter((s) => !['plastic-election-flag', 'paper-election-flag', 'nylon-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services'].includes(s.slug))
+                    .map((s) => (
+                      <option key={s.slug} value={s.title}>
+                        {s.hindiTitle ? `${s.title} (${s.hindiTitle})` : s.title}
+                      </option>
+                    ))}
+                  <option value="Custom Printing Requirement">Other Custom Requirement</option>
+                </optgroup>
               </select>
             </div>
 
