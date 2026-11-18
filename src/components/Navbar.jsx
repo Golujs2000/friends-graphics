@@ -11,47 +11,86 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 bg-[#080b11]/95 backdrop-blur-md border-b border-white/10 transition-all">
+    <header className="sticky top-0 z-50 bg-[#080b11]/95 backdrop-blur-md border-b border-white/10 transition-all w-full overflow-x-clip">
       {/* Top Chunav Samagri Announcement Bar */}
-      <div className="bg-gradient-to-r from-red-600 via-[#ff6a00] to-amber-600 text-white text-xs py-1 px-4 shadow-inner">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
-          <div className="flex items-center justify-center sm:justify-start gap-2 font-medium">
-            <span className="bg-black/35 text-amber-200 text-[10px] font-black uppercase px-2 py-0.5 rounded-full border border-white/20 shrink-0 flex items-center gap-1">
-              <Flag className="w-2.5 h-2.5 fill-amber-200" />
-              <span>चुनाव प्रचार सामग्री</span>
-            </span>
-            <span className="truncate text-[11px] sm:text-xs">
-              बिहार के नं. 1 थोक निर्माता — झंडे, पोस्टर, बैनर, टोपी, बैज व कैनोपी टेंट | Wholesale Election Hub
-            </span>
-          </div>
-          <div className="flex items-center justify-center gap-3 text-[11px] font-bold shrink-0">
-            <a href={`tel:${companyDetails.phonePrimary}`} className="hover:underline flex items-center gap-1">
-              <Phone className="w-3 h-3" />
-              <span>{companyDetails.phonePrimary}</span>
-            </a>
-            <span className="opacity-60">|</span>
-            <a
-              href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे चुनाव प्रचार सामग्री (Election Campaign Materials) की थोक रेट लिस्ट चाहिए।")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-200 flex items-center gap-1 font-extrabold"
+      <div className="bg-gradient-to-r from-red-600 via-[#ff6a00] to-amber-600 text-white text-xs py-1 px-3 sm:px-4 shadow-inner">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
+          {/* Mobile Layout (< sm) */}
+          <div className="flex sm:hidden items-center justify-between w-full min-w-0 gap-1.5">
+            <Link
+              to="/services?category=election"
+              className="flex items-center gap-1.5 min-w-0 truncate text-white hover:text-amber-200 transition-colors"
             >
-              <MessageCircle className="w-3 h-3 fill-white" />
-              <span>WhatsApp रेट लिस्ट</span>
-            </a>
+              <span className="bg-black/40 text-amber-300 text-[10px] font-black uppercase px-2 py-0.5 rounded-full border border-white/20 shrink-0 flex items-center gap-1">
+                <Flag className="w-2.5 h-2.5 fill-amber-300" />
+                <span>चुनाव सामग्री</span>
+              </span>
+              <span className="truncate text-[11px] font-semibold">
+                बिहार के नं. 1 थोक निर्माता
+              </span>
+            </Link>
+
+            <div className="flex items-center gap-1.5 shrink-0">
+              <a
+                href={`tel:${companyDetails.phonePrimary}`}
+                className="bg-black/35 hover:bg-black/50 text-amber-300 p-1 rounded-full border border-white/20 flex items-center justify-center active:scale-95 transition-all"
+                aria-label="Call Now"
+                title={`Call ${companyDetails.phonePrimary}`}
+              >
+                <Phone className="w-3 h-3" />
+              </a>
+              <a
+                href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे चुनाव प्रचार सामग्री की थोक रेट लिस्ट चाहिए।")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-emerald-600 hover:bg-emerald-500 text-white px-2 py-0.5 rounded-full flex items-center gap-1 text-[10px] font-bold border border-emerald-400/40 shadow-sm active:scale-95 transition-all"
+              >
+                <MessageCircle className="w-2.5 h-2.5 fill-white" />
+                <span>रेट लिस्ट</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Tablet & Desktop Layout (>= sm) */}
+          <div className="hidden sm:flex items-center justify-between w-full gap-2">
+            <div className="flex items-center gap-2 font-medium min-w-0 truncate">
+              <span className="bg-black/35 text-amber-200 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full border border-white/20 shrink-0 flex items-center gap-1">
+                <Flag className="w-2.5 h-2.5 fill-amber-200" />
+                <span>चुनाव प्रचार सामग्री</span>
+              </span>
+              <span className="truncate text-xs">
+                बिहार के नं. 1 थोक निर्माता — झंडे, पोस्टर, बैनर, टोपी, बैज व कैनोपी टेंट | Wholesale Election Hub
+              </span>
+            </div>
+            <div className="flex items-center gap-3 text-xs font-bold shrink-0">
+              <a href={`tel:${companyDetails.phonePrimary}`} className="hover:underline flex items-center gap-1">
+                <Phone className="w-3 h-3" />
+                <span>{companyDetails.phonePrimary}</span>
+              </a>
+              <span className="opacity-60">|</span>
+              <a
+                href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे चुनाव प्रचार सामग्री (Election Campaign Materials) की थोक रेट लिस्ट चाहिए।")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-amber-200 flex items-center gap-1 font-extrabold"
+              >
+                <MessageCircle className="w-3 h-3 fill-white" />
+                <span>WhatsApp रेट लिस्ट</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Brand Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="bg-white hover:bg-white px-3 py-1.5 rounded-xl shadow-md border border-white/25 transition-all flex items-center h-12 group-hover:shadow-[#ff6a00]/25">
+          <Link to="/" className="flex items-center gap-2 sm:gap-3 group min-w-0 shrink">
+            <div className="bg-white hover:bg-white px-2 sm:px-3 py-1 sm:py-1.5 rounded-xl shadow-md border border-white/25 transition-all flex items-center h-10 sm:h-12 group-hover:shadow-[#ff6a00]/25 shrink-0">
               <img
                 src="/logo.png"
                 alt="Friends Graphics - Next Generation of Printing Hub"
-                className="h-9 sm:h-10 w-auto object-contain"
+                className="h-8 sm:h-10 w-auto object-contain"
               />
             </div>
             <div className="hidden lg:flex flex-col">
@@ -232,14 +271,32 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Menu Toggle Button */}
-          <div className="md:hidden flex items-center gap-2">
+          {/* Mobile Right Actions & Menu Toggle */}
+          <div className="md:hidden flex items-center gap-1.5 shrink-0">
+            <a
+              href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते! मुझे प्रिंटिंग कोटेशन चाहिए।")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1.5 rounded-lg bg-[#25d366]/15 border border-[#25d366]/30 text-[#25d366] hover:bg-[#25d366] hover:text-black transition-all flex items-center justify-center active:scale-95"
+              aria-label="Chat on WhatsApp"
+            >
+              <MessageCircle className="w-4 h-4 fill-current" />
+            </a>
+
+            <a
+              href={`tel:${companyDetails.phonePrimary}`}
+              className="p-1.5 rounded-lg bg-[#ff6a00]/15 border border-[#ff6a00]/30 text-[#ff6a00] hover:bg-[#ff6a00] hover:text-white transition-all flex items-center justify-center active:scale-95"
+              aria-label="Call Friends Graphics"
+            >
+              <Phone className="w-4 h-4" />
+            </a>
+
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 text-slate-300 hover:text-white focus:outline-none"
+              className="p-2 text-slate-300 hover:text-white focus:outline-none rounded-lg bg-white/5 border border-white/10 active:scale-95 transition-all"
               aria-label="Toggle Navigation Menu"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
