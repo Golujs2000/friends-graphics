@@ -1,6 +1,6 @@
 import { companyDetails } from './servicesData';
 
-export const SITE_URL = 'https://www.friendsgraphicss.com';
+export const SITE_URL = 'https://www.friendsgraphics.in';
 export const SITE_NAME = 'Friends Graphics';
 export const LOGO_URL = `${SITE_URL}/logo.png`;
 export const FOUNDER_NAME = 'Ranjan Sharma';

@@ -4,6 +4,7 @@ import { MessageCircle, ZoomIn, X, ArrowRight, Sparkles } from 'lucide-react';
 import { companyDetails } from '../data/servicesData';
 import SEOHead from '../components/SEOHead';
 import { getBreadcrumbSchema } from '../data/schemaData';
+import RealWorkCarousel from '../components/RealWorkCarousel';
 
 const portfolioItems = [
   {
@@ -243,14 +244,22 @@ export default function PortfolioPage() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/10 border border-[#ff6a00]/25 text-[#ff6a00] mb-3">
-            <span>Proof of Craftsmanship</span>
+            <span>Proof of Craftsmanship • 180+ Real Photos</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight">
-            See Our <span className="brand-gradient-text">Printing Work</span>
+            See Our <span className="brand-gradient-text">Printing Work &amp; Factory Real Photos</span>
           </h1>
           <p className="text-sm sm:text-base text-slate-400 mt-3 leading-relaxed">
-            Real samples delivered for retail stores, coaching institutes, corporate brands, and businesses in Patna since 2014.
+            Real samples delivered for election campaigns, political parties, retail stores, coaching institutes, corporate brands, and institutions in Patna &amp; Bihar since 2014.
           </p>
+        </div>
+
+        {/* Interactive Real Work Carousel */}
+        <div className="mb-16 -mx-4 sm:-mx-6 lg:-mx-8">
+          <RealWorkCarousel 
+            title={<>फैक्ट्री व वर्कशॉप <span className="brand-gradient-text">रियल फोटो शोकेस</span></>}
+            subtitle="लंगरटोली, बारी पथ स्थित हमारी अपनी वर्कशॉप के वास्तविक प्रॉडक्ट्स, प्रिंटिंग मशीनें और डिलीवर किए गए ऑर्डर्स।"
+          />
         </div>
 
         {/* Filter Navigation Tabs */}

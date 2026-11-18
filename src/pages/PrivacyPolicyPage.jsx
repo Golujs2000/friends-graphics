@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
 
         <div className="prose prose-invert max-w-none text-slate-300 space-y-6 text-sm sm:text-base leading-relaxed">
           <p>
-            At <strong>Friends Graphics</strong> (operating at <em>www.friendsgraphicss.com</em>), we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy outlines our practices regarding data collection, usage, and safeguarding when you interact with our website, quotation forms, and WhatsApp services.
+            At <strong>Friends Graphics</strong> (operating at <em>www.friendsgraphics.in</em>), we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy outlines our practices regarding data collection, usage, and safeguarding when you interact with our website, quotation forms, and WhatsApp services.
           </p>
 
           <h2 className="text-xl font-bold text-white mt-6 mb-2">1. Information We Collect</h2>

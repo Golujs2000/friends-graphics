@@ -26,6 +26,7 @@ import Testimonials from '../components/Testimonials';
 import FAQAccordion from '../components/FAQAccordion';
 import QuickQuoteForm from '../components/QuickQuoteForm';
 import ChunavSamagriShowcase from '../components/ChunavSamagriShowcase';
+import RealWorkCarousel from '../components/RealWorkCarousel';
 import SEOHead from '../components/SEOHead';
 import { getLocalBusinessSchema, getWebSiteSchema } from '../data/schemaData';
 
@@ -199,6 +200,9 @@ export default function HomePage() {
 
       {/* 3. Chunav Samagri Featured Showcase (Special Election Section) */}
       <ChunavSamagriShowcase />
+
+      {/* 3.5 Real Work & Workshop Showcase Carousel (180+ Actual Photos) */}
+      <RealWorkCarousel />
 
       {/* 4. Complete Printing Solutions Under One Roof */}
       <section className="py-16 relative">

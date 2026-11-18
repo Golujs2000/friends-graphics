@@ -897,7 +897,7 @@ export const companyDetails = {
   phoneSecondary: "+91 8294334631",
   whatsappNumber: "917992421080",
   email: "friendsgraphicspatna@gmail.com",
-  website: "www.friendsgraphicss.com",
+  website: "https://www.friendsgraphics.in",
   address: "Shop No. - B-12, Popular Palace, Langartoli, Bari Path, Patna - 800 004, Bihar",
   hours: "Monday - Saturday: 10:00 AM – 8:30 PM (Sunday Closed)",
   googleMapsQuery: "Popular Palace, Langartoli, Bari Path, Patna 800004"

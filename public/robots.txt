@@ -1,5 +1,5 @@
 # Robots.txt for Friends Graphics Patna
-# Domain: https://www.friendsgraphicss.com
+# Domain: https://www.friendsgraphics.in
 
 User-agent: *
 Allow: /
@@ -14,5 +14,5 @@ Disallow: /*.json$
 Disallow: /dist/
 
 # XML Sitemap
-Sitemap: https://www.friendsgraphicss.com/sitemap.xml
+Sitemap: https://www.friendsgraphics.in/sitemap.xml
 

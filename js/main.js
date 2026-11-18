@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `🔢 *Quantity:* ${quantity || 'Not specified'}\n` +
         (message ? `📝 *Message:* ${message}\n` : '') +
         `------------------------------------\n` +
-        `Sent via friendsgraphicss.com`
+        `Sent via friendsgraphics.in`
       );
 
       showToast('Thank you! Redirecting you to WhatsApp for immediate quote...');

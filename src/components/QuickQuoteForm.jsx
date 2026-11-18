@@ -38,7 +38,7 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
       (formData.quantity ? `🔢 *Quantity:* ${formData.quantity}\n` : '') +
       (formData.notes ? `📝 *Requirements:* ${formData.notes}\n` : '') +
       `------------------------------------\n` +
-      `Estd. ${companyDetails.established} • Sent via friendsgraphicss.com`;
+      `Estd. ${companyDetails.established} • Sent via friendsgraphics.in`;
 
     trackQuoteFormSubmit(formData.service, formData.quantity || 'Unspecified', 'quick_quote_form');
 
