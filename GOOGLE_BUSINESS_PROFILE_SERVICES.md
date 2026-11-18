@@ -3,6 +3,7 @@
 **Location:** Shop No. B-12, Popular Palace, Langartoli, Bari Path, Patna - 800004, Bihar  
 **Phone:** +91 7992421080 / +91 8294334631  
 **Website:** https://www.friendsgraphics.in  
+**Operating Hours:** Monday – Saturday: 10:00 AM – 8:30 PM | Sunday: 1:00 PM – 9:00 PM  
 **Primary Business Category:** Commercial Printer  
 **Secondary Business Categories:** Print Shop, Sign Shop, Digital Printing Service, Banner Store, Offset Printing Service, Promotional Products Supplier  
 
@@ -17,7 +18,7 @@ Google Search Central & Google Business Profile guidelines allow a **maximum of 
 - **First 248 Chars (Before 'Read More'):** *"Friends Graphics (फ्रेंड्स ग्राफिक्स) is Patna’s premier printing press and wholesale manufacturer of Election Campaign Materials (चुनाव प्रचार सामग्री) & signage since 2014. Located in Popular Palace, Bari Path, we specialize in bulk printing of..."*
 - **Copy-Paste Text for Google Business Profile:**
 ```text
-Friends Graphics (फ्रेंड्स ग्राफिक्स) is Patna’s premier printing press and wholesale manufacturer of Election Campaign Materials (चुनाव प्रचार सामग्री) & signage since 2014. Located in Popular Palace, Bari Path, we specialize in high-capacity printing of plastic & nylon election flags, campaign posters, waterproof canopy tents, badges, caps, and voter slips for candidates across Bihar. We also manufacture 3D LED acrylic letters, ACP glow signboards, hoardings, star flex banners, visiting cards, ID cards, custom corporate T-shirts, and non-woven carry bags. With high-speed offset and large-format digital presses, we ensure 24–48 hr express delivery across all Bihar districts. Visit us or call for factory direct wholesale rates.
+Friends Graphics (फ्रेंड्स ग्राफिक्स) is Patna's premier printing press & wholesale manufacturer of Election Campaign Materials (चुनाव प्रचार सामग्री) since 2014. Located in Popular Palace, Bari Path, we manufacture complete publicity kits for सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी: woven cloth & satin flags, campaign posters, waterproof canopy tents, badges, caps, T-shirts, and voter slips. We also print star flex banners, visiting cards, ID cards, and non-woven carry bags. With high-speed offset and digital presses, we ensure 24-36 hr express delivery across all 38 Bihar districts & Eastern UP (Ballia, Kushinagar, Deoria). Call +91 7992421080 for factory direct wholesale rates.
 ```
 
 ---
@@ -44,14 +45,14 @@ Friends Graphics (फ्रेंड्स ग्राफिक्स) is Patna
 
 ## Category 1: Chunav Prachar Samagri (Election Materials / चुनाव प्रचार सामग्री)
 
-### 1. Plastic Election Flag (प्लास्टिक चुनाव झंडा)
-- **Service Name:** `Plastic Election Flag (प्लास्टिक चुनाव झंडा)` *(44 characters)*
+### 1. Election Campaign Rally Flag (चुनावी रैली झंडा)
+- **Service Name:** `Election Rally Flag (चुनावी रैली एवं सभा झंडा)` *(48 characters)*
 - **Price:** *From / Contact for wholesale slab rates*
-- **Description:** *(285 characters)*
+- **Description:** *(282 characters)*
 ```
-Leading wholesale manufacturer of waterproof plastic election flags in Patna. 35-50 micron virgin biodegradable film, handheld sticks & street bunting garlands. Non-bleed party colors, fast 24-48h dispatch across Bihar. Estd. 2014 at Bari Path. Call +91 7992421080 for bulk slab rates.
+Leading wholesale manufacturer of durable election rally flags in Patna. Weatherproof woven fabric, handheld sticks & street bunting garlands. Non-bleed party colors, fast 24-36h dispatch across Bihar & UP (Ballia, Kushinagar). Estd. 2014 Bari Path. Call +91 7992421080 for bulk slab rates.
 ```
-- **SEO Keywords:** Plastic election flag manufacturer Patna, Chunav jhanda Bihar, biodegradable flag, Bari Path print market.
+- **SEO Keywords:** Election rally flag manufacturer Patna, Chunav jhanda Bihar, campaign flags, Bari Path print market.
 
 ---
 
@@ -110,49 +111,49 @@ Official Indian tricolor national paper flags conforming to Flag Code 2002. Also
 
 ---
 
-## Category 2: Signage & LED Glow Sign Boards (साइनेज व बोर्ड)
+## Category 2: Signage & LED Glow banners (साइनेज व बोर्ड)
 
-### 7. LED Acrylic Sign Board (3D एक्रिलिक एलईडी बोर्ड)
-- **Service Name:** `LED Acrylic Sign Board (3D एक्रिलिक एलईडी बोर्ड)` *(48 characters)*
+### 7. LED Acrylic banner (3D एक्रिलिक एलईडी बोर्ड)
+- **Service Name:** `LED Acrylic banner (3D एक्रिलिक एलईडी बोर्ड)` *(48 characters)*
 - **Price:** *From / Per sq. ft.*
 - **Description:** *(282 characters)*
 ```
-Custom 3D acrylic LED letter sign boards in Patna. Laser-cut cast acrylic with IP67 waterproof Samsung LED injection modules. High-lux frontlit, backlit & halo illumination. Perfect for showroom facades, retail shops & hospitals across Bihar. On-site installation & 2-year warranty.
+Custom 3D acrylic LED letter banners in Patna. Laser-cut cast acrylic with IP67 waterproof Samsung LED injection modules. High-lux frontlit, backlit & halo illumination. Perfect for showroom facades, retail shops & hospitals across Bihar. On-site installation & 2-year warranty.
 ```
-- **SEO Keywords:** 3D acrylic LED letter sign board Patna, glowing sign board Bari Path, shop signboard maker Bihar.
+- **SEO Keywords:** 3D acrylic LED letter banner Patna, glowing banner Bari Path, shop signboard maker Bihar.
 
 ---
 
-### 8. LED ACP Glow Sign Board (एसीपी ग्लो साइन बोर्ड)
-- **Service Name:** `LED ACP Glow Sign Board (एसीपी ग्लो साइन बोर्ड)` *(47 characters)*
+### 8. LED ACP Glow banner (एसीपी ग्लो साइन बोर्ड)
+- **Service Name:** `LED ACP Glow banner (एसीपी ग्लो साइन बोर्ड)` *(47 characters)*
 - **Price:** *From / Per sq. ft.*
 - **Description:** *(272 characters)*
 ```
-CNC routed Aluminium Composite Panel (ACP) glow sign boards in Patna. Weatherproof, rust-free facade cladding with acrylic letters & Samsung LED backlighting. Durable, low-power consumption & high night visibility for retail shops, clinics & coaching centers across Bihar.
+CNC routed Aluminium Composite Panel (ACP) glow banners in Patna. Weatherproof, rust-free facade cladding with acrylic letters & Samsung LED backlighting. Durable, low-power consumption & high night visibility for retail shops, clinics & coaching centers across Bihar.
 ```
-- **SEO Keywords:** ACP glow sign board Patna, CNC routed signboard Bihar, shop front cladding board, Bari Path sign shop.
+- **SEO Keywords:** ACP glow banner Patna, CNC routed signboard Bihar, shop front cladding board, Bari Path sign shop.
 
 ---
 
-### 9. Outdoor ACP Sign Board & Cladding (एसीपी बोर्ड)
-- **Service Name:** `Outdoor ACP Sign Board & Cladding (एसीपी बोर्ड)` *(47 characters)*
+### 9. Outdoor ACP banner & Cladding (एसीपी बोर्ड)
+- **Service Name:** `Outdoor ACP banner & Cladding (एसीपी बोर्ड)` *(47 characters)*
 - **Price:** *From / Per sq. ft.*
 - **Description:** *(285 characters)*
 ```
-Weatherproof architectural ACP sheet facade signboards in Patna. CNC router groove cutting, silicone weather sealing & anti-rust iron framework. Superior UV resistance against rain & summer heat. Custom showroom branding & shop front cladding across Bihar. Friends Graphics Estd. 2014.
+Weatherproof architectural ACP sheet facade merchandise in Patna. CNC router groove cutting, silicone weather sealing & anti-rust iron framework. Superior UV resistance against rain & summer heat. Custom showroom branding & shop front cladding across Bihar. Friends Graphics Estd. 2014.
 ```
-- **SEO Keywords:** Outdoor ACP sign board Patna, architectural ACP cladding Bihar, facade sign board maker.
+- **SEO Keywords:** Outdoor ACP banner Patna, architectural ACP cladding Bihar, facade banner maker.
 
 ---
 
-### 10. Brass & Stainless Steel Sign Board (ब्रास बोर्ड)
-- **Service Name:** `Brass & Stainless Steel Sign Board (ब्रास बोर्ड)` *(48 characters)*
+### 10. Brass & Stainless Steel banner (ब्रास बोर्ड)
+- **Service Name:** `Brass & Stainless Steel banner (ब्रास बोर्ड)` *(48 characters)*
 - **Price:** *From / Per sq. inch or per unit*
 - **Description:** *(285 characters)*
 ```
-Mirror-polished solid brass & Grade 304 stainless steel metal letter signboards in Patna. Precision chemical etching, gold titanium PVD finish & wooden base mounts. Ideal for government offices, high court advocates, corporate suites & clinics across Bihar. Friends Graphics Bari Path.
+Mirror-polished solid brass & Grade 304 stainless steel metal letter merchandise in Patna. Precision chemical etching, gold titanium PVD finish & wooden base mounts. Ideal for government offices, high court advocates, corporate suites & clinics across Bihar. Friends Graphics Bari Path.
 ```
-- **SEO Keywords:** Brass sign board maker Patna, stainless steel metal name plate Bihar, advocate doctor brass board.
+- **SEO Keywords:** Brass banner maker Patna, stainless steel metal name plate Bihar, advocate doctor brass board.
 
 ---
 
@@ -287,5 +288,5 @@ High-volume commercial offset printing press in Patna. Multi-color Heidelberg sp
 
 1. **Service Mentions in Reviews:** Request clients to mention specific service names in their 5-star reviews (e.g., *"Got 10,000 plastic election flags printed from Friends Graphics in 24 hours"*).
 2. **Weekly GBP Updates:** Create a weekly post highlighting one of these services with a photo of the completed project and a "Call Now" button.
-3. **Geotagged Real Photos:** Upload real photos from the Bari Path workshop showing the printing machines, printed flags, and LED sign boards.
+3. **Geotagged Real Photos:** Upload real photos from the Bari Path workshop showing the printing machines, printed flags, and LED banners.
 4. **Website Service URL Matching:** Each service in this guide maps directly to the dedicated service page at `https://www.friendsgraphics.in/services/[service-slug]`.

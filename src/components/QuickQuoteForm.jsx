@@ -7,7 +7,7 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    service: preselectedService || 'Plastic Election Flag (प्लास्टिक चुनाव झंडा)',
+    service: preselectedService || 'Election Rally Flag (चुनावी रैली झंडा)',
     size: '',
     quantity: '',
     notes: '',
@@ -122,11 +122,11 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
                 className="w-full px-3.5 py-2.5 rounded-lg bg-[#141b29] border border-white/10 text-white text-sm focus:border-[#ff6a00] focus:outline-none focus:ring-1 focus:ring-[#ff6a00] transition-colors"
               >
                 <optgroup label="🚩 चुनाव प्रचार सामग्री (Election Campaign Materials)">
-                  <option value="Plastic Election Flag (प्लास्टिक चुनाव झंडा)">
-                    प्लास्टिक चुनाव झंडा (Plastic Election Flag)
+                  <option value="Election Rally Flag (चुनावी रैली झंडा)">
+                    चुनावी रैली झंडा (Campaign Rally Flag)
                   </option>
-                  <option value="Nylon & Satin Election Flag (नायलॉन व साटन झंडा)">
-                    नायलॉन व साटन झंडा (Nylon & Satin Car/HQ Flag)
+                  <option value="Fabric & Satin Election Flag (साटन व वाहन झंडा)">
+                    साटन व वाहन झंडा (Fabric & Satin Car/HQ Flag)
                   </option>
                   <option value="Paper Election Flag (कागज़ चुनाव झंडा)">
                     कागज़ चुनाव झंडा (Paper Election Flag)
@@ -147,9 +147,9 @@ export default function QuickQuoteForm({ preselectedService = '', className = ''
                     चुनावी फ्लेक्स बैनर व होर्डिंग्स (Flex Banners)
                   </option>
                 </optgroup>
-                <optgroup label="🖨️ अन्य प्रिंटिंग व साइनेज (Commercial Printing & Signage)">
+                <optgroup label="🖨️ अन्य प्रिंटिंग व मर्चेंडाइज (Commercial Printing & Merchandise)">
                   {servicesData
-                    .filter((s) => !['plastic-election-flag', 'paper-election-flag', 'nylon-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services'].includes(s.slug))
+                    .filter((s) => !['rally-election-flag', 'plastic-election-flag', 'paper-election-flag', 'satin-election-flag', 'nylon-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services', 'promotional-canopy-tent', 'candidate-badges-caps-printing'].includes(s.slug))
                     .map((s) => (
                       <option key={s.slug} value={s.title}>
                         {s.hindiTitle ? `${s.title} (${s.hindiTitle})` : s.title}

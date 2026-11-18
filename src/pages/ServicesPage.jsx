@@ -7,21 +7,27 @@ import SEOHead from '../components/SEOHead';
 import { getBreadcrumbSchema } from '../data/schemaData';
 
 const electionSlugs = [
+  'rally-election-flag',
   'plastic-election-flag',
   'paper-election-flag',
+  'satin-election-flag',
   'nylon-election-flag',
   'national-paper-flag',
   'election-campaign-poster',
   'election-management-services',
+  'promotional-canopy-tent',
+  'candidate-badges-caps-printing',
+  'custom-tshirt-printing',
+  'non-woven-carry-bag-printing',
   'flex-printing-services'
 ];
 
-const signageSlugs = [
-  'led-acrylic-sign-board',
-  'led-acp-glow-sign-board',
-  'outdoor-acp-sign-board',
-  'brass-sign-board',
-  'led-sign-boards'
+const merchandiseSlugs = [
+  'custom-tshirt-printing',
+  'non-woven-carry-bag-printing',
+  'promotional-canopy-tent',
+  'candidate-badges-caps-printing',
+  'id-card-printing-services'
 ];
 
 const commercialSlugs = [
@@ -29,8 +35,10 @@ const commercialSlugs = [
   'book-printing-services',
   'calendar-printing-services',
   'pamphlet-printing-services',
-  'id-card-printing-services',
-  'offset-printing-services'
+  'offset-printing-services',
+  'business-card-printing',
+  'brochure-flyer-printing',
+  'flex-vinyl-printing'
 ];
 
 export default function ServicesPage() {
@@ -57,7 +65,7 @@ export default function ServicesPage() {
 
   const filteredServices = servicesData.filter((svc) => {
     if (activeTab === 'election') return electionSlugs.includes(svc.slug);
-    if (activeTab === 'signage') return signageSlugs.includes(svc.slug);
+    if (activeTab === 'merchandise') return merchandiseSlugs.includes(svc.slug);
     if (activeTab === 'commercial') return commercialSlugs.includes(svc.slug);
     return true;
   });
@@ -68,15 +76,15 @@ export default function ServicesPage() {
         title={
           activeTab === 'election'
             ? "चुनाव प्रचार सामग्री थोक निर्माता — झंडे, पोस्टर, कैनोपी टेंट | Election Materials Patna"
-            : "Commercial Printing Services & Signage Hub in Patna, Bihar"
+            : "Commercial Printing & Candidate Publicity Merchandise Hub in Patna, Bihar"
         }
         description={
           activeTab === 'election'
             ? "Bihar's #1 wholesale supplier of election campaign materials (Chunav Prachar Samagri), flags, candidate wall posters, canopy tents, caps, badges, and rally T-shirts in Patna."
-            : "Complete commercial printing and signage solutions in Patna. Flex printing, 3D acrylic LED boards, ACP glow signs, carbonless bill books, visiting cards, and offset printing."
+            : "Complete commercial printing and candidate publicity solutions in Patna. Flex banners, cloth & satin election flags, custom t-shirts, canopy tents, carbonless bill books, visiting cards, and offset printing."
         }
         canonicalPath={activeTab === 'election' ? '/services?category=election' : '/services'}
-        keywords="commercial printing patna, chunav prachar samagri bihar, sign board maker patna, flex printing services, offset printing bari path"
+        keywords="commercial printing patna, chunav prachar samagri bihar, election flags patna, flex printing services, offset printing bari path, canopy tent patna"
         schemaJson={getBreadcrumbSchema([
           { name: 'Home', url: '/' },
           { name: activeTab === 'election' ? 'Election Materials' : 'All Services', url: '/services' }
@@ -96,7 +104,7 @@ export default function ServicesPage() {
 
           <p className="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
             Established in {companyDetails.established}, Friends Graphics is Bihar's premier manufacturing &amp; printing hub for 
-            <strong> चुनाव प्रचार सामग्री (Election Campaign Materials)</strong>, outdoor signage, LED glow boards, and bulk commercial offset printing.
+            <strong> चुनाव प्रचार सामग्री (Election Campaign Materials)</strong>, candidate publicity merchandise (सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन, मेयर), custom t-shirts, and bulk commercial offset printing.
           </p>
 
           {/* Category Filter Tabs */}
@@ -128,14 +136,14 @@ export default function ServicesPage() {
             </button>
 
             <button
-              onClick={() => handleTabChange('signage')}
+              onClick={() => handleTabChange('merchandise')}
               className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
-                activeTab === 'signage'
+                activeTab === 'merchandise'
                   ? 'bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white shadow-lg shadow-[#ff6a00]/30'
                   : 'bg-white/5 hover:bg-white/10 text-slate-300 border border-white/10'
               }`}
             >
-              🏢 साइनेज व बोर्ड • Signage ({signageSlugs.length})
+              👕 मर्चेंडाइज व परिधान • Merchandise ({merchandiseSlugs.length})
             </button>
 
             <button
@@ -161,8 +169,7 @@ export default function ServicesPage() {
               बिहार का संपूर्ण चुनाव प्रचार सामग्री थोक निर्माण केंद्र
             </h2>
             <p className="text-sm text-slate-300 max-w-2xl mx-auto">
-              प्लास्टिक व नायलॉन झंडे, वॉल पोस्टर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और वोटर पर्ची — सीधे पटना बारी पथ स्थित कारखाने से मंगवाएं। 
-              24 से 48 घंटे में पूरे बिहार में डिलीवरी।
+              कपड़ा, साटन व पेपर झंडे, वॉल पोस्टर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और वोटर पर्ची — सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशियों के लिए सीधे पटना बारी पथ स्थित कारखाने से मंगवाएं। बिहार एवं पूर्वी उत्तर प्रदेश (बलिया, कुशीनगर, देवरिया) में 24 से 36 घंटे में एक्सप्रेस डिलीवरी।
             </p>
             <div className="pt-2">
               <a
@@ -295,7 +302,7 @@ export default function ServicesPage() {
 
         {/* Global Quote Form Section */}
         <div className="mt-20">
-          <QuickQuoteForm preselectedService="Plastic Election Flag" />
+          <QuickQuoteForm preselectedService="Election Rally Flag" />
         </div>
       </div>
     </div>

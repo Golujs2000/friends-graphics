@@ -17,29 +17,29 @@ import { companyDetails } from '../data/servicesData';
 export const electionServicesList = [
   {
     id: "01",
-    slug: "plastic-election-flag",
-    title: "Plastic Election Flag",
-    hindiTitle: "प्लास्टिक चुनाव झंडा",
+    slug: "rally-election-flag",
+    title: "Election Campaign Rally Flag",
+    hindiTitle: "चुनावी रैली एवं सभा झंडा",
     badge: "सबसे लोकप्रिय • Top Seller",
-    tagline: "Waterproof Virgin Biodegradable Film Handheld & Bunting Flags",
-    description: "हवा और बारिश में न फटने वाले 35-50 माइक्रोन वर्जिन प्लास्टिक झंडे। डंडी सहित (हैंडहेल्ड) एवं 50-झंडों की सड़क लड़ी (bunting) में उपलब्ध।",
-    englishDesc: "High-speed rotogravure printed plastic rally flags on rigid PVC sticks or 50-flag pre-strung street garland strings.",
+    tagline: "Waterproof High-Durability Handheld & Bunting Rally Flags",
+    description: "हवा और बारिश में टिकाऊ वेदर-प्रूफ फैब्रिक रैली झंडे। डंडी सहित (हैंडहेल्ड) एवं 50-झंडों की सड़क लड़ी (bunting) में उपलब्ध।",
+    englishDesc: "High-speed printed rally flags on rigid sticks or 50-flag pre-strung street garland strings.",
     image: "/images/plastic_election_flags.jpg",
-    specs: ["35-50 Micron Virgin Biodegradable Film", "Non-Bleed Vibrant Party Symbol Colors", "Handheld Stick or 50 Flags/String Bunting"],
+    specs: ["Weatherproof High-Durability Film", "Non-Bleed Vibrant Party Symbol Colors", "Handheld Stick or 50 Flags/String Bunting"],
     minOrder: "1,000 Pieces",
     turnaround: "24-48 Hours Express"
   },
   {
     id: "02",
-    slug: "nylon-election-flag",
-    title: "Nylon & Satin Election Flag",
-    hindiTitle: "नायलॉन एवं साटन चुनाव झंडा",
+    slug: "satin-election-flag",
+    title: "Fabric & Satin Election Flag",
+    hindiTitle: "फैब्रिक एवं साटन चुनाव झंडा",
     badge: "गाड़ी व ऑफिस झंडा • Car & HQ",
-    tagline: "100% Warp-Knitted Heavy Nylon & High-Gloss Satin Fabric",
-    description: "स्कॉर्पियो, बोलेरो, फॉर्च्यूनर, पार्टी ऑफिस, मंच बैकड्रॉप व विशाल रैलियों के लिए हैवी-ड्यूटी डबल सिलाई वाले नायलॉन और साटन झंडे।",
-    englishDesc: "Heavy-duty double lockstitch knitted nylon and premium satin flags for vehicle hoods, antennas, and party office headquarters.",
+    tagline: "100% Warp-Knitted Heavy Fabric & High-Gloss Satin",
+    description: "स्कॉर्पियो, बोलेरो, फॉर्च्यूनर, पार्टी ऑफिस, मंच बैकड्रॉप व विशाल रैलियों के लिए हैवी-ड्यूटी डबल सिलाई वाले फैब्रिक और साटन झंडे।",
+    englishDesc: "Heavy-duty double lockstitch knitted fabric and premium satin flags for vehicle hoods, antennas, and party office headquarters.",
     image: "/images/nylon_election_flag.jpg",
-    specs: ["110-140 GSM 100% Knitted Nylon & Satin", "Double-Needle Lockstitch Wind-Resistant Hem", "Brass Grommets & Canvas Heading"],
+    specs: ["110-140 GSM 100% Knitted Fabric & Satin", "Double-Needle Lockstitch Wind-Resistant Hem", "Brass Grommets & Canvas Heading"],
     minOrder: "25 Pieces",
     turnaround: "2-3 Days Dispatch"
   },
@@ -51,7 +51,7 @@ export const electionServicesList = [
     badge: "विशाल जनसभा • Mass Rallies",
     tagline: "High-Gloss Coated Art Paper Flags for Mass Student & Worker Waves",
     description: "बजट-फ्रेंडली, चमकदार 130-170 GSM आर्ट पेपर झंडे। बाइक यात्रा, कार्यकर्ता रैलियों और जनसभाओं के लिए सबसे किफायती विकल्प।",
-    englishDesc: "Cost-effective, sharp multi-color gloss paper election flags mounted on wooden/plastic sticks for high-volume mobilization.",
+    englishDesc: "Cost-effective, sharp multi-color gloss paper election flags mounted on smooth wooden or rigid sticks for high-volume mobilization.",
     image: "/images/paper_election_flags.jpg",
     specs: ["130-170 GSM High-Gloss Coated Art Paper", "Eco-Friendly Recyclable Mounting Sticks", "High-Resolution Heidelberg Multi-Color Print"],
     minOrder: "1,000 Pieces",
@@ -119,7 +119,7 @@ export const electionServicesList = [
     title: "Election Flex Banners & Hoardings",
     hindiTitle: "चुनावी फ्लेक्स बैनर व होर्डिंग्स",
     badge: "स्टेज व रोड शो • Rallies & Roads",
-    tagline: "Heavy Star Flex, Stage Backdrops & MS Iron Welded Frame Signboards",
+    tagline: "Heavy Star Flex, Stage Backdrops & MS Iron Welded Hoardings",
     description: "चुनावी जनसभा मंच बैकड्रॉप, रोड होर्डिंग्स, प्रवेश द्वार और स्वागत बैनर के लिए स्टार फ्लेक्स, ब्रास आईलेट्स और वेदरप्रूफ हेम स्टिचिंग।",
     englishDesc: "Large-format 340-440 GSM Star Flex banners with brass grommets, pole pockets, and MS iron frames for election rallies and roadside hoardings.",
     image: "/images/banners.png",
@@ -150,8 +150,8 @@ export default function ChunavSamagriShowcase() {
             All Election Campaign Merchandise &amp; Publicity Materials at Direct Factory Rates
           </p>
           <p className="text-sm sm:text-base text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            लोकसभा, विधानसभा, नगर निगम एवं पंचायत चुनाव के लिए प्रचार सामग्री का सबसे बड़ा केंद्र। 
-            <strong> प्लास्टिक व नायलॉन झंडे, वॉल पोस्टर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और फ्लेक्स बैनर</strong> — सीधे पटना बारी पथ स्थित कारखाने से मंगवाएं और बिचौलियों का खर्च बचाएं!
+            सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशियों के चुनाव प्रचार का सबसे बड़ा विश्वसनीय केंद्र। 
+            <strong> कपड़ा, साटन व पेपर झंडे, वॉल पोस्टर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और फ्लेक्स बैनर</strong> — सीधे पटना बारी पथ स्थित कारखाने से मंगवाएं और बिचौलियों का खर्च बचाएं!
           </p>
 
           {/* Quick War-Room Trust Badges */}
@@ -271,11 +271,11 @@ export default function ChunavSamagriShowcase() {
                 <span>कैंडिडेट संपूर्ण चुनाव प्रचार कॉम्बो किट (Turnkey Campaign Kit)</span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-black text-white leading-tight">
-                विधायक, सांसद, मुखिया व पार्षद प्रत्याशी प्रचार पैकेज
+                सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी प्रचार पैकेज
               </h3>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                एक ही जगह से पाएं — <strong>कैनोपी टेंट + 10,000 प्लास्टिक झंडे + 5,000 वॉल पोस्टर + 500 प्रचार टोपी + 1,000 प्रत्याशी बैज + 50 नायलॉन कार झंडे + 10,000 वोटर पर्ची</strong>। 
-                एक फोन कॉल पर अपने पूरे विधानसभा या वार्ड का प्रचार मटेरियल तैयार करवाएं।
+                एक ही जगह से पाएं — <strong>कैनोपी टेंट + 10,000 प्रचार रैली झंडे + 5,000 वॉल पोस्टर + 500 प्रचार टोपी + 1,000 प्रत्याशी बैज + 50 साटन वाहन झंडे + 10,000 वोटर पर्ची</strong>। 
+                एक फोन कॉल पर अपने पूरे लोकसभा, विधानसभा, जिला परिषद, पंचायत या वार्ड का प्रचार मटेरियल तैयार करवाएं।
               </p>
               <div className="flex flex-wrap items-center gap-4 text-xs font-bold text-amber-300 pt-1">
                 <span>✓ सीधे निर्माता थोक रेट</span>

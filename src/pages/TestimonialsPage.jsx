@@ -12,8 +12,8 @@ const clientReviews = [
     location: "Patna, Bihar",
     rating: 5,
     date: "October 2026",
-    service: "Chunav Prachar Samagri & 50,000 Plastic Flags",
-    review: "Friends Graphics delivered 50,000 plastic flags and 10,000 candidate posters in just 36 hours before our major rally. The party symbol colors were 100% accurate, and the quality of sticks and welding was unmatched. Bihar's best election material supplier!"
+    service: "Chunav Prachar Samagri & 50,000 Election Flags",
+    review: "Friends Graphics delivered 50,000 election rally flags and 10,000 candidate posters in just 36 hours before our major rally. The party symbol colors were 100% accurate, and the quality of sticks and welding was unmatched. Bihar's best election material supplier!"
   },
   {
     name: "Dr. Alok Verma",
@@ -21,8 +21,8 @@ const clientReviews = [
     location: "Kankarbagh, Patna",
     rating: 5,
     date: "September 2026",
-    service: "LED Acrylic Sign Board & Hospital Stationery",
-    review: "Installed a 24x4 ft 3D Acrylic LED Glow Sign Board at our main clinic entrance. The finish is stunning and completely waterproof through the monsoon. They also print our prescription pads and patient registration files with flawless consistency."
+    service: "Canopy Tents, Badges & Hospital Stationery",
+    review: "Delivered 15 heavy-duty waterproof canopy tents and 5,000 promotional badges for our medical awareness camps across Bihar. They also print our prescription pads and patient registration files with flawless consistency."
   },
   {
     name: "Ramesh Aggarwal",
@@ -57,8 +57,8 @@ const clientReviews = [
     location: "Bailey Road, Patna",
     rating: 5,
     date: "May 2026",
-    service: "CNC Routed ACP Glow Sign & Star Flex Banners",
-    review: "From site measurement to structural iron welding and LED fitting, their team handled everything seamlessly. The store facade looks magnificent at night."
+    service: "Custom Branded T-Shirts & Star Flex Banners",
+    review: "Printed 200 staff collared polo t-shirts and outdoor star flex promotional banners for our grand opening. Vibrant color reproduction and rapid turnaround."
   }
 ];
 
@@ -72,7 +72,7 @@ export default function TestimonialsPage() {
     <div className="py-12 sm:py-16 space-y-16">
       <SEOHead
         title="Client Reviews & Testimonials — Verified Customer Feedback in Patna"
-        description="Read genuine verified reviews from retail businesses, political candidates, hospitals, and educational institutions across Bihar who trust Friends Graphics for printing and signage."
+        description="Read genuine verified reviews from retail businesses, political candidates, hospitals, and educational institutions across Bihar who trust Friends Graphics for printing and election merchandise."
         canonicalPath="/testimonials"
         keywords="friends graphics reviews patna, printing press testimonials, best printer in bihar review"
         schemaJson={getBreadcrumbSchema(breadcrumbs)}

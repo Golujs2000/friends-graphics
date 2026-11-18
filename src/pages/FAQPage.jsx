@@ -9,7 +9,7 @@ export const allFaqs = [
   {
     category: "Chunav Samagri (चुनाव प्रचार)",
     q: "Do you supply election campaign material (Chunaw Prachar Samagri) and flags in bulk?",
-    a: "Yes! Friends Graphics is Bihar's primary wholesale manufacturer of election publicity materials for Vidhan Sabha, Lok Sabha, Municipal Corporation (Nagar Nigam), and Panchayat elections. We produce plastic election flags on virgin biodegradable film, knitted nylon & satin car flags, paper flags, candidate posters, promotional caps, button badges, voter slips, and waterproof folding canopy tents with direct factory slab pricing."
+    a: "Yes! Friends Graphics is Bihar's primary wholesale manufacturer of election publicity materials for Vidhan Sabha, Lok Sabha, Municipal Corporation (Nagar Nigam), and Panchayat elections. We produce woven cloth rally flags, satin vehicle flags, glossy paper flags, candidate posters, promotional caps, button badges, voter slips, custom printed t-shirts, and waterproof folding canopy tents with direct factory slab pricing."
   },
   {
     category: "Chunav Samagri (चुनाव प्रचार)",
@@ -22,14 +22,14 @@ export const allFaqs = [
     a: "Yes. We manufacture official tricolor Indian national paper flags and satin fabric flags adhering strictly to the Flag Code of India 2002 regarding the 3:2 aspect ratio, exact Ashoka Chakra 24-spoke navy reproduction, and true saffron/white/green shades. We also manufacture executive weighted brass and chrome T-flags for car dashboards and conference tables."
   },
   {
-    category: "Signage & LED Boards (साइनेज व बोर्ड)",
-    q: "What types of sign boards do you fabricate?",
-    a: "We manufacture 3D Acrylic LED Letter Signboards (front-lit, back-lit, halo-glow), CNC Routed ACP Glow Signs, outdoor weather-proof ACP facade cladding, and mirror-polished solid brass/SS metal letter signboards. All electricals use IP67 waterproof LED injection modules (Samsung chips) with a 2-year warranty."
+    category: "Candidate Kits & UP (प्रत्याशी किट व यूपी)",
+    q: "Which candidates do you manufacture election publicity packages for?",
+    a: "We manufacture complete publicity packages customized for सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी across Bihar and Eastern Uttar Pradesh. Packages include rally flags, candidate wall posters, waterproof canopy tents, custom printed t-shirts, caps, badges, handheld LED batons, and voter slips."
   },
   {
-    category: "Signage & LED Boards (साइनेज व बोर्ड)",
-    q: "Do you provide on-site sign board installation across Bihar?",
-    a: "Yes! Our experienced fabrication and installation crew travels across Patna and all major districts of Bihar to perform on-site structural welding, scaffolding, facade mounting, and electrical commissioning."
+    category: "Candidate Kits & UP (प्रत्याशी किट व यूपी)",
+    q: "Do you supply election materials to Eastern UP bordering districts like Ballia and Kushinagar?",
+    a: "Yes! We provide same-day or 24-hour express transport dispatch from our Bari Path, Patna workshop to bordering Uttar Pradesh districts including Ballia (बलिया), Kushinagar (कुशीनगर), Deoria (देवरिया), Ghazipur (गाजीपुर), Chandauli (चंदौली), and Maharajganj (महराजगंज) via direct highway bus and rail parcel."
   },
   {
     category: "Commercial Printing (कमर्शियल प्रिंटिंग)",
@@ -49,7 +49,7 @@ export const allFaqs = [
   {
     category: "Orders & Turnaround (ऑर्डर व डिलीवरी)",
     q: "Where is your workshop located and what are your business hours?",
-    a: "We are located at Shop No. B-12, Popular Palace, Langartoli, Bari Path, Patna - 800004, Bihar (near Langartoli crossing). We are open Monday through Saturday from 10:00 AM to 8:30 PM (Sunday closed, except during active election campaigns where our control room operates 24/7)."
+    a: "We are located at Shop No. B-12, Popular Palace, Langartoli, Bari Path, Patna - 800004, Bihar (near Langartoli crossing). We are open Monday through Saturday from 10:00 AM to 8:30 PM, and Sunday from 1:00 PM to 9:00 PM (with 24/7 war room operations during active election campaigns)."
   }
 ];
 
@@ -58,7 +58,7 @@ export default function FAQPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [openIndices, setOpenIndices] = useState([0, 1]);
 
-  const categories = ['All', 'Chunav Samagri (चुनाव प्रचार)', 'Signage & LED Boards (साइनेज व बोर्ड)', 'Commercial Printing (कमर्शियल प्रिंटिंग)', 'Orders & Turnaround (ऑर्डर व डिलीवरी)'];
+  const categories = ['All', 'Chunav Samagri (चुनाव प्रचार)', 'Candidate Kits & UP (प्रत्याशी किट व यूपी)', 'Commercial Printing (कमर्शियल प्रिंटिंग)', 'Orders & Turnaround (ऑर्डर व डिलीवरी)'];
 
   const filteredFaqs = allFaqs.filter((item) => {
     const matchesCategory = selectedCategory === 'All' || item.category === selectedCategory;
@@ -89,9 +89,9 @@ export default function FAQPage() {
     <div className="py-12 sm:py-16 space-y-16">
       <SEOHead
         title="Printing & Election Material FAQs — Turnaround, Bulk Pricing, Delivery"
-        description="Frequently asked questions about Friends Graphics printing services in Patna. Learn about election flags, banner printing, sign board installation, file formats, and Bihar delivery."
+        description="Frequently asked questions about Friends Graphics printing services in Patna. Learn about election flags, candidate publicity kits (सांसद, विधायक, मुखिया), canopy tents, UP border delivery, and Bihar dispatch."
         canonicalPath="/faqs"
-        keywords="printing press faqs patna, election flags wholesale rates, sign board cost per sq ft, bill book printing time"
+        keywords="printing press faqs patna, election flags wholesale rates, chunav prachar samagri bihar, candidate kits ballia kushinagar, bill book printing time"
         schemaJson={fullSchema}
       />
 
@@ -115,7 +115,7 @@ export default function FAQPage() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Find immediate answers regarding our election materials, sign board fabrication, paper weights, turnaround deadlines, and delivery across Bihar.
+            Find immediate answers regarding our election materials (सांसद, विधायक, मुखिया), custom merchandise, paper weights, turnaround deadlines, and express delivery across Bihar &amp; Eastern UP.
           </p>
 
           {/* Search Bar */}
@@ -123,7 +123,7 @@ export default function FAQPage() {
             <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
             <input
               type="text"
-              placeholder="Search questions (e.g. flag, poster, sign board, delivery)..."
+              placeholder="Search questions (e.g. flag, poster, canopy tent, delivery)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#0f1422] border border-white/10 text-white text-sm focus:border-[#ff6a00] focus:outline-none focus:ring-1 focus:ring-[#ff6a00] transition-colors"

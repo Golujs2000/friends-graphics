@@ -61,7 +61,7 @@ const portfolioItems = [
     category: "cards",
     categoryName: "Visiting Cards",
     image: "/images/synthetic_visiting_card.png",
-    desc: "Rigid plastic PVC business cards impervious to moisture."
+    desc: "Rigid waterproof synthetic business cards impervious to moisture."
   },
   {
     title: "Luxury Real Estate Promotional Flyer",
@@ -110,7 +110,7 @@ const portfolioItems = [
     category: "election",
     categoryName: "Election & Flags (चुनाव)",
     image: "/images/plastic_election_flags.jpg",
-    desc: "Plastic, paper & knitted nylon election flags, national paper flags and car hood T-flags."
+    desc: "Fabric, satin & glossy paper election flags, national flags, and car hood T-flags."
   },
   {
     title: "Election Campaign Poster & Publicity Materials",
@@ -127,25 +127,25 @@ const portfolioItems = [
     desc: "Turnkey election management publicity kits with canopy tents, badges, and candidate caps."
   },
   {
-    title: "3D LED Acrylic Letters Storefront Sign",
-    category: "signage",
-    categoryName: "LED & Sign Boards",
-    image: "/images/Glossy LED Acrylic 3D Letters.png",
-    desc: "Precision laser-cut 3D cast acrylic frontlit letters with waterproof Samsung LED modules."
+    title: "Custom Embroidered Corporate & Election Polo T-Shirts",
+    category: "merchandise",
+    categoryName: "Apparel & Merchandise",
+    image: "/images/real-work/custom-polo-tshirt-team-excellent.jpg",
+    desc: "High-density multi-color zari embroidered and screen printed polo t-shirts for campaigns and corporate staff."
   },
   {
-    title: "CNC Routed LED ACP Glow Sign Board",
-    category: "signage",
-    categoryName: "LED & Sign Boards",
-    image: "/images/LED Glow Sign Board & Box.png",
-    desc: "Exterior grade ACP box with routed groove and warm white acrylic inlay illumination."
+    title: "Branded Non-Woven Retail & Campaign Shopping Bags",
+    category: "merchandise",
+    categoryName: "Apparel & Merchandise",
+    image: "/images/real-work/non-woven-promotional-shopping-bag-orient-electric.jpg",
+    desc: "Ultrasonic heat-sealed eco-friendly non-woven carry bags with high-contrast flexographic printing."
   },
   {
-    title: "Outdoor Heavy ACP Cladding & Metal Sign Board",
-    category: "signage",
-    categoryName: "LED & Sign Boards",
-    image: "/images/Stainless Steel Sign Board (Outdoor).png",
-    desc: "Architectural weatherproof ACP facade and premium mirror-finish brass and SS metal signage."
+    title: "Jan Suraaj & Multi-Party Handheld LED Campaign Batons",
+    category: "merchandise",
+    categoryName: "Apparel & Merchandise",
+    image: "/images/real-work/election-led-baton-jan-suraaj-patna.jpg",
+    desc: "Handheld illuminated cast acrylic LED election baton memento for high-impact night rallies and roadshows."
   },
   {
     title: "Custom Carbonless NCR Duplicate/Triplicate Bill Books",
@@ -201,7 +201,7 @@ const portfolioItems = [
 const categories = [
   { id: "all", label: "All Works" },
   { id: "election", label: "Election & Flags (चुनाव)" },
-  { id: "signage", label: "LED & Sign Boards" },
+  { id: "merchandise", label: "Apparel & Merchandise" },
   { id: "stationery", label: "Bill Books & Books" },
   { id: "idcards", label: "ID Cards & Lanyards" },
   { id: "banners", label: "Banners & Flex" },
@@ -227,10 +227,10 @@ export default function PortfolioPage() {
   return (
     <div className="py-12 sm:py-16 space-y-16">
       <SEOHead
-        title="Printing Work Portfolio & Signage Project Showcase — Patna"
-        description="Browse real project photos of election flags, large format flex banners, 3D acrylic LED signboards, and commercial offset printing by Friends Graphics in Patna."
+        title="Printing Work Portfolio & Election Merchandise Showcase — Patna"
+        description="Browse real project photos of election flags, large format flex banners, candidate t-shirts, canopy tents, and commercial offset printing by Friends Graphics in Patna."
         canonicalPath="/portfolio"
-        keywords="printing portfolio patna, sign board photos patna, election flags samples"
+        keywords="printing portfolio patna, election merchandise photos patna, election flags samples, canopy tent patna"
         schemaJson={getBreadcrumbSchema(breadcrumbs)}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

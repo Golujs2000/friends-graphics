@@ -2,15 +2,46 @@
 // Sourced from Friends Graphics actual manufacturing workshop, machinery & completed client projects in Patna, Bihar.
 
 export const galleryCategories = [
-  { id: 'all', label: 'All Real Work', labelHi: 'सभी वास्तविक कार्य' },
-  { id: 'election', label: 'Election Materials & Flags', labelHi: 'चुनाव प्रचार सामग्री व झंडे' },
-  { id: 'signboards', label: 'LED Signboards & ACP Glow Signs', labelHi: 'LED साइन बोर्ड व ग्लो साइन' },
-  { id: 'flags', label: 'National & Ceremonial Flags', labelHi: 'राष्ट्रीय ध्वज व सेरेमोनियल झंडे' },
-  { id: 'apparel', label: 'Custom T-Shirts & Uniforms', labelHi: 'कस्टम टी-शर्ट व यूनिफॉर्म' },
-  { id: 'bags', label: 'Non-Woven Bags & Packaging', labelHi: 'शॉपिंग बैग्स व पैकेजिंग' },
-  { id: 'gifts', label: 'Leather Keychains & Gifts', labelHi: 'लेदर कीचेन व गिफ्ट्स' },
-  { id: 'printing', label: 'Commercial Printing & ID Cards', labelHi: 'आईडी कार्ड, स्टेशनरी व नेमप्लेट' },
-  { id: 'workshop', label: 'Our Workshop & Machinery', labelHi: 'हमारी वर्कशॉप व मशीनरी' }
+  {
+    "id": "all",
+    "label": "All Products",
+    "labelHi": "सभी वास्तविक उत्पाद"
+  },
+  {
+    "id": "election",
+    "label": "Election Materials & Batons",
+    "labelHi": "चुनाव प्रचार सामग्री व LED बैटन"
+  },
+  {
+    "id": "flags",
+    "label": "National & Ceremonial Flags",
+    "labelHi": "राष्ट्रीय ध्वज व सेरेमोनियल झंडे"
+  },
+  {
+    "id": "apparel",
+    "label": "Custom T-Shirts & Jackets",
+    "labelHi": "कस्टम टी-शर्ट व जैकेट्स"
+  },
+  {
+    "id": "bags",
+    "label": "Non-Woven Bags & Packaging",
+    "labelHi": "प्रचार व शॉपिंग बैग्स"
+  },
+  {
+    "id": "gifts",
+    "label": "Corporate Gifts & Keychains",
+    "labelHi": "कीचेन व कॉर्पोरेट गिफ्ट्स"
+  },
+  {
+    "id": "printing",
+    "label": "ID Cards, Stickers & Print",
+    "labelHi": "आईडी कार्ड, स्टिकर्स व प्रिंटिंग"
+  },
+  {
+    "id": "workshop",
+    "label": "Manufacturing & Workshop",
+    "labelHi": "फैक्ट्री मशीनरी व वर्कशॉप"
+  }
 ];
 
 export const realWorkGalleryData = [
@@ -112,18 +143,6 @@ export const realWorkGalleryData = [
   },
   {
     "id": 9,
-    "filename": "friends-graphics-services-promotional-banner.jpg",
-    "image": "/images/real-work/friends-graphics-services-promotional-banner.jpg",
-    "title": "Friends Graphics Complete Services Digital Banner",
-    "titleHi": "फ्रेंड्स ग्राफिक्स संपूर्ण प्रिंटिंग सेवाएं बैनर",
-    "category": "workshop",
-    "desc": "Official corporate promo showing ID cards, doctor files, carry bags, and commercial printing services.",
-    "descHi": "फ्रेंड्स ग्राफिक्स की प्रमुख सेवाओं - आईडी कार्ड, कैरी बैग, डॉक्टर फाइल आदि का डिजिटल बैनर।",
-    "specs": "Full HD Graphic Design, Commercial Hub Promo",
-    "isFeatured": false
-  },
-  {
-    "id": 10,
     "filename": "automatic-flag-printing-slitting-machine.jpg",
     "image": "/images/real-work/automatic-flag-printing-slitting-machine.jpg",
     "title": "Automatic Flag Printing & Slitting Machine in Action",
@@ -135,7 +154,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 11,
+    "id": 10,
     "filename": "national-tricolor-flags-cloth-rolls-patna.jpg",
     "image": "/images/real-work/national-tricolor-flags-cloth-rolls-patna.jpg",
     "title": "Indian National Tricolor Stitched Fabric Rolls",
@@ -147,7 +166,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 12,
+    "id": 11,
     "filename": "large-indian-national-flag-tiranga-stitched.jpg",
     "image": "/images/real-work/large-indian-national-flag-tiranga-stitched.jpg",
     "title": "Monumental Large Indian National Flag Stitched",
@@ -159,31 +178,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 13,
-    "filename": "gold-profile-lighting-architectural-decor.jpg",
-    "image": "/images/real-work/gold-profile-lighting-architectural-decor.jpg",
-    "title": "Architectural Gold Metal Profile Signage & Frame",
-    "titleHi": "गोल्डन मेटल प्रोफाइल लाइटिंग आर्किटेक्चरल फ्रेम",
-    "category": "signboards",
-    "desc": "Premium gold mirror finish metal profile fixture for interior branding and showroom displays.",
-    "descHi": "शोरूम और इंटीरियर डेकोर के लिए प्रीमियम गोल्डन मेटल प्रोफाइल लाइटिंग फ्रेम।",
-    "specs": "Titanium Gold PVD Coating, Concealed LED Strip",
-    "isFeatured": false
-  },
-  {
-    "id": 14,
-    "filename": "chunav-prachar-video-promo-friends-graphics.jpg",
-    "image": "/images/real-work/chunav-prachar-video-promo-friends-graphics.jpg",
-    "title": "Chunav Prachar Campaign Kit Video Promo",
-    "titleHi": "चुनाव प्रचार सामग्री वीडियो प्रोमो - फ्रेंड्स ग्राफिक्स",
-    "category": "election",
-    "desc": "Proprietor campaign presentation highlighting election publicity materials wholesale manufacturing.",
-    "descHi": "चुनाव प्रचार की संपूर्ण तैयारी हेतु थोक सामग्री निर्माण का वीडियो प्रोमो।",
-    "specs": "Direct Factory Video, Wholesale Hub Patna",
-    "isFeatured": false
-  },
-  {
-    "id": 15,
+    "id": 12,
     "filename": "tiranga-national-flag-textile-printing-press.jpg",
     "image": "/images/real-work/tiranga-national-flag-textile-printing-press.jpg",
     "title": "National Flag Textile Continuous Printing Press",
@@ -195,19 +190,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 16,
-    "filename": "indian-army-day-roll-up-standee-banner.jpg",
-    "image": "/images/real-work/indian-army-day-roll-up-standee-banner.jpg",
-    "title": "Indian Army Day Roll-Up Standee Banner",
-    "titleHi": "इंडियन आर्मी डे रोल-अप स्टैंडी बैनर",
-    "category": "signboards",
-    "desc": "High-resolution matte laminated roll-up banner standee printed for Indian Army commemorative events.",
-    "descHi": "भारतीय सेना दिवस हेतु एल्युमिनियम कैसेट के साथ मैट लैमिनेटेड रोल-अप स्टैंडी।",
-    "specs": "Aluminum Pull-Up Stand, Star Non-Tearable Vinyl",
-    "isFeatured": false
-  },
-  {
-    "id": 17,
+    "id": 13,
     "filename": "religious-green-flag-jashn-eid-milad.jpg",
     "image": "/images/real-work/religious-green-flag-jashn-eid-milad.jpg",
     "title": "Jashn-e-Eid Milad-un-Nabi Embroidered Flag",
@@ -219,7 +202,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 18,
+    "id": 14,
     "filename": "stitched-indian-national-flags-batch.jpg",
     "image": "/images/real-work/stitched-indian-national-flags-batch.jpg",
     "title": "Stitched Indian National Flag Ready for Delivery",
@@ -231,7 +214,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 19,
+    "id": 15,
     "filename": "tiranga-rotary-drum-printing-press.jpg",
     "image": "/images/real-work/tiranga-rotary-drum-printing-press.jpg",
     "title": "Rotary Drum Flag Printing Machine Detail",
@@ -243,7 +226,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 20,
+    "id": 16,
     "filename": "friends-graphics-next-generation-printing-hub-logo.jpeg",
     "image": "/images/real-work/friends-graphics-next-generation-printing-hub-logo.jpeg",
     "title": "Friends Graphics Official Brand Identity",
@@ -255,19 +238,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 21,
-    "filename": "friends-graphics-official-vector-logo.svg",
-    "image": "/images/real-work/friends-graphics-official-vector-logo.svg",
-    "title": "Friends Graphics Vector Logo",
-    "titleHi": "फ्रेंड्स ग्राफिक्स वेक्टर लोगो",
-    "category": "workshop",
-    "desc": "Official scalable SVG logo of Friends Graphics Patna.",
-    "descHi": "फ्रेंड्स ग्राफिक्स पटना का ऑफिशियल स्केलेबल वेक्टर लोगो।",
-    "specs": "Scalable Vector Graphics (SVG)",
-    "isFeatured": false
-  },
-  {
-    "id": 22,
+    "id": 17,
     "filename": "chunav-prachar-samagri-lok-sabha-flex-banner.jpg",
     "image": "/images/real-work/chunav-prachar-samagri-lok-sabha-flex-banner.jpg",
     "title": "Lok Sabha Election Publicity Materials Flex Banner",
@@ -279,7 +250,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 23,
+    "id": 18,
     "filename": "custom-polo-tshirt-team-excellent.jpg",
     "image": "/images/real-work/custom-polo-tshirt-team-excellent.jpg",
     "title": "Custom Branded Polo T-Shirt (Team Excellent)",
@@ -291,7 +262,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 24,
+    "id": 19,
     "filename": "incredible-india-cultural-graphic-poster.jpg",
     "image": "/images/real-work/incredible-india-cultural-graphic-poster.jpg",
     "title": "Incredible India Tourism Art Print Poster",
@@ -303,7 +274,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 25,
+    "id": 20,
     "filename": "military-ceremonial-embroidered-crest-banner-1978.jpg",
     "image": "/images/real-work/military-ceremonial-embroidered-crest-banner-1978.jpg",
     "title": "Military Regimental Ceremonial Wall Crest Banner (1978)",
@@ -315,7 +286,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 26,
+    "id": 21,
     "filename": "custom-embroidered-polo-tshirt-yadav.jpg",
     "image": "/images/real-work/custom-embroidered-polo-tshirt-yadav.jpg",
     "title": "Custom Embroidered Polo T-Shirt (Yaduvanshi Crest)",
@@ -327,19 +298,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 27,
-    "filename": "outdoor-heavy-banner-tripod-standee-frame.jpg",
-    "image": "/images/real-work/outdoor-heavy-banner-tripod-standee-frame.jpg",
-    "title": "Outdoor Heavy-Duty Metal Banner Standee Frame",
-    "titleHi": "आउटडोर हैवी मेटल स्टैंडी फ्रेम",
-    "category": "signboards",
-    "desc": "All-weather powder coated steel tripod display stand for outdoor promotional hoardings.",
-    "descHi": "सख्त आउटडोर मौसम के लिए पाउडर कोटेड मजबूत स्टील ट्राइपॉड डिस्प्ले स्टैंड।",
-    "specs": "Mild Steel Frame, Rust-Proof Powder Coating",
-    "isFeatured": false
-  },
-  {
-    "id": 28,
+    "id": 22,
     "filename": "indian-army-embroidered-track-jacket.jpg",
     "image": "/images/real-work/indian-army-embroidered-track-jacket.jpg",
     "title": "Indian Army Crest Embroidered Windcheater Track Jacket",
@@ -351,7 +310,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 29,
+    "id": 23,
     "filename": "non-woven-promotional-shopping-bag-orient-electric.jpg",
     "image": "/images/real-work/non-woven-promotional-shopping-bag-orient-electric.jpg",
     "title": "Orient Electric Branded Non-Woven Shopping Bag",
@@ -363,19 +322,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 30,
-    "filename": "highway-hoarding-billboard-prints-patna.jpg",
-    "image": "/images/real-work/highway-hoarding-billboard-prints-patna.jpg",
-    "title": "Large Scale Highway Billboard Flex Prints",
-    "titleHi": "हाईवे रोड होर्डिंग बिलबोर्ड प्रिंट्स",
-    "category": "signboards",
-    "desc": "Giant commercial outdoor billboards printed with weather-proof inks along highway corridors.",
-    "descHi": "हाईवे पर 440 GSM वेदर-प्रूफ स्टार फ्लेक्स से प्रिंट विशाल रोड होर्डिंग बिलबोर्ड।",
-    "specs": "440 GSM Blackout Flex, UV Resistant Inks",
-    "isFeatured": true
-  },
-  {
-    "id": 31,
+    "id": 24,
     "filename": "custom-embroidered-polo-tshirt-corporate-navy.jpg",
     "image": "/images/real-work/custom-embroidered-polo-tshirt-corporate-navy.jpg",
     "title": "Corporate Royal Navy Blue Embroidered Polo T-Shirt",
@@ -387,7 +334,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 32,
+    "id": 25,
     "filename": "non-woven-retail-carry-bag-manu-mens-fashion.jpg",
     "image": "/images/real-work/non-woven-retail-carry-bag-manu-mens-fashion.jpg",
     "title": "Manu Men's Fashion Retail Non-Woven Carry Bag",
@@ -399,7 +346,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 33,
+    "id": 26,
     "filename": "political-election-campaign-poster-jmm-hemant-soren.jpg",
     "image": "/images/real-work/political-election-campaign-poster-jmm-hemant-soren.jpg",
     "title": "JMM Election Campaign High-Res Poster (Hemant Soren)",
@@ -411,7 +358,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 34,
+    "id": 27,
     "filename": "army-crest-embroidered-sports-shorts-black.jpg",
     "image": "/images/real-work/army-crest-embroidered-sports-shorts-black.jpg",
     "title": "Black Athletic Sports Shorts with Army Crest Embroidery",
@@ -423,7 +370,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 35,
+    "id": 28,
     "filename": "military-ceremonial-regimental-turban-pagri-crest.jpg",
     "image": "/images/real-work/military-ceremonial-regimental-turban-pagri-crest.jpg",
     "title": "Regimental Ceremonial Pagri Turban with Bullion Crest",
@@ -435,7 +382,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 36,
+    "id": 29,
     "filename": "election-campaign-non-woven-tote-bag-blue.jpg",
     "image": "/images/real-work/election-campaign-non-woven-tote-bag-blue.jpg",
     "title": "Political Campaign Printed Non-Woven Tote Bag",
@@ -447,31 +394,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 37,
-    "filename": "food-stall-flex-banner-jatadhari-lassi.jpg",
-    "image": "/images/real-work/food-stall-flex-banner-jatadhari-lassi.jpg",
-    "title": "Retail Food Stall Flex Banner (Jatadhari Lassi)",
-    "titleHi": "रिटेल फूड स्टॉल फ्लेक्स बैनर (जटाधारी लस्सी)",
-    "category": "signboards",
-    "desc": "Vivid full-color outdoor shop banner with Hindi typography and food imagery.",
-    "descHi": "दुकान के लिए स्वादिष्ट चित्रों और हिंदी टाइपोग्राफी के साथ आउटडोर फ्लेक्स बैनर।",
-    "specs": "340 GSM Star Flex, Brass Eyelets",
-    "isFeatured": false
-  },
-  {
-    "id": 38,
-    "filename": "hotel-mellow-space-glow-sign-board-patna.jpg",
-    "image": "/images/real-work/hotel-mellow-space-glow-sign-board-patna.jpg",
-    "title": "Illuminated Backlit Sign Board (Hotel Mellow Space)",
-    "titleHi": "बैकलिट ग्लो साइन बोर्ड (होटल मेलो स्पेस 2.0)",
-    "category": "signboards",
-    "desc": "Diamond-format outdoor directional glow sign board for hotel with internal LED lighting.",
-    "descHi": "होटल हेतु आंतरिक एलईडी लाइटिंग के साथ डायमंड शेप बैकब्राइट ग्लो साइन बोर्ड।",
-    "specs": "Backlit Flex, MS Iron Frame, Waterproof LEDs",
-    "isFeatured": true
-  },
-  {
-    "id": 39,
+    "id": 30,
     "filename": "custom-gym-tshirt-planet-gym-yellow.jpg",
     "image": "/images/real-work/custom-gym-tshirt-planet-gym-yellow.jpg",
     "title": "Custom Branded Gym T-Shirt (Planet Gym Yellow)",
@@ -483,7 +406,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 40,
+    "id": 31,
     "filename": "regimental-ceremonial-velvet-crest-banner-hanging.jpg",
     "image": "/images/real-work/regimental-ceremonial-velvet-crest-banner-hanging.jpg",
     "title": "Regimental Velvet Wall Crest Hanging Banner",
@@ -495,7 +418,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 41,
+    "id": 32,
     "filename": "non-woven-fashion-shopping-bag-bhuvin.jpg",
     "image": "/images/real-work/non-woven-fashion-shopping-bag-bhuvin.jpg",
     "title": "Bhuvin Fashions Branded Non-Woven Shopping Bag",
@@ -507,7 +430,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 42,
+    "id": 33,
     "filename": "stage-ceremonial-national-regimental-flags-display.jpg",
     "image": "/images/real-work/stage-ceremonial-national-regimental-flags-display.jpg",
     "title": "Stage Ceremonial National & Regimental Flags Array",
@@ -519,19 +442,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 43,
-    "filename": "outdoor-highway-billboard-advertisement-print.jpg",
-    "image": "/images/real-work/outdoor-highway-billboard-advertisement-print.jpg",
-    "title": "Highway Billboard Outdoor Advertisement Flex Print",
-    "titleHi": "हाईवे बिलबोर्ड आउटडोर विज्ञापन फ्लेक्स प्रिंट",
-    "category": "signboards",
-    "desc": "Heavy-duty outdoor billboard banner print with vibrant eco-solvent inks.",
-    "descHi": "हाईवे पर दूर से नजर आने वाला वाइब्रेंट कलर आउटडोर होर्डिंग प्रिंट।",
-    "specs": "Star Flex 440 GSM, Rust-Proof Brass Grommets",
-    "isFeatured": false
-  },
-  {
-    "id": 44,
+    "id": 34,
     "filename": "conference-hall-national-defense-flags-patna.jpg",
     "image": "/images/real-work/conference-hall-national-defense-flags-patna.jpg",
     "title": "Conference Hall National & Defense Flags Display",
@@ -543,7 +454,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 45,
+    "id": 35,
     "filename": "election-campaign-round-badge-sticker-jmm-louis-marandi.jpg",
     "image": "/images/real-work/election-campaign-round-badge-sticker-jmm-louis-marandi.jpg",
     "title": "Election Campaign Round Badge (Dr. Louis Marandi JMM)",
@@ -555,7 +466,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 46,
+    "id": 36,
     "filename": "non-woven-saree-shopping-bag-madhuri.jpg",
     "image": "/images/real-work/non-woven-saree-shopping-bag-madhuri.jpg",
     "title": "Madhuri Sarees Luxury Non-Woven Shopping Bag",
@@ -567,7 +478,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 47,
+    "id": 37,
     "filename": "custom-cricket-jersey-rajesh-yadav-yellow.jpg",
     "image": "/images/real-work/custom-cricket-jersey-rajesh-yadav-yellow.jpg",
     "title": "Custom Sublimation Cricket Jersey (Diamond Cricket Club)",
@@ -579,7 +490,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 48,
+    "id": 38,
     "filename": "outdoor-promotional-canopy-tent-striped-frame.jpg",
     "image": "/images/real-work/outdoor-promotional-canopy-tent-striped-frame.jpg",
     "title": "Outdoor Promotional Canopy Event Tent Frame",
@@ -591,19 +502,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 49,
-    "filename": "promotional-sampling-kiosk-booth-stand.jpg",
-    "image": "/images/real-work/promotional-sampling-kiosk-booth-stand.jpg",
-    "title": "Promotional Product Sampling Kiosk & Promo Table",
-    "titleHi": "प्रमोशनल प्रोडक्ट सैंपलिंग कियोस्क व प्रोमो टेबल",
-    "category": "signboards",
-    "desc": "Foldable lightweight promotional demo table booth with top header banner for activations.",
-    "descHi": "फील्ड एक्टिवेशन और प्रोडक्ट सैंपलिंग हेतु फोल्डेबल प्रोमो टेबल कियोस्क।",
-    "specs": "ABS / PVC Structure, Vinyl Graphic Branding",
-    "isFeatured": false
-  },
-  {
-    "id": 50,
+    "id": 39,
     "filename": "non-woven-fashion-shopping-bag-asmee.jpg",
     "image": "/images/real-work/non-woven-fashion-shopping-bag-asmee.jpg",
     "title": "Asmee Fashion Boutique Non-Woven Shopping Bag",
@@ -615,7 +514,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 51,
+    "id": 40,
     "filename": "indian-army-sports-athletic-shorts.jpg",
     "image": "/images/real-work/indian-army-sports-athletic-shorts.jpg",
     "title": "Indian Army Crest Athletic Sports Shorts",
@@ -627,7 +526,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 52,
+    "id": 41,
     "filename": "custom-white-sports-jersey-engineers-gurukul.jpg",
     "image": "/images/real-work/custom-white-sports-jersey-engineers-gurukul.jpg",
     "title": "Custom Sports Jersey (Engineers Gurukul)",
@@ -639,7 +538,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 53,
+    "id": 42,
     "filename": "plain-promotional-round-neck-tshirts-assorted.jpg",
     "image": "/images/real-work/plain-promotional-round-neck-tshirts-assorted.jpg",
     "title": "Bulk Plain Promotional Round-Neck T-Shirts (Assorted Colors)",
@@ -651,7 +550,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 54,
+    "id": 43,
     "filename": "indoor-podium-defense-national-flags-array.jpg",
     "image": "/images/real-work/indoor-podium-defense-national-flags-array.jpg",
     "title": "Indoor Podium National & Defense Flags Array",
@@ -663,7 +562,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 55,
+    "id": 44,
     "filename": "chrome-indoor-flag-stands-navy-tricolor.jpg",
     "image": "/images/real-work/chrome-indoor-flag-stands-navy-tricolor.jpg",
     "title": "Chrome Standing Flag Poles (Navy & National Flag)",
@@ -675,7 +574,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 56,
+    "id": 45,
     "filename": "retail-non-woven-bags-paridhan-mens-mart.jpg",
     "image": "/images/real-work/retail-non-woven-bags-paridhan-mens-mart.jpg",
     "title": "Retail Non-Woven Bags (Paridhan & Men's Mart)",
@@ -687,7 +586,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 57,
+    "id": 46,
     "filename": "custom-neon-lime-polo-tshirt-patna.jpg",
     "image": "/images/real-work/custom-neon-lime-polo-tshirt-patna.jpg",
     "title": "Neon Lime Performance Polo T-Shirt",
@@ -699,19 +598,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 58,
-    "filename": "swachhata-diwas-government-flex-banner-bihar.jpg",
-    "image": "/images/real-work/swachhata-diwas-government-flex-banner-bihar.jpg",
-    "title": "Swachhata Diwas Government Event Flex Banner",
-    "titleHi": "स्वच्छता दिवस सम्मान समारोह फ्लेक्स बैनर (बिहार सरकार)",
-    "category": "signboards",
-    "desc": "Official government scheme celebration flex banner printed for Nagar Parishad Jhajha.",
-    "descHi": "नगर परिषद् झाझा हेतु प्रिंटेड स्वच्छता ही सेवा सम्मान समारोह आधिकारिक फ्लेक्स बैनर।",
-    "specs": "Star Flex 340 GSM, Eco-Solvent High Contrast Inks",
-    "isFeatured": true
-  },
-  {
-    "id": 59,
+    "id": 47,
     "filename": "premium-non-woven-bag-noor-kesar-kashmir.jpg",
     "image": "/images/real-work/premium-non-woven-bag-noor-kesar-kashmir.jpg",
     "title": "Luxury Non-Woven Shopping Bag (Noor Kesar Kashmir)",
@@ -723,7 +610,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 60,
+    "id": 48,
     "filename": "military-ceremonial-belt-sash-crest-kit-crpf.jpg",
     "image": "/images/real-work/military-ceremonial-belt-sash-crest-kit-crpf.jpg",
     "title": "CRPF Ceremonial Belt, Sash, Lanyard & Crest Kit",
@@ -735,19 +622,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 61,
-    "filename": "outdoor-highway-hoarding-prints-bihar.jpg",
-    "image": "/images/real-work/outdoor-highway-hoarding-prints-bihar.jpg",
-    "title": "Outdoor Highway Commercial Hoarding Prints",
-    "titleHi": "हाईवे कमर्शियल होर्डिंग फ्लेक्स प्रिंट",
-    "category": "signboards",
-    "desc": "Giant road hoarding billboard prints delivering high visibility for regional brands.",
-    "descHi": "हाईवे पर ब्रांड प्रमोशन हेतु तैयार विशाल वेदर-रेसिस्टेंट फ्लेक्स होर्डिंग।",
-    "specs": "Star Flex 440 GSM, High-Speed Solvent Print",
-    "isFeatured": false
-  },
-  {
-    "id": 62,
+    "id": 49,
     "filename": "religious-saffron-flag-jai-shri-ram-lohra.jpg",
     "image": "/images/real-work/religious-saffron-flag-jai-shri-ram-lohra.jpg",
     "title": "Saffron Religious Printed Flag (Jai Shri Ram)",
@@ -759,31 +634,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 63,
-    "filename": "iskcon-vrindavan-dham-camp-flex-banner.jpg",
-    "image": "/images/real-work/iskcon-vrindavan-dham-camp-flex-banner.jpg",
-    "title": "ISKCON Sri Vrindavan Dham Camp Flex Banner",
-    "titleHi": "इस्कॉन श्री वृन्दावन धाम कैंप फ्लेक्स बैनर",
-    "category": "signboards",
-    "desc": "Colorful religious pilgrimage camp stage backdrop banner printed with HD graphics.",
-    "descHi": "इस्कॉन यूथ फोरम वृन्दावन धाम कैंप हेतु सुंदर स्टेज बैकड्रॉप फ्लेक्स।",
-    "specs": "Star Flex 360 GSM, Vibrant Color Gamut",
-    "isFeatured": false
-  },
-  {
-    "id": 64,
-    "filename": "roadside-commercial-advertising-billboard.jpg",
-    "image": "/images/real-work/roadside-commercial-advertising-billboard.jpg",
-    "title": "Roadside Commercial Billboard Advertising Print",
-    "titleHi": "रोडसाइड कमर्शियल बिलबोर्ड विज्ञापन प्रिंट",
-    "category": "signboards",
-    "desc": "Outdoor roadside advertising hoarding with durable frontlit flex banner.",
-    "descHi": "रोडसाइड कमर्शियल एडवरटाइजिंग हेतु फ्रंटलिट फ्लेक्स प्रिंट।",
-    "specs": "380 GSM Flex, Weather Proof Inks",
-    "isFeatured": false
-  },
-  {
-    "id": 65,
+    "id": 50,
     "filename": "non-woven-shopping-bag-baby-story.jpg",
     "image": "/images/real-work/non-woven-shopping-bag-baby-story.jpg",
     "title": "Baby Story Kids Wear Non-Woven Shopping Bag",
@@ -795,7 +646,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 66,
+    "id": 51,
     "filename": "brass-flagpole-tripod-stands-regimental-flags.jpg",
     "image": "/images/real-work/brass-flagpole-tripod-stands-regimental-flags.jpg",
     "title": "Brass Flagpole Tripod Stands with Regimental Flags",
@@ -807,7 +658,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 67,
+    "id": 52,
     "filename": "non-woven-restaurant-shopping-bag-mithaas.jpg",
     "image": "/images/real-work/non-woven-restaurant-shopping-bag-mithaas.jpg",
     "title": "Mithaas Sweets & Restaurant Non-Woven Carry Bag",
@@ -819,7 +670,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 68,
+    "id": 53,
     "filename": "custom-neon-green-polo-tshirt-collared.jpg",
     "image": "/images/real-work/custom-neon-green-polo-tshirt-collared.jpg",
     "title": "Neon Green Collared Custom Polo T-Shirt",
@@ -831,7 +682,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 69,
+    "id": 54,
     "filename": "indian-army-jacket-gold-back-lettering.jpg",
     "image": "/images/real-work/indian-army-jacket-gold-back-lettering.jpg",
     "title": "Indian Army Winter Jacket with Bold Gold Back Embroidery",
@@ -843,7 +694,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 70,
+    "id": 55,
     "filename": "election-campaign-round-badge-jmm-uday-shankar-singh.jpg",
     "image": "/images/real-work/election-campaign-round-badge-jmm-uday-shankar-singh.jpg",
     "title": "JMM Election Round Badge (Uday Shankar Singh)",
@@ -855,7 +706,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 71,
+    "id": 56,
     "filename": "3d-waterfall-landscape-wallpaper-mural-print.jpg",
     "image": "/images/real-work/3d-waterfall-landscape-wallpaper-mural-print.jpg",
     "title": "Custom 3D Waterfall Scenic Landscape Wallpaper Mural",
@@ -867,7 +718,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 72,
+    "id": 57,
     "filename": "congress-election-campaign-banner-patna-sahib.jpg",
     "image": "/images/real-work/congress-election-campaign-banner-patna-sahib.jpg",
     "title": "Patna Sahib Congress Election Campaign Flex Banner",
@@ -879,7 +730,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 73,
+    "id": 58,
     "filename": "non-woven-shopping-bag-anand-brother.jpg",
     "image": "/images/real-work/non-woven-shopping-bag-anand-brother.jpg",
     "title": "Anand Brother Branded Non-Woven Retail Bag",
@@ -891,7 +742,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 74,
+    "id": 59,
     "filename": "diwali-festive-calendar-greeting-card-prints.jpg",
     "image": "/images/real-work/diwali-festive-calendar-greeting-card-prints.jpg",
     "title": "Diwali Festive Greeting Card & Wall Calendar Prints",
@@ -903,7 +754,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 75,
+    "id": 60,
     "filename": "bjp-election-campaign-round-badge-suresh-murmu.jpg",
     "image": "/images/real-work/bjp-election-campaign-round-badge-suresh-murmu.jpg",
     "title": "BJP Election Campaign Round Badge (Suresh Murmu Jama)",
@@ -915,7 +766,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 76,
+    "id": 61,
     "filename": "indian-army-winter-windcheater-jacket-embroidered.jpg",
     "image": "/images/real-work/indian-army-winter-windcheater-jacket-embroidered.jpg",
     "title": "Indian Army Embroidered Winter Windcheater Jacket",
@@ -923,11 +774,11 @@ export const realWorkGalleryData = [
     "category": "apparel",
     "desc": "Heavyweight black winter track jacket with golden Indian Army chest and back embroidery.",
     "descHi": "सोने जैसे चमकीले धागे से कशीदाकारी युक्त विंटर विंडचीटर जैकेट।",
-    "specs": "Taslan Nylon Shell, Micro-Fleece Warm Lining",
+    "specs": "Weatherproof Micro-Poly Shell, Micro-Fleece Warm Lining",
     "isFeatured": true
   },
   {
-    "id": 77,
+    "id": 62,
     "filename": "ceremonial-armed-forces-and-national-flags-array.jpg",
     "image": "/images/real-work/ceremonial-armed-forces-and-national-flags-array.jpg",
     "title": "Armed Forces & National Flags Ceremonial Display",
@@ -939,7 +790,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 78,
+    "id": 63,
     "filename": "military-crest-embroidered-black-jacket.jpg",
     "image": "/images/real-work/military-crest-embroidered-black-jacket.jpg",
     "title": "Military Crest Embroidered Black Winter Jacket",
@@ -947,23 +798,11 @@ export const realWorkGalleryData = [
     "category": "apparel",
     "desc": "Tactical black winter jacket with golden military insignia embroidered on the chest.",
     "descHi": "सीने पर गोल्डन सैन्य प्रतीक चिन्ह के साथ विंटर जैकेट।",
-    "specs": "Windproof Nylon, Multi-Needle Zari Embroidery",
+    "specs": "Windproof Premium Fabric, Multi-Needle Zari Embroidery",
     "isFeatured": false
   },
   {
-    "id": 79,
-    "filename": "friends-graphics-patna-shopfront-signboard-bari-path.jpg",
-    "image": "/images/real-work/friends-graphics-patna-shopfront-signboard-bari-path.jpg",
-    "title": "Friends Graphics Patna Workshop Shopfront Signboard",
-    "titleHi": "फ्रेंड्स ग्राफिक्स लंगरटोली बारी पथ वर्कशॉप साइन बोर्ड",
-    "category": "workshop",
-    "desc": "Real shopfront board of Friends Graphics, Shop No. B-12, Popular Palace, Langartoli, Bari Path, Patna.",
-    "descHi": "फ्रेंड्स ग्राफिक्स, शॉप नं. बी-12, पॉपुलर पैलेस, लंगरटोली, बारी पथ, पटना का मुख्य साइन बोर्ड।",
-    "specs": "Backlit Flex Glow Sign, MS Steel Frame",
-    "isFeatured": true
-  },
-  {
-    "id": 80,
+    "id": 64,
     "filename": "custom-yellow-sports-jersey-planet-gym.jpg",
     "image": "/images/real-work/custom-yellow-sports-jersey-planet-gym.jpg",
     "title": "Custom Yellow Sports T-Shirt (Planet Gym)",
@@ -975,7 +814,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 81,
+    "id": 65,
     "filename": "corporate-polo-tshirt-sbi-life-red.jpg",
     "image": "/images/real-work/corporate-polo-tshirt-sbi-life-red.jpg",
     "title": "SBI Life Corporate Uniform Polo T-Shirt (Red)",
@@ -987,7 +826,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 82,
+    "id": 66,
     "filename": "vip-outdoor-ceremonial-pandal-shamiana-setup.jpg",
     "image": "/images/real-work/vip-outdoor-ceremonial-pandal-shamiana-setup.jpg",
     "title": "VIP Outdoor Ceremonial Stage Pandal Shamiana",
@@ -999,7 +838,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 83,
+    "id": 67,
     "filename": "custom-embroidered-white-polo-engineers-gurukul.jpg",
     "image": "/images/real-work/custom-embroidered-white-polo-engineers-gurukul.jpg",
     "title": "Engineers Gurukul Embroidered White Polo T-Shirt",
@@ -1011,7 +850,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 84,
+    "id": 68,
     "filename": "military-velvet-pennant-605-garud-flight.jpg",
     "image": "/images/real-work/military-velvet-pennant-605-garud-flight.jpg",
     "title": "605 Garud Flight Night Stalkers Velvet Crest Pennant",
@@ -1023,7 +862,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 85,
+    "id": 69,
     "filename": "canopy-tent-striped-canvas-workshop-stitching.jpg",
     "image": "/images/real-work/canopy-tent-striped-canvas-workshop-stitching.jpg",
     "title": "Canopy Tent Striped Canvas Fabric on Workshop Floor",
@@ -1035,19 +874,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 86,
-    "filename": "jal-jeevan-hariyali-government-flex-banner.jpg",
-    "image": "/images/real-work/jal-jeevan-hariyali-government-flex-banner.jpg",
-    "title": "Jal Jeevan Hariyali Bihar Government Flex Banner",
-    "titleHi": "जल जीवन हरियाली बिहार सरकार फ्लेक्स बैनर",
-    "category": "signboards",
-    "desc": "Government initiative awareness flex banner printed for Nagar Parishad Jhajha.",
-    "descHi": "जल जीवन हरियाली अभियान हेतु नगर परिषद् झाझा के लिए प्रिंटेड फ्लेक्स बैनर।",
-    "specs": "340 GSM Star Flex, Eco-Solvent Inks",
-    "isFeatured": false
-  },
-  {
-    "id": 87,
+    "id": 70,
     "filename": "friends-graphics-complete-election-catalog-poster.jpg",
     "image": "/images/real-work/friends-graphics-complete-election-catalog-poster.jpg",
     "title": "Friends Graphics Complete Election Publicity Catalog Poster",
@@ -1059,7 +886,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 88,
+    "id": 71,
     "filename": "miniature-brass-table-flags-stand-set.jpg",
     "image": "/images/real-work/miniature-brass-table-flags-stand-set.jpg",
     "title": "Miniature Brass Desk Flags Stand Set",
@@ -1071,7 +898,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 89,
+    "id": 72,
     "filename": "custom-engraved-leather-keychain-luminous.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-luminous.jpg",
     "title": "Custom Laser-Engraved Leather Keychain (Luminous)",
@@ -1083,7 +910,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 90,
+    "id": 73,
     "filename": "ranjan-sharma-friends-graphics-executive-visiting-card.jpg",
     "image": "/images/real-work/ranjan-sharma-friends-graphics-executive-visiting-card.jpg",
     "title": "Friends Graphics Executive Business Visiting Card",
@@ -1095,19 +922,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 91,
-    "filename": "vertical-multi-story-building-outdoor-flex-banner.jpg",
-    "image": "/images/real-work/vertical-multi-story-building-outdoor-flex-banner.jpg",
-    "title": "Vertical Multi-Story Building Outdoor Flex Banner",
-    "titleHi": "मल्टी-स्टोरी बिल्डिंग वर्टिकल आउटडोर फ्लेक्स बैनर",
-    "category": "signboards",
-    "desc": "Tall multi-story vertical building facade drop banner printed on heavy outdoor flex.",
-    "descHi": "इमारत के अग्रभाग पर लटकाए जाने वाला विशाल वर्टिकल फ्लेक्स बैनर।",
-    "specs": "Star Flex 440 GSM, Reinforced Side Hemming with Eyelets",
-    "isFeatured": false
-  },
-  {
-    "id": 92,
+    "id": 74,
     "filename": "bihar-police-embroidered-table-flag-stand.jpg",
     "image": "/images/real-work/bihar-police-embroidered-table-flag-stand.jpg",
     "title": "Bihar Police Embroidered Table Flag on Stand",
@@ -1119,7 +934,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 93,
+    "id": 75,
     "filename": "military-regimental-wall-crest-21-sata-regiment.jpg",
     "image": "/images/real-work/military-regimental-wall-crest-21-sata-regiment.jpg",
     "title": "21 SATA Regiment OP Rakshak Velvet Wall Crest",
@@ -1131,7 +946,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 94,
+    "id": 76,
     "filename": "ceremonial-brass-podium-flagstand-military-crest.jpg",
     "image": "/images/real-work/ceremonial-brass-podium-flagstand-military-crest.jpg",
     "title": "Ceremonial Brass Podium Stand with Regimental Flag",
@@ -1143,7 +958,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 95,
+    "id": 77,
     "filename": "bihar-police-ceremonial-red-blue-flag-display.jpg",
     "image": "/images/real-work/bihar-police-ceremonial-red-blue-flag-display.jpg",
     "title": "Bihar Police Large Ceremonial Flag Display",
@@ -1155,7 +970,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 96,
+    "id": 78,
     "filename": "colonels-academy-patna-brass-desk-flags.jpg",
     "image": "/images/real-work/colonels-academy-patna-brass-desk-flags.jpg",
     "title": "Colonel's Academy Patna Brass Desk Flags",
@@ -1167,7 +982,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 97,
+    "id": 79,
     "filename": "military-hall-of-honor-regimental-pennants-wall.jpg",
     "image": "/images/real-work/military-hall-of-honor-regimental-pennants-wall.jpg",
     "title": "Hall of Honor Regimental Ceremonial Pennants Wall",
@@ -1179,7 +994,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 98,
+    "id": 80,
     "filename": "custom-engraved-leather-keychain-oil-seal.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-oil-seal.jpg",
     "title": "Custom Stitched Leather Keychain (Oil Seal)",
@@ -1191,19 +1006,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 99,
-    "filename": "promotional-activation-sampling-kiosk-booth.jpg",
-    "image": "/images/real-work/promotional-activation-sampling-kiosk-booth.jpg",
-    "title": "Promotional Field Activation Sampling Kiosk",
-    "titleHi": "प्रमोशनल फील्ड एक्टिवेशन सैंपलिंग कियोस्क",
-    "category": "signboards",
-    "desc": "Portable promotional kiosk stall with full branding for marketing campaigns.",
-    "descHi": "मार्केटिंग कैंपेन हेतु फुल ब्रांडिंग के साथ पोर्टेबल प्रोमो स्टॉल कियोस्क।",
-    "specs": "High-Impact Polystyrene Structure, Vinyl Graphics",
-    "isFeatured": false
-  },
-  {
-    "id": 100,
+    "id": 81,
     "filename": "promotional-event-canopy-tent-outdoor-display.jpg",
     "image": "/images/real-work/promotional-event-canopy-tent-outdoor-display.jpg",
     "title": "Outdoor Promotional Canopy Event Tent Setup",
@@ -1215,7 +1018,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 101,
+    "id": 82,
     "filename": "custom-engraved-leather-keychain-tvs-motors.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-tvs-motors.jpg",
     "title": "TVS Motors Custom Engraved Leather Keychain",
@@ -1227,19 +1030,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 102,
-    "filename": "friends-graphics-recruitment-poster-hiring.jpg",
-    "image": "/images/real-work/friends-graphics-recruitment-poster-hiring.jpg",
-    "title": "Friends Graphics Corporate Recruitment Poster",
-    "titleHi": "फ्रेंड्स ग्राफिक्स कॉर्पोरेट भर्ती पोस्टर",
-    "category": "workshop",
-    "desc": "Official hiring poster for telecalling and design executives at Friends Graphics Patna.",
-    "descHi": "फ्रेंड्स ग्राफिक्स में टेलीकॉलर और डिज़ाइन एग्जीक्यूटिव्स हेतु आधिकारिक भर्ती पोस्टर।",
-    "specs": "Commercial Offset Print, Vibrant Corporate Graphics",
-    "isFeatured": false
-  },
-  {
-    "id": 103,
+    "id": 83,
     "filename": "outdoor-military-brass-ceremonial-flagpole-stand.jpg",
     "image": "/images/real-work/outdoor-military-brass-ceremonial-flagpole-stand.jpg",
     "title": "Outdoor Ceremonial Brass Flagpole Stand & Crest Flag",
@@ -1251,7 +1042,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 104,
+    "id": 84,
     "filename": "regimental-yellow-velvet-ceremonial-flags-gold-fringe.jpg",
     "image": "/images/real-work/regimental-yellow-velvet-ceremonial-flags-gold-fringe.jpg",
     "title": "Yellow Velvet Ceremonial Regimental Flags with Gold Fringe",
@@ -1263,7 +1054,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 105,
+    "id": 85,
     "filename": "custom-engraved-leather-keychain-honda-black.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-honda-black.jpg",
     "title": "Honda Automobile Custom Laser-Engraved Leather Keychain",
@@ -1275,7 +1066,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 106,
+    "id": 86,
     "filename": "auditorium-standing-ceremonial-flags-array.jpg",
     "image": "/images/real-work/auditorium-standing-ceremonial-flags-array.jpg",
     "title": "Auditorium Standing Ceremonial Flags Array",
@@ -1287,7 +1078,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 107,
+    "id": 87,
     "filename": "navy-blue-regimental-brass-twin-table-flags.jpg",
     "image": "/images/real-work/navy-blue-regimental-brass-twin-table-flags.jpg",
     "title": "Navy Blue Regimental Brass Twin Table Flags",
@@ -1299,7 +1090,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 108,
+    "id": 88,
     "filename": "friends-graphics-office-frosted-glass-branding.jpg",
     "image": "/images/real-work/friends-graphics-office-frosted-glass-branding.jpg",
     "title": "Friends Graphics Office Frosted Glass Door Branding",
@@ -1311,19 +1102,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 109,
-    "filename": "antique-brass-hooks-mirror-wooden-plaque.jpg",
-    "image": "/images/real-work/antique-brass-hooks-mirror-wooden-plaque.jpg",
-    "title": "Antique Brass Hooks & Oval Mirror on Wooden Plaque",
-    "titleHi": "एंटीक ब्रास हुक्स व मिरर वुडेन नेमप्लेट",
-    "category": "signboards",
-    "desc": "Vintage solid brass coat hooks and beveled oval mirror mounted on polished hardwood.",
-    "descHi": "पॉलिश की गई लकड़ी पर एंटीक ब्रास हुक्स और ओवल मिरर।",
-    "specs": "Cast Brass Hardware, Teak Finished Wood Plaque",
-    "isFeatured": false
-  },
-  {
-    "id": 110,
+    "id": 89,
     "filename": "vicky-rubber-stamp-seal-flex-advertising-poster.jpg",
     "image": "/images/real-work/vicky-rubber-stamp-seal-flex-advertising-poster.jpg",
     "title": "Rubber Stamp & Common Seal Flex Advertisement Poster",
@@ -1335,7 +1114,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 111,
+    "id": 90,
     "filename": "executive-chamber-national-and-police-flags.jpg",
     "image": "/images/real-work/executive-chamber-national-and-police-flags.jpg",
     "title": "Executive Officer Chamber National & Police Flags",
@@ -1347,7 +1126,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 112,
+    "id": 91,
     "filename": "motihari-police-bihar-police-brass-table-flags.jpg",
     "image": "/images/real-work/motihari-police-bihar-police-brass-table-flags.jpg",
     "title": "Motihari Police & Bihar Police Brass Table Flags",
@@ -1359,7 +1138,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 113,
+    "id": 92,
     "filename": "military-regimental-embroidered-banners-array.jpg",
     "image": "/images/real-work/military-regimental-embroidered-banners-array.jpg",
     "title": "Military Regimental Bullion Embroidered Wall Banners",
@@ -1371,19 +1150,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 114,
-    "filename": "friends-graphics-recruitment-flex-poster-hiring.jpg",
-    "image": "/images/real-work/friends-graphics-recruitment-flex-poster-hiring.jpg",
-    "title": "Friends Graphics Walk-In Interview Recruitment Poster",
-    "titleHi": "फ्रेंड्स ग्राफिक्स वॉक-इन इंटरव्यू भर्ती पोस्टर",
-    "category": "workshop",
-    "desc": "Promotional recruitment poster highlighting career opportunities at Friends Graphics.",
-    "descHi": "फ्रेंड्स ग्राफिक्स में रोजगार के अवसरों को दर्शाता भर्ती पोस्टर।",
-    "specs": "Digital Print on Art Paper, Vibrant Visuals",
-    "isFeatured": false
-  },
-  {
-    "id": 115,
+    "id": 93,
     "filename": "municipal-election-campaign-poster-vishwas-gupta.jpg",
     "image": "/images/real-work/municipal-election-campaign-poster-vishwas-gupta.jpg",
     "title": "Municipal Ward Councilor Election Campaign Poster",
@@ -1395,7 +1162,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 116,
+    "id": 94,
     "filename": "event-stage-frilled-pleating-table-skirt-fabric.jpg",
     "image": "/images/real-work/event-stage-frilled-pleating-table-skirt-fabric.jpg",
     "title": "Event Stage Frilled Pleating Table Skirt Border",
@@ -1407,7 +1174,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 117,
+    "id": 95,
     "filename": "custom-acrylic-leather-keychains-swastika-photo.jpg",
     "image": "/images/real-work/custom-acrylic-leather-keychains-swastika-photo.jpg",
     "title": "Custom Acrylic & Leather Photo Keychains",
@@ -1419,7 +1186,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 118,
+    "id": 96,
     "filename": "ceremonial-turban-pagri-embroidered-crest-fan.jpg",
     "image": "/images/real-work/ceremonial-turban-pagri-embroidered-crest-fan.jpg",
     "title": "Ceremonial Military Fan-Pleated Turban (Pagri)",
@@ -1431,7 +1198,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 119,
+    "id": 97,
     "filename": "custom-stitched-leather-keychains-ntn-automotive.jpg",
     "image": "/images/real-work/custom-stitched-leather-keychains-ntn-automotive.jpg",
     "title": "Automotive Stitched Leather Keychains (NTN Bearing)",
@@ -1443,43 +1210,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 120,
-    "filename": "friends-graphics-bari-path-patna-shopfront-banner.jpg",
-    "image": "/images/real-work/friends-graphics-bari-path-patna-shopfront-banner.jpg",
-    "title": "Friends Graphics Bari Path Workshop Main Entrance Signboard",
-    "titleHi": "फ्रेंड्स ग्राफिक्स बारी पथ मुख्य वर्कशॉप साइन बोर्ड",
-    "category": "workshop",
-    "desc": "Night view of Friends Graphics storefront signboard at Popular Palace, Bari Path, Patna.",
-    "descHi": "पॉपुलर पैलेस, बारी पथ पटना स्थित फ्रेंड्स ग्राफिक्स की मुख्य दुकान का साइन बोर्ड।",
-    "specs": "Backlit Glow Signboard, MS Steel Framing",
-    "isFeatured": true
-  },
-  {
-    "id": 121,
-    "filename": "friends-graphics-popular-palace-workshop-entrance.jpg",
-    "image": "/images/real-work/friends-graphics-popular-palace-workshop-entrance.jpg",
-    "title": "Friends Graphics Popular Palace Workshop & Office Entrance",
-    "titleHi": "फ्रेंड्स ग्राफिक्स पॉपुलर पैलेस वर्कशॉप मुख्य प्रवेश द्वार",
-    "category": "workshop",
-    "desc": "Exterior entrance view of Friends Graphics shop and design office in Popular Palace, Bari Path.",
-    "descHi": "पॉपुलर पैलेस बारी पथ में फ्रेंड्स ग्राफिक्स के शॉप और डिजाइन ऑफिस का मुख्य द्वार।",
-    "specs": "Commercial Printing Hub, Langartoli Patna",
-    "isFeatured": false
-  },
-  {
-    "id": 122,
-    "filename": "ishan-enterprises-medicine-dealer-flex-signboard.jpg",
-    "image": "/images/real-work/ishan-enterprises-medicine-dealer-flex-signboard.jpg",
-    "title": "Medicine Wholesale Dealer Outdoor Flex Signboard",
-    "titleHi": "ईशान एंटरप्राइजेज मेडिसिन डीलर फ्लेक्स साइन बोर्ड",
-    "category": "signboards",
-    "desc": "High-contrast yellow and red outdoor shop signboard for pharmaceutical wholesale distributor.",
-    "descHi": "दवा थोक विक्रेता हेतु मजबूत लोहे के फ्रेम पर पीला व लाल फ्लेक्स साइन बोर्ड।",
-    "specs": "Star Flex 360 GSM, 1-inch MS Square Pipe Frame",
-    "isFeatured": false
-  },
-  {
-    "id": 123,
+    "id": 98,
     "filename": "friends-graphics-election-campaign-materials-showcase-poster.jpg",
     "image": "/images/real-work/friends-graphics-election-campaign-materials-showcase-poster.jpg",
     "title": "Friends Graphics Mega Election Materials Showcase Poster",
@@ -1491,7 +1222,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 124,
+    "id": 99,
     "filename": "custom-printed-satin-lanyard-neck-ribbon.jpg",
     "image": "/images/real-work/custom-printed-satin-lanyard-neck-ribbon.jpg",
     "title": "Custom Printed Satin Lanyard Neck Ribbon",
@@ -1503,7 +1234,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 125,
+    "id": 100,
     "filename": "custom-engraved-leather-keychain-chevrolet.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-chevrolet.jpg",
     "title": "Chevrolet Automotive Custom Engraved Leather Keychain",
@@ -1515,7 +1246,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 126,
+    "id": 101,
     "filename": "military-embroidered-black-sports-shorts.jpg",
     "image": "/images/real-work/military-embroidered-black-sports-shorts.jpg",
     "title": "Military Crest Embroidered Black Athletic Shorts",
@@ -1527,7 +1258,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 127,
+    "id": 102,
     "filename": "handcrafted-stitched-tan-leather-keychains-set.jpg",
     "image": "/images/real-work/handcrafted-stitched-tan-leather-keychains-set.jpg",
     "title": "Set of 8 Handcrafted Stitched Tan Leather Keychains",
@@ -1539,7 +1270,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 128,
+    "id": 103,
     "filename": "indian-national-tricolor-cotton-flag-sample.jpg",
     "image": "/images/real-work/indian-national-tricolor-cotton-flag-sample.jpg",
     "title": "Indian National Flag (Tiranga) Stitched Cloth Sample",
@@ -1551,7 +1282,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 129,
+    "id": 104,
     "filename": "custom-engraved-leather-keychain-mahindra-rise.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-mahindra-rise.jpg",
     "title": "Mahindra Rise Custom Laser-Engraved Leather Keychain",
@@ -1563,7 +1294,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 130,
+    "id": 105,
     "filename": "parade-ground-ceremonial-red-carpet-flag-array.jpg",
     "image": "/images/real-work/parade-ground-ceremonial-red-carpet-flag-array.jpg",
     "title": "Parade Ground Ceremonial Red Carpet Flagpole Setup",
@@ -1575,7 +1306,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 131,
+    "id": 106,
     "filename": "indian-national-flag-tiranga-held-high.jpg",
     "image": "/images/real-work/indian-national-flag-tiranga-held-high.jpg",
     "title": "Stitched Indian National Flag (Tiranga) Inspection",
@@ -1587,7 +1318,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 132,
+    "id": 107,
     "filename": "special-forces-velvet-crest-pennant-garud-flight.jpg",
     "image": "/images/real-work/special-forces-velvet-crest-pennant-garud-flight.jpg",
     "title": "Garud Flight Special Forces Velvet Crest Pennant",
@@ -1599,7 +1330,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 133,
+    "id": 108,
     "filename": "indian-national-flag-workshop-quality-check.jpg",
     "image": "/images/real-work/indian-national-flag-workshop-quality-check.jpg",
     "title": "Indian National Flag Workshop Inspection & Dispatch",
@@ -1611,7 +1342,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 134,
+    "id": 109,
     "filename": "indian-army-jacket-vertical-lettering-black.jpg",
     "image": "/images/real-work/indian-army-jacket-vertical-lettering-black.jpg",
     "title": "Indian Army Black Track Jacket with Vertical Lettering",
@@ -1623,7 +1354,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 135,
+    "id": 110,
     "filename": "conference-hall-brass-ceremonial-flags-setup.jpg",
     "image": "/images/real-work/conference-hall-brass-ceremonial-flags-setup.jpg",
     "title": "Conference Hall Standing Ceremonial Flags Setup",
@@ -1635,7 +1366,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 136,
+    "id": 111,
     "filename": "narayan-krishna-public-school-outdoor-flag.jpg",
     "image": "/images/real-work/narayan-krishna-public-school-outdoor-flag.jpg",
     "title": "Custom School Outdoor Flag on Pole (Narayan Krishna Public School)",
@@ -1647,7 +1378,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 137,
+    "id": 112,
     "filename": "regimental-ceremonial-flags-display-aurangabad.jpg",
     "image": "/images/real-work/regimental-ceremonial-flags-display-aurangabad.jpg",
     "title": "Armed Forces Regimental Ceremonial Flags Display",
@@ -1659,7 +1390,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 138,
+    "id": 113,
     "filename": "book-cover-printing-pratiyogita-manthan-patna.jpg",
     "image": "/images/real-work/book-cover-printing-pratiyogita-manthan-patna.jpg",
     "title": "Book Cover Design & Multi-Color Printing (Pratiyogita Manthan)",
@@ -1671,7 +1402,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 139,
+    "id": 114,
     "filename": "bihar-police-motihari-police-brass-table-flags-stand.jpg",
     "image": "/images/real-work/bihar-police-motihari-police-brass-table-flags-stand.jpg",
     "title": "Bihar Police & Motihari Police Brass Table Flags Stand",
@@ -1683,7 +1414,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 140,
+    "id": 115,
     "filename": "navy-blue-regimental-crest-flags-chrome-stands.jpg",
     "image": "/images/real-work/navy-blue-regimental-crest-flags-chrome-stands.jpg",
     "title": "Navy Blue Regimental Crest Flags on Chrome Stands",
@@ -1695,7 +1426,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 141,
+    "id": 116,
     "filename": "regimental-velvet-wall-crest-banner-hanging-detail.jpg",
     "image": "/images/real-work/regimental-velvet-wall-crest-banner-hanging-detail.jpg",
     "title": "Regimental Velvet Wall Crest Hanging Banner Detail",
@@ -1707,7 +1438,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 142,
+    "id": 117,
     "filename": "indian-army-winter-windcheater-jacket-embroidered-black.jpg",
     "image": "/images/real-work/indian-army-winter-windcheater-jacket-embroidered-black.jpg",
     "title": "Indian Army Crest Embroidered Windcheater Track Jacket",
@@ -1719,7 +1450,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 143,
+    "id": 118,
     "filename": "custom-military-crest-polo-tshirt-white-green.jpg",
     "image": "/images/real-work/custom-military-crest-polo-tshirt-white-green.jpg",
     "title": "White & Dark Green Custom Polo T-Shirt with Military Crest",
@@ -1731,7 +1462,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 144,
+    "id": 119,
     "filename": "set-of-6-custom-stitched-brown-leather-keychains.jpg",
     "image": "/images/real-work/set-of-6-custom-stitched-brown-leather-keychains.jpg",
     "title": "Set of 6 Custom Stitched Brown Leather Keychains",
@@ -1743,31 +1474,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 145,
-    "filename": "friends-graphics-workshop-glass-door-entrance-patna.jpg",
-    "image": "/images/real-work/friends-graphics-workshop-glass-door-entrance-patna.jpg",
-    "title": "Friends Graphics Popular Palace Workshop Glass Door Entrance",
-    "titleHi": "फ्रेंड्स ग्राफिक्स वर्कशॉप ग्लास डोर प्रवेश द्वार (बारी पथ)",
-    "category": "workshop",
-    "desc": "Customer entrance and reception at Friends Graphics printing facility in Popular Palace, Bari Path.",
-    "descHi": "पॉपुलर पैलेस बारी पथ में फ्रेंड्स ग्राफिक्स प्रिंटिंग हब का मुख्य स्वागत द्वार।",
-    "specs": "Design Office & Printing Facility, Patna",
-    "isFeatured": false
-  },
-  {
-    "id": 146,
-    "filename": "friends-graphics-shopfront-signboard-langartoli-patna.jpg",
-    "image": "/images/real-work/friends-graphics-shopfront-signboard-langartoli-patna.jpg",
-    "title": "Friends Graphics Main Shopfront Signboard (Langartoli Bari Path)",
-    "titleHi": "फ्रेंड्स ग्राफिक्स मुख्य साइन बोर्ड (लंगरटोली बारी पथ पटना)",
-    "category": "workshop",
-    "desc": "Daytime view of the official Friends Graphics commercial printing signboard in Langartoli.",
-    "descHi": "फ्रेंड्स ग्राफिक्स लंगरटोली बारी पथ पटना का मुख्य कमर्शियल साइन बोर्ड।",
-    "specs": "Glow Signboard, Bari Path Printing Hub",
-    "isFeatured": false
-  },
-  {
-    "id": 147,
+    "id": 120,
     "filename": "custom-engraved-leather-keychain-sonkali-rental.jpg",
     "image": "/images/real-work/custom-engraved-leather-keychain-sonkali-rental.jpg",
     "title": "Sonkali Rental Outfit Custom Engraved Leather Keychain",
@@ -1779,7 +1486,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 148,
+    "id": 121,
     "filename": "stainless-steel-tripod-ceremonial-flagpole-stand.jpg",
     "image": "/images/real-work/stainless-steel-tripod-ceremonial-flagpole-stand.jpg",
     "title": "Heavy Stainless Steel Tripod Ceremonial Flagpole Stand",
@@ -1791,7 +1498,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 149,
+    "id": 122,
     "filename": "indian-national-flag-and-bihar-police-ceremonial-flags.jpg",
     "image": "/images/real-work/indian-national-flag-and-bihar-police-ceremonial-flags.jpg",
     "title": "Indian National Flag & Bihar Police Ceremonial Flags",
@@ -1803,7 +1510,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 150,
+    "id": 123,
     "filename": "indian-army-winter-track-jackets-batch.jpg",
     "image": "/images/real-work/indian-army-winter-track-jackets-batch.jpg",
     "title": "Indian Army Embroidered Winter Track Jackets Batch",
@@ -1811,11 +1518,11 @@ export const realWorkGalleryData = [
     "category": "apparel",
     "desc": "Batch of finished black winter jackets with golden Indian Army crossed swords insignia.",
     "descHi": "सेना के जवानों हेतु तैयार गोल्डन कशीदाकारी युक्त ब्लैक विंटर जैकेट्स।",
-    "specs": "Taslan Nylon Shell, Fleece Lining, Gold Embroidery",
+    "specs": "Weatherproof Micro-Poly Shell, Fleece Lining, Gold Embroidery",
     "isFeatured": false
   },
   {
-    "id": 151,
+    "id": 124,
     "filename": "bihar-police-embroidered-flag-close-up.jpg",
     "image": "/images/real-work/bihar-police-embroidered-flag-close-up.jpg",
     "title": "Bihar Police Embroidered State Emblem Flag Close-Up",
@@ -1827,67 +1534,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 152,
-    "filename": "natures-ink-tattoo-shopfront-flex-signboard.jpg",
-    "image": "/images/real-work/natures-ink-tattoo-shopfront-flex-signboard.jpg",
-    "title": "Nature's Ink Tattoo Studio Shopfront Flex Signboard",
-    "titleHi": "नेचर्स इंक टैटू स्टूडियो शॉपफ्रंट फ्लेक्स साइन बोर्ड",
-    "category": "signboards",
-    "desc": "High-impact outdoor flex signboard for tattoo parlor located at Popular Palace, Bari Path, Patna.",
-    "descHi": "पॉपुलर पैलेस बारी पथ स्थित टैटू स्टूडियो हेतु हाई-इम्पैक्ट आउटडोर फ्लेक्स साइन बोर्ड।",
-    "specs": "Star Flex 360 GSM, Vibrant Eco-Solvent Print",
-    "isFeatured": true
-  },
-  {
-    "id": 153,
-    "filename": "custom-3d-leaf-texture-interior-wallpaper-print.jpg",
-    "image": "/images/real-work/custom-3d-leaf-texture-interior-wallpaper-print.jpg",
-    "title": "Custom 3D Leaf Texture Interior Wallpaper Mural",
-    "titleHi": "कस्टम 3D लीफ टेक्सचर इंटीरियर वॉलपेपर म्यूरल",
-    "category": "printing",
-    "desc": "Modern artistic multi-color embossed leaf pattern wallpaper printed for architectural interior decor.",
-    "descHi": "इंटीरियर और लिविंग रूम की सजावट के लिए कलात्मक 3D लीफ पैटर्न वॉलपेपर।",
-    "specs": "Textured Non-Woven Paper, HD Eco-Solvent Inks",
-    "isFeatured": true
-  },
-  {
-    "id": 154,
-    "filename": "outdoor-ceremonial-event-pandal-setup.jpg",
-    "image": "/images/real-work/outdoor-ceremonial-event-pandal-setup.jpg",
-    "title": "Outdoor Ceremonial Event Pandal & Shamiana Setup",
-    "titleHi": "आउटडोर सेरेमोनियल इवेंट पंडाल व शामियाना सेटअप",
-    "category": "election",
-    "desc": "Complete outdoor VIP event stage setup with red-and-white canopies for public ceremonies.",
-    "descHi": "जनसभाओं और आधिकारिक आयोजनों हेतु रेड और वाइट कैनोपी स्टेज सेटअप।",
-    "specs": "Waterproof Striped Canvas, Iron Truss Framing",
-    "isFeatured": false
-  },
-  {
-    "id": 155,
-    "filename": "friends-graphics-next-generation-printing-hub-card.jpg",
-    "image": "/images/real-work/friends-graphics-next-generation-printing-hub-card.jpg",
-    "title": "Friends Graphics Official Next Generation Hub Card",
-    "titleHi": "फ्रेंड्स ग्राफिक्स नेक्स्ट जेनरेशन प्रिंटिंग हब कार्ड",
-    "category": "workshop",
-    "desc": "Friends Graphics signature orange and black brand card with slogan 'Next Generation of Printing Hub'.",
-    "descHi": "फ्रेंड्स ग्राफिक्स पटना का सिग्नेचर ब्रांड कार्ड।",
-    "specs": "Brand Identity Master Graphic",
-    "isFeatured": false
-  },
-  {
-    "id": 156,
-    "filename": "portable-metal-banner-standee-easel-frame.jpg",
-    "image": "/images/real-work/portable-metal-banner-standee-easel-frame.jpg",
-    "title": "Portable Metal Banner Standee Easel Display Frame",
-    "titleHi": "पोर्टेबल मेटल बैनर स्टैंडी ईजल डिस्प्ले फ्रेम",
-    "category": "signboards",
-    "desc": "Collapsible aluminum and mild steel backdrop banner easel stand for events.",
-    "descHi": "प्रदर्शनी और आयोजनों हेतु पोर्टेबल एल्युमिनियम और स्टील डिस्प्ले स्टैंड।",
-    "specs": "Lightweight Powder-Coated Metal, Foldable Mechanism",
-    "isFeatured": false
-  },
-  {
-    "id": 157,
+    "id": 125,
     "filename": "custom-acrylic-promotional-keychains-royal-paints.jpg",
     "image": "/images/real-work/custom-acrylic-promotional-keychains-royal-paints.jpg",
     "title": "Royal Paints Custom Acrylic Promotional Keychains",
@@ -1899,7 +1546,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 158,
+    "id": 126,
     "filename": "premium-black-leather-keychain-lic-gold-foil.jpg",
     "image": "/images/real-work/premium-black-leather-keychain-lic-gold-foil.jpg",
     "title": "LIC Premium Black Leather Keychain with Gold Foil",
@@ -1911,7 +1558,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 159,
+    "id": 127,
     "filename": "office-ceremonial-standing-flags-tricolor-police.jpg",
     "image": "/images/real-work/office-ceremonial-standing-flags-tricolor-police.jpg",
     "title": "Office Ceremonial Standing Flags (Tricolor & Police)",
@@ -1923,7 +1570,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 160,
+    "id": 128,
     "filename": "military-parade-ground-ceremony-flagpole-array.jpg",
     "image": "/images/real-work/military-parade-ground-ceremony-flagpole-array.jpg",
     "title": "Military Parade Ground Ceremony Flagpole Array",
@@ -1935,19 +1582,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 161,
-    "filename": "martyrs-memorial-stone-plaque-89-bn-crpf.jpg",
-    "image": "/images/real-work/martyrs-memorial-stone-plaque-89-bn-crpf.jpg",
-    "title": "CRPF Martyrs Memorial Stone Plaque (89 BN CRPF)",
-    "titleHi": "सीआरपीएफ शहीद स्मारक शिलापट्ट पट्टिका (89 बटालियन)",
-    "category": "signboards",
-    "desc": "Black granite memorial plaque engraved with battalion crest, martyr photograph, and commemorative details.",
-    "descHi": "सीआरपीएफ 89 बटालियन हेतु ग्रेनाइट पत्थर पर एनग्रेव्ड शहीद स्मारक पट्टिका।",
-    "specs": "Black Granite Stone, Deep Laser Engraving, Photo Inlay",
-    "isFeatured": true
-  },
-  {
-    "id": 162,
+    "id": 129,
     "filename": "lic-pair-leather-keychains-tan-and-dark-brown.jpg",
     "image": "/images/real-work/lic-pair-leather-keychains-tan-and-dark-brown.jpg",
     "title": "Pair of LIC Leather Keychains (Tan & Dark Brown)",
@@ -1959,19 +1594,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 163,
-    "filename": "friends-graphics-office-interior-wallpaper-decor.jpg",
-    "image": "/images/real-work/friends-graphics-office-interior-wallpaper-decor.jpg",
-    "title": "Friends Graphics Office Interior Wallpaper & Door Graphics",
-    "titleHi": "फ्रेंड्स ग्राफिक्स ऑफिस इंटीरियर वॉलपेपर व डोर ग्राफिक्स",
-    "category": "workshop",
-    "desc": "Interior consultation office of Friends Graphics showing 3D wallpaper and branded glass doors.",
-    "descHi": "फ्रेंड्स ग्राफिक्स कंसल्टेशन ऑफिस में 3D वॉलपेपर और ब्रांडेड ग्लास डोर।",
-    "specs": "Custom Printed Wall Mural & Frosted Glass Vinyl",
-    "isFeatured": false
-  },
-  {
-    "id": 164,
+    "id": 130,
     "filename": "athletic-sports-track-pants-black.jpg",
     "image": "/images/real-work/athletic-sports-track-pants-black.jpg",
     "title": "Black Athletic Performance Sports Track Pants",
@@ -1983,7 +1606,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 165,
+    "id": 131,
     "filename": "star-health-insurance-custom-leather-keychain.jpg",
     "image": "/images/real-work/star-health-insurance-custom-leather-keychain.jpg",
     "title": "Star Health Insurance Custom Engraved Leather Keychain",
@@ -1995,19 +1618,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 166,
-    "filename": "indee-news-24x7-tv-studio-logo-branding.jpg",
-    "image": "/images/real-work/indee-news-24x7-tv-studio-logo-branding.jpg",
-    "title": "Indee News 24x7 TV Channel Studio Logo & Branding",
-    "titleHi": "इंडी न्यूज 24x7 टीवी चैनल स्टूडियो लोगो व ब्रांडिंग",
-    "category": "printing",
-    "desc": "High-gloss studio logo design, mic flag graphics, and broadcasting branding for 24x7 TV news network.",
-    "descHi": "टीवी न्यूज नेटवर्क हेतु हाई-ग्लॉस स्टूडियो लोगो, माइक फ्लैग और चैनल ब्रांडिंग।",
-    "specs": "Vector RGB Master, High-Resolution Studio Graphics",
-    "isFeatured": false
-  },
-  {
-    "id": 167,
+    "id": 132,
     "filename": "round-self-adhesive-promotional-stickers-sheet.jpg",
     "image": "/images/real-work/round-self-adhesive-promotional-stickers-sheet.jpg",
     "title": "Custom Printed Round Self-Adhesive Stickers on Sheet",
@@ -2019,7 +1630,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 168,
+    "id": 133,
     "filename": "royal-blue-velvet-ceremonial-desk-runner-pennant.jpg",
     "image": "/images/real-work/royal-blue-velvet-ceremonial-desk-runner-pennant.jpg",
     "title": "Royal Blue Velvet Ceremonial Desk Runner Pennant",
@@ -2031,7 +1642,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 169,
+    "id": 134,
     "filename": "artisan-stitching-indian-national-flag-workshop.jpg",
     "image": "/images/real-work/artisan-stitching-indian-national-flag-workshop.jpg",
     "title": "Artisan Stitching Indian National Flag in Workshop",
@@ -2043,7 +1654,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 170,
+    "id": 135,
     "filename": "army-crest-embroidered-athletic-shorts-alt.jpg",
     "image": "/images/real-work/army-crest-embroidered-athletic-shorts-alt.jpg",
     "title": "Military Emblem Athletic Sports Shorts (Black)",
@@ -2055,19 +1666,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 171,
-    "filename": "psl-hospital-3d-acrylic-led-reception-logo-signboard.jpg",
-    "image": "/images/real-work/psl-hospital-3d-acrylic-led-reception-logo-signboard.jpg",
-    "title": "PSL Hospital 3D Acrylic Illuminated LED Reception Signboard",
-    "titleHi": "पीएसएल हॉस्पिटल 3D एक्रेलिक एलईडी रिसेप्शन साइन बोर्ड",
-    "category": "signboards",
-    "desc": "Spectacular 3D illuminated acrylic LED logo and letter signboard installed at hospital reception.",
-    "descHi": "हॉस्पिटल रिसेप्शन हेतु शानदार 3D एक्रेलिक एलईडी इल्यूमिनेटेड लोगो और लेटर साइन बोर्ड।",
-    "specs": "Cast Acrylic 3D Letters, Samsung LED Modules, Glass Mount",
-    "isFeatured": true
-  },
-  {
-    "id": 172,
+    "id": 136,
     "filename": "stage-ceremonial-defense-flags-brass-stands.jpg",
     "image": "/images/real-work/stage-ceremonial-defense-flags-brass-stands.jpg",
     "title": "Stage Ceremonial Defense Flags on Brass Stands",
@@ -2079,7 +1678,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 173,
+    "id": 137,
     "filename": "colonels-academy-school-brass-twin-desk-flags.jpg",
     "image": "/images/real-work/colonels-academy-school-brass-twin-desk-flags.jpg",
     "title": "Colonel's Academy School Brass Twin Desk Flags",
@@ -2091,67 +1690,7 @@ export const realWorkGalleryData = [
     "isFeatured": false
   },
   {
-    "id": 174,
-    "filename": "highway-billboard-interior-design-construction-adinterio.jpg",
-    "image": "/images/real-work/highway-billboard-interior-design-construction-adinterio.jpg",
-    "title": "Highway Billboard Flex Print (ADinterio Interior & Construction)",
-    "titleHi": "हाईवे बिलबोर्ड फ्लेक्स प्रिंट (इंटीरियर डिज़ाइन व कंस्ट्रक्शन)",
-    "category": "signboards",
-    "desc": "Giant commercial outdoor billboard banner printed for luxury architecture & interior design firm.",
-    "descHi": "आर्किटेक्चर और इंटीरियर फर्म हेतु प्रिंटेड विशालकाय हाईवे रोड होर्डिंग बिलबोर्ड।",
-    "specs": "Star Flex 440 GSM, Weather-Resistant UV Inks",
-    "isFeatured": true
-  },
-  {
-    "id": 175,
-    "filename": "3d-acrylic-led-illuminated-glow-letter-sign-serenitea.jpg",
-    "image": "/images/real-work/3d-acrylic-led-illuminated-glow-letter-sign-serenitea.jpg",
-    "title": "3D Acrylic LED Illuminated Glow Sign Letters (Serenitea)",
-    "titleHi": "3D एक्रेलिक एलईडी इल्यूमिनेटेड ग्लो साइन लेटर्स (सेरेनिटी)",
-    "category": "signboards",
-    "desc": "Modern white and green 3D acrylic channel letter storefront signboard with brilliant face glow.",
-    "descHi": "कैफे और लाउंज हेतु शानदार फेस ग्लो के साथ 3D एक्रेलिक एलईडी चैनल लेटर साइन बोर्ड।",
-    "specs": "Cast Acrylic Letters, High-Lumen Waterproof LEDs, ACP Base",
-    "isFeatured": true
-  },
-  {
-    "id": 176,
-    "filename": "3d-acrylic-led-channel-letters-signboard-shoe-mart-nx.jpg",
-    "image": "/images/real-work/3d-acrylic-led-channel-letters-signboard-shoe-mart-nx.jpg",
-    "title": "3D Acrylic LED Channel Letter Storefront Signboard (SHOE MART NX)",
-    "titleHi": "3D एक्रेलिक एलईडी चैनल लेटर स्टोरफ्रंट साइन बोर्ड (शू मार्ट एनएक्स)",
-    "category": "signboards",
-    "desc": "High-impact illuminated 3D channel letters mounted on outdoor storefront facade.",
-    "descHi": "दुकान के अग्रभाग पर लगा हुआ चमकीला 3D एक्रेलिक एलईडी चैनल लेटर बोर्ड।",
-    "specs": "Cast Acrylic 3D Channel Letters, Waterproof IP67 LEDs",
-    "isFeatured": true
-  },
-  {
-    "id": 177,
-    "filename": "3d-acrylic-backlit-logo-signboard-hukkum-mens-wear.jpg",
-    "image": "/images/real-work/3d-acrylic-backlit-logo-signboard-hukkum-mens-wear.jpg",
-    "title": "3D Acrylic Backlit Storefront Signboard (HUKKUM Men's Wear)",
-    "titleHi": "3D एक्रेलिक बैकलिट स्टोरफ्रंट साइन बोर्ड (हुक्कम मेन्स वियर)",
-    "category": "signboards",
-    "desc": "Illuminated white 3D acrylic cut logo and typography on black ACP sheet background.",
-    "descHi": "ब्लैक एसीपी शीट पर ब्राइट वाइट 3D एक्रेलिक कट लोगो और लाइटिंग बोर्ड।",
-    "specs": "3mm Cast Acrylic, Backlit LEDs, Matte Black ACP Sheet",
-    "isFeatured": true
-  },
-  {
-    "id": 178,
-    "filename": "bjp-election-campaign-social-media-banner-dr-raman.jpg",
-    "image": "/images/real-work/bjp-election-campaign-social-media-banner-dr-raman.jpg",
-    "title": "BJP Election Campaign Social Media Banner Poster",
-    "titleHi": "भाजपा चुनावी सोशल मीडिया बैनर पोस्टर (डॉ. रमन सिंह)",
-    "category": "election",
-    "desc": "High-resolution digital campaign creative with national party leadership portraits and lotus emblem.",
-    "descHi": "कमल निशान और शीर्ष नेतृत्व चित्रों के साथ हाई-रिजॉल्यूशन डिजिटल चुनावी पोस्टर।",
-    "specs": "Digital Master RGB Creative, High-Definition Offset Print",
-    "isFeatured": false
-  },
-  {
-    "id": 179,
+    "id": 138,
     "filename": "engraved-brass-office-door-nameplate-reception.jpg",
     "image": "/images/real-work/engraved-brass-office-door-nameplate-reception.jpg",
     "title": "Engraved Solid Brass Office Door Nameplate (Reception)",
@@ -2163,19 +1702,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 180,
-    "filename": "outdoor-acp-sheet-cladding-and-3d-illuminated-letters-acp-works.jpg",
-    "image": "/images/real-work/outdoor-acp-sheet-cladding-and-3d-illuminated-letters-acp-works.jpg",
-    "title": "Outdoor ACP Sheet Cladding & 3D Illuminated Letters (ACP WORKS)",
-    "titleHi": "आउटडोर एसीपी शीट क्लैडिंग व 3D इल्यूमिनेटेड लेटर्स (एसीपी वर्क्स)",
-    "category": "signboards",
-    "desc": "Modern metallic grey ACP sheet architectural facade cladding with 3D illuminated channel letters.",
-    "descHi": "आधुनिक मेटैलिक ग्रे एसीपी शीट फसाड क्लैडिंग और 3D इल्यूमिनेटेड चैनल लेटर्स।",
-    "specs": "4mm Heavy Duty Exterior ACP Cladding, 3D Cast Acrylic Letters",
-    "isFeatured": true
-  },
-  {
-    "id": 181,
+    "id": 139,
     "filename": "product-packaging-pouch-roll-rajshahi-masale.jpg",
     "image": "/images/real-work/product-packaging-pouch-roll-rajshahi-masale.jpg",
     "title": "Product Packaging Pouch Roll Print (Rajshahi Masale)",
@@ -2187,19 +1714,7 @@ export const realWorkGalleryData = [
     "isFeatured": true
   },
   {
-    "id": 182,
-    "filename": "election-management-digital-flyer-vikrant-adams.jpg",
-    "image": "/images/real-work/election-management-digital-flyer-vikrant-adams.jpg",
-    "title": "Election Campaign Management Digital Flyer (Vikrant Adams)",
-    "titleHi": "चुनाव प्रबंधन डिजिटल प्रचार फ्लायर (विक्रांत एडम्स)",
-    "category": "election",
-    "desc": "Political war-room digital marketing banner for constituency election strategy and voter outreach.",
-    "descHi": "विधानसभा और लोकसभा चुनाव प्रबंधन व वॉर-रूम रणनीति प्रचार फ्लायर।",
-    "specs": "High-Definition Digital Campaign Artwork",
-    "isFeatured": false
-  },
-  {
-    "id": 183,
+    "id": 140,
     "filename": "bulk-printed-pvc-id-cards-lanyards-dispatch.jpg",
     "image": "/images/real-work/bulk-printed-pvc-id-cards-lanyards-dispatch.jpg",
     "title": "Bulk Printed PVC Identity Cards with Lanyards Dispatch",

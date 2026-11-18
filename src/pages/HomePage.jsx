@@ -55,9 +55,9 @@ export default function HomePage() {
     <div className="space-y-0">
       <SEOHead
         title="Friends Graphics — चुनाव प्रचार सामग्री एवं Printing Services in Patna"
-        description="Bihar's leading printing press & wholesale election campaign material hub in Bari Path, Patna. Plastic & nylon flags, candidate posters, canopy tents, LED sign boards & offset printing."
+        description="Bihar's leading printing press & wholesale election campaign material hub in Bari Path, Patna. Candidate rally flags, posters, canopy tents, flex banners & offset printing."
         canonicalPath="/"
-        keywords="printing press patna, chunav prachar samagri bihar, election flag manufacturer patna, flex printing bari path, led acrylic sign board, bari path printing shop"
+        keywords="printing press patna, chunav prachar samagri bihar, election flag manufacturer patna, flex printing bari path, election materials bihar, bari path printing shop"
         schemaJson={homeSchema}
       />
 
@@ -92,7 +92,7 @@ export default function HomePage() {
 
             {/* Subheadline */}
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-6 max-w-2xl">
-              <strong>प्लास्टिक व नायलॉन झंडे, चुनावी पोस्टर, फ्लेक्स बैनर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और वोटर पर्ची</strong> — सीधे फैक्ट्री थोक भाव पर। 24 से 48 घंटे में पूरे बिहार में सुपरफास्ट डिलीवरी।
+              <strong>सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी प्रचार सामग्री</strong> — कपड़ा व साटन झंडे, चुनावी पोस्टर, फ्लेक्स बैनर, वाटरप्रूफ कैनोपी टेंट, प्रचार टोपी, बैज, टी-शर्ट और वोटर पर्ची — सीधे फैक्ट्री थोक भाव पर। 24 से 48 घंटे में पूरे बिहार व पूर्वी उत्तर प्रदेश में सुपरफास्ट डिलीवरी।
             </p>
 
             {/* CTA Buttons */}
@@ -153,8 +153,8 @@ export default function HomePage() {
                   <Layers className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="text-xs sm:text-sm font-bold text-white leading-tight">पूरे बिहार में डिलीवरी</div>
-                  <div className="text-[11px] text-slate-400">24 to 48 Hours Dispatch</div>
+                  <div className="text-xs sm:text-sm font-bold text-white leading-tight">पूरे बिहार व UP सीमावर्ती डिलीवरी</div>
+                  <div className="text-[11px] text-slate-400">बिहार + बलिया, कुशीनगर, देवरिया (24-36h)</div>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function HomePage() {
               </div>
               <div>
                 <div className="text-xs font-black text-white">चुनावी झंडे • थोक भाव</div>
-                <div className="text-[11px] text-amber-300 font-semibold">प्लास्टिक, नायलॉन व साटन</div>
+                <div className="text-[11px] text-amber-300 font-semibold">कपड़ा, साटन व पेपर झंडे</div>
               </div>
             </div>
 
@@ -212,10 +212,10 @@ export default function HomePage() {
               <span>कमर्शियल व अन्य प्रिंटिंग • Commercial Catalog</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white">
-              Complete Printing &amp; Signage <span className="brand-gradient-text">Under One Roof</span>
+              Complete Printing &amp; Election Solutions <span className="brand-gradient-text">Under One Roof</span>
             </h2>
             <p className="text-sm sm:text-base text-slate-400 mt-2">
-              From everyday business stationery and LED signboards to retail packaging and large-format commercial prints, Friends Graphics has you covered.
+              From candidate election kits and promotional flags to commercial offset printing, ID cards, and custom packaging, Friends Graphics has you covered.
             </p>
           </div>
 
@@ -319,7 +319,7 @@ export default function HomePage() {
                 <div className="grid grid-cols-2 gap-2 text-xs text-slate-200">
                   {[
                     "Business Promotions",
-                    "Shop & Showroom Signage",
+                    "Shop & Showroom Banners",
                     "Political & Social Events",
                     "School & College Campaigns",
                     "Product Launches",

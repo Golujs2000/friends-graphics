@@ -8,7 +8,7 @@ import { getBreadcrumbSchema } from '../data/schemaData';
 export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  const categories = ['All', 'Election Publicity (चुनाव प्रचार)', 'Signage & LED Boards (साइनेज व बोर्ड)', 'Commercial Printing (कमर्शियल प्रिंटिंग)'];
+  const categories = ['All', 'Election Publicity (चुनाव प्रचार)', 'Commercial Printing (कमर्शियल प्रिंटिंग)'];
 
   const filteredPosts = selectedCategory === 'All'
     ? blogPosts
@@ -22,10 +22,10 @@ export default function BlogPage() {
   return (
     <div className="py-12 sm:py-16 space-y-16">
       <SEOHead
-        title="Printing & Signage Guides, Cost Comparisons & Technical Advice"
-        description="Expert printing guides by Friends Graphics Patna. In-depth technical articles on election campaign materials, 3D acrylic sign boards, paper GSM selection, and cost comparisons."
+        title="Printing & Election Campaign Guides, Cost Comparisons & Technical Advice"
+        description="Expert printing and campaign guides by Friends Graphics Patna. In-depth technical articles on election materials (सांसद, विधायक, मुखिया), paper GSM selection, and wholesale pricing."
         canonicalPath="/blog"
-        keywords="election printing guide bihar, acrylic sign board vs acp glow sign, paper gsm chart, printing press patna guide"
+        keywords="election printing guide bihar, chunav prachar samagri guide, paper gsm chart, printing press patna guide, ballia kushinagar printing"
         schemaJson={getBreadcrumbSchema(breadcrumbs)}
       />
 
@@ -34,7 +34,7 @@ export default function BlogPage() {
         <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs font-semibold text-slate-400">
           <Link to="/" className="hover:text-[#ff6a00] transition-colors">Home</Link>
           <span>/</span>
-          <span className="text-[#ff6a00]">Printing &amp; Signage Guides</span>
+          <span className="text-[#ff6a00]">Printing &amp; Election Guides</span>
         </nav>
 
         {/* Page Header */}
@@ -49,7 +49,7 @@ export default function BlogPage() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Written by master print technologist <strong>Ranjan Sharma</strong> with over 12+ years of field experience in Patna, Bihar. Learn technical paper weights, flag substrates, sign board fabrication, and cost optimization.
+            Written by master print technologist <strong>Ranjan Sharma</strong> with over 12+ years of field experience in Patna, Bihar. Learn technical paper weights, flag substrates, campaign planning, and cost optimization.
           </p>
 
           {/* Category Filter */}

@@ -9,15 +9,15 @@ import { getBreadcrumbSchema } from '../data/schemaData';
 
 export default function SitemapPage() {
   const electionServices = servicesData.filter((s) =>
-    ['plastic-election-flag', 'paper-election-flag', 'nylon-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services'].includes(s.slug)
+    ['rally-election-flag', 'paper-election-flag', 'satin-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services', 'promotional-canopy-tent', 'candidate-badges-caps-printing'].includes(s.slug)
   );
 
-  const signageServices = servicesData.filter((s) =>
-    ['led-acrylic-sign-board', 'led-acp-glow-sign-board', 'outdoor-acp-sign-board', 'brass-sign-board', 'led-sign-boards'].includes(s.slug)
+  const merchandiseServices = servicesData.filter((s) =>
+    ['custom-tshirt-printing', 'non-woven-carry-bag-printing', 'promotional-canopy-tent', 'candidate-badges-caps-printing', 'id-card-printing-services'].includes(s.slug)
   );
 
   const commercialServices = servicesData.filter((s) =>
-    !electionServices.some((e) => e.slug === s.slug) && !signageServices.some((sg) => sg.slug === s.slug)
+    !electionServices.some((e) => e.slug === s.slug) && !merchandiseServices.some((m) => m.slug === s.slug)
   );
 
   const breadcrumbs = [
@@ -29,7 +29,7 @@ export default function SitemapPage() {
     <div className="py-12 sm:py-16 space-y-16">
       <SEOHead
         title="HTML Sitemap — Complete Crawlable Index of All Services & Guides"
-        description="Complete site index for Friends Graphics Patna. Direct crawlable navigation links to all election materials, commercial printing services, sign boards, location hubs, and technical guides."
+        description="Complete site index for Friends Graphics Patna. Direct crawlable navigation links to all election materials, custom apparel & bags, commercial printing services, location hubs, and technical guides."
         canonicalPath="/sitemap"
         keywords="sitemap friends graphics, website index patna printing press"
         schemaJson={getBreadcrumbSchema(breadcrumbs)}
@@ -137,24 +137,24 @@ export default function SitemapPage() {
             </ul>
           </div>
 
-          {/* 3. Signage & LED Boards */}
+          {/* 3. Custom Apparel & Merchandise */}
           <div className="bg-[#0f1422] border border-white/10 rounded-2xl p-6 space-y-4">
             <h2 className="text-lg font-bold text-white flex items-center gap-2 border-b border-white/10 pb-3">
               <Building2 className="w-5 h-5 text-[#ff6a00]" />
-              <span>Signage &amp; LED Glow Boards</span>
+              <span>Apparel, Bags &amp; Merchandise</span>
             </h2>
             <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
-                <Link to="/services?category=signage" className="text-[#ff6a00] font-semibold hover:text-white flex items-center gap-1.5">
+                <Link to="/services?category=merchandise" className="text-[#ff6a00] font-semibold hover:text-white flex items-center gap-1.5">
                   <ArrowRight className="w-3.5 h-3.5 text-[#ff6a00]" />
-                  <span>All Signage Solutions</span>
+                  <span>All Merchandise &amp; T-Shirts</span>
                 </Link>
               </li>
-              {signageServices.map((s) => (
+              {merchandiseServices.map((s) => (
                 <li key={s.slug}>
                   <Link to={`/services/${s.slug}`} className="text-slate-300 hover:text-[#ff6a00] flex items-center gap-1.5">
                     <ArrowRight className="w-3.5 h-3.5 text-[#ff6a00]" />
-                    <span>{s.title}</span>
+                    <span>{s.hindiTitle ? `${s.hindiTitle} (${s.title})` : s.title}</span>
                   </Link>
                 </li>
               ))}

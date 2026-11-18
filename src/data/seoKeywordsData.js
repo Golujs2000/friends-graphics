@@ -10,8 +10,8 @@ export const keywordResearchData = {
     "Chunav Prachar Samagri Patna (चुनाव प्रचार सामग्री पटना)",
     "Election campaign material manufacturer Bihar",
     "Flex printing services in Patna",
-    "LED acrylic sign board manufacturer Patna",
-    "ACP glow sign board Patna",
+    "Custom election t-shirt and cap printing Patna",
+    "Promotional canopy tents manufacturer Bihar",
     "Commercial offset printing press Patna",
     "Bari Path printing press",
     "Machhua Toli printing market"
@@ -24,31 +24,32 @@ export const keywordResearchData = {
     "Bill book printing services in Patna",
     "ID card printing in Kankarbagh Patna",
     "Poster printing near Boring Road Patna",
-    "Sign board maker in Patna Bihar",
+    "Candidate publicity kit manufacturer Patna",
     "Best printing press in Bihar",
     "T-flag and car flag maker in Patna"
   ],
   transactionalKeywords: [
     "Wholesale election flag price list Bihar",
-    "Buy plastic election flags wholesale",
+    "Buy election rally flags wholesale Patna",
+    "Chunav prachar flags supplier Ballia Kushinagar",
     "Order canopy tents for election campaign",
     "Get instant quote for flex printing Patna",
-    "Hire sign board maker Patna",
-    "Cost of 3D acrylic LED letter sign board",
+    "Election flags supplier Ballia Kushinagar UP",
+    "Cost of candidate election publicity kit",
     "Cheapest offset poster printing rate Patna",
     "Contact printing press Bari Path Patna"
   ],
   longTailKeywords: [
-    "Where to buy biodegradable plastic election flags in Patna",
+    "Where to buy woven cloth election flags in Patna",
     "Affordable waterproof candidate posters and banners Bihar",
     "Custom carbonless NCR bill book manufacturer for wholesale shops",
-    "Best LED ACP glow sign board installation in Bihar",
+    "Best election flags and canopy tent manufacturer in Bihar",
     "Heidelberg offset bulk book and study material printing Patna",
     "Fast same day flex banner printing near railway station Patna"
   ],
   informationalKeywords: [
     "Flag Code of India rules for national flag printing",
-    "Difference between acrylic sign board and ACP glow sign",
+    "Difference between cloth election flags and paper rally flags",
     "What GSM art paper is best for political campaign posters",
     "Difference between Star Flex and normal flex banner",
     "How to setup folding canopy tent in 2 minutes for voting day",
@@ -71,7 +72,7 @@ export const keywordResearchData = {
 export const pageKeywordMapping = {
   "/": {
     targetKeyword: "Printing Press in Patna & Election Campaign Material Hub",
-    secondaryKeywords: ["Chunav Prachar Samagri", "Flex printing Patna", "Sign board maker Bari Path"],
+    secondaryKeywords: ["Chunav Prachar Samagri", "Flex printing Patna", "Election campaign hub Bari Path"],
     searchIntent: "Commercial & Local Navigational",
     h1: "चुनाव प्रचार सामग्री एवं संपूर्ण प्रिंटिंग Solutions in Patna"
   },
@@ -80,18 +81,17 @@ export const pageKeywordMapping = {
     secondaryKeywords: ["Offset printing services", "Digital flex printing", "Commercial signage"],
     searchIntent: "Commercial Investigation",
     h1: "Printing & Election Services in Patna, Bihar"
-  },
-  "/services/plastic-election-flag": {
-    targetKeyword: "Plastic Election Flag Wholesale Manufacturer Patna (प्लास्टिक चुनाव झंडा)",
-    secondaryKeywords: ["Biodegradable election flag Bihar", "Election bunting garland flags"],
+  },  "/services/rally-election-flag": {
+    targetKeyword: "Election Rally Flag Wholesale Manufacturer Patna (चुनावी रैली झंडा)",
+    secondaryKeywords: ["Cloth election flag Bihar", "Election bunting garland flags"],
     searchIntent: "Transactional Bulk",
-    h1: "Plastic Election Flag (प्लास्टिक चुनाव झंडा)"
+    h1: "Election Rally Flag (चुनावी रैली झंडा)"
   },
-  "/services/nylon-election-flag": {
-    targetKeyword: "Knitted Nylon Election Flag for Vehicles & HQ (नायलॉन चुनाव झंडा)",
+  "/services/satin-election-flag": {
+    targetKeyword: "Fabric & Satin Election Flag for Vehicles & HQ (साटन चुनाव झंडा)",
     secondaryKeywords: ["Car hood flag Scorpio Bolero", "Satin election flag Patna"],
     searchIntent: "Transactional",
-    h1: "Nylon & Satin Election Flag (नायलॉन एवं साटन चुनाव झंडा)"
+    h1: "Fabric & Satin Election Flag (साटन एवं फैब्रिक चुनाव झंडा)"
   },
   "/services/election-campaign-poster": {
     targetKeyword: "Election Campaign Poster Printing Patna (चुनावी प्रचार पोस्टर)",
@@ -111,11 +111,11 @@ export const pageKeywordMapping = {
     searchIntent: "Commercial / Transactional",
     h1: "Flex Printing Services (Star Flex & Iron Frames)"
   },
-  "/services/led-acrylic-sign-board": {
-    targetKeyword: "3D Acrylic LED Letter Sign Board Manufacturer Patna",
-    secondaryKeywords: ["Glow sign board Bari Path", "Outdoor shop facade letters"],
-    searchIntent: "Commercial Investigation / Transactional",
-    h1: "LED Acrylic Sign Board (3D Glowing Letters)"
+  "/services/promotional-canopy-tent": {
+    targetKeyword: "Promotional Canopy Tents & Gazebos Manufacturer Patna (प्रचार कैनोपी टेंट)",
+    secondaryKeywords: ["Folding campaign tent 6x6 10x10", "Voter helpdesk gazebo", "Outdoor roadshow booth"],
+    searchIntent: "Commercial / Transactional",
+    h1: "Promotional Canopy Tents & Gazebos (प्रचार कैनोपी टेंट)"
   },
   "/locations": {
     targetKeyword: "Printing Press Service Areas in Patna & Bihar Districts",
@@ -124,10 +124,10 @@ export const pageKeywordMapping = {
     h1: "Printing Services & Election Material Supply Across Patna & Bihar"
   },
   "/blog": {
-    targetKeyword: "Printing & Signage Guides, Cost Comparisons & Industry Insights",
-    secondaryKeywords: ["Election printing guide Bihar", "Sign board comparison", "Paper GSM guide"],
+    targetKeyword: "Printing & Election Campaign Guides, Cost Comparisons & Industry Insights",
+    secondaryKeywords: ["Election printing guide Bihar", "Candidate publicity guide", "Paper GSM guide"],
     searchIntent: "Informational",
-    h1: "Printing & Signage Knowledge Hub — Expert Guides"
+    h1: "Commercial Printing & Election Knowledge Hub — Expert Guides"
   },
   "/faqs": {
     targetKeyword: "Printing Services FAQs Patna",

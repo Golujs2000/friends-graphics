@@ -15,7 +15,7 @@ export function getLocalBusinessSchema() {
     '@id': `${SITE_URL}/#localbusiness`,
     name: companyDetails.name,
     alternateName: [companyDetails.hindiName, 'Friends Graphics Patna', 'फ्रेंड्स ग्राफिक्स'],
-    description: 'Premier printing press and wholesale manufacturer of election campaign publicity materials (Chunav Prachar Samagri), LED acrylic signboards, star flex banners, and commercial offset printing in Patna, Bihar since 2014.',
+    description: 'Premier printing press and wholesale manufacturer of election campaign publicity materials (Chunav Prachar Samagri), candidate flags, custom t-shirts, canopy tents, star flex banners, and commercial offset printing in Patna, Bihar since 2014.',
     url: SITE_URL,
     logo: LOGO_URL,
     image: [
@@ -57,6 +57,12 @@ export function getLocalBusinessSchema() {
         ],
         opens: '10:00',
         closes: '20:30'
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Sunday'],
+        opens: '13:00',
+        closes: '21:00'
       }
     ],
     priceRange: '₹₹',
@@ -70,8 +76,12 @@ export function getLocalBusinessSchema() {
       { '@type': 'AdministrativeArea', name: 'Kankarbagh' },
       { '@type': 'AdministrativeArea', name: 'Boring Road' },
       { '@type': 'AdministrativeArea', name: 'Patna City' },
+      { '@type': 'AdministrativeArea', name: 'Ballia (Eastern UP)' },
+      { '@type': 'AdministrativeArea', name: 'Kushinagar (Eastern UP)' },
+      { '@type': 'AdministrativeArea', name: 'Deoria (Eastern UP)' },
       { '@type': 'State', name: 'Bihar' },
-      { '@type': 'State', name: 'Jharkhand' }
+      { '@type': 'State', name: 'Jharkhand' },
+      { '@type': 'State', name: 'Uttar Pradesh' }
     ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -81,19 +91,21 @@ export function getLocalBusinessSchema() {
           '@type': 'OfferCatalog',
           name: 'Chunav Prachar Samagri (Election Publicity Materials)',
           itemListElement: [
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Plastic Election Flag (प्लास्टिक चुनाव झंडा)' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Nylon & Satin Election Flag (नायलॉन चुनाव झंडा)' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paper Election Flag (कागज़ चुनाव झंडा)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Election Campaign Rally Flag (चुनावी रैली झंडा)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Fabric & Satin Election Flag (साटन व फैब्रिक चुनाव झंडा)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paper Election Flag (काग़ज़ चुनाव झंडा)' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Election Campaign Poster (चुनावी पोस्टर)' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Canopy Tents & Campaign Kits (कैनोपी टेंट)' } }
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Canopy Tents & Campaign Kits (कैनोपी टेंट)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Custom Campaign T-Shirts (कस्टम टी-शर्ट)' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Candidate Badges & Caps (प्रत्याशी बैज व टोपी)' } }
           ]
         },
         {
           '@type': 'OfferCatalog',
-          name: 'Signage & Commercial Printing',
+          name: 'Merchandise & Commercial Offset Printing',
           itemListElement: [
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Flex Printing Services' } },
-            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'LED Acrylic Sign Board' } },
+            { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Non-Woven Promotional Carry Bags' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Carbonless Bill Books' } },
             { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Offset Printing' } }
           ]

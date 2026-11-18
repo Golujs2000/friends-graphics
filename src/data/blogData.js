@@ -3,7 +3,7 @@ export const blogPosts = [
     id: "blog-01",
     slug: "bihar-election-campaign-materials-guide",
     title: "Complete Guide to Election Campaign Materials in Bihar (चुनाव प्रचार सामग्री थोक गाइड)",
-    subtitle: "Everything candidates and campaign war rooms need to know about plastic vs nylon flags, wall posters, canopy tents, and Flag Code compliance.",
+    subtitle: "Everything candidates and campaign war rooms need to know about cloth, satin & paper flags, wall posters, canopy tents, and Flag Code compliance.",
     excerpt: "A comprehensive wholesale guide for Lok Sabha, Vidhan Sabha, and Panchayat elections in Bihar covering flag substrates, candidate wall posters, waterproof canopy tents, and bulk procurement strategies.",
     category: "Election Publicity (चुनाव प्रचार)",
     author: "Ranjan Sharma",
@@ -12,7 +12,7 @@ export const blogPosts = [
     readTime: "7 min read",
     coverImage: "/images/plastic_election_flags.jpg",
     tableOfContents: [
-      { id: "flag-substrates", title: "1. Comparing Flag Substrates: Plastic, Nylon & Paper" },
+      { id: "flag-substrates", title: "1. Comparing Flag Substrates: Cloth, Satin & Paper" },
       { id: "poster-specs", title: "2. Candidate Wall Posters: Sizing, Paper GSM & Offsets" },
       { id: "canopy-tents", title: "3. Voter Assistance Canopy Tents for Booth Day" },
       { id: "campaign-kits", title: "4. Volunteer Merchandise: Badges, Caps & T-Shirts" },
@@ -24,13 +24,13 @@ export const blogPosts = [
         Political campaigning in Bihar is dynamic, high-energy, and demanding. Whether running for <strong>Vidhan Sabha, Lok Sabha, Municipal Corporation (Nagar Nigam), or Panchayat elections</strong>, having razor-sharp, weather-resistant, and high-visibility election publicity materials (<strong>चुनाव प्रचार सामग्री</strong>) makes all the difference in voter mindshare.
       </p>
 
-      <h2 id="flag-substrates" class="text-2xl font-bold text-white mt-8 mb-4">1. Comparing Flag Substrates: Plastic, Nylon & Paper</h2>
+      <h2 id="flag-substrates" class="text-2xl font-bold text-white mt-8 mb-4">1. Comparing Flag Substrates: Cloth, Satin & Paper</h2>
       <p class="text-slate-300 mb-4 leading-relaxed">
         Selecting the proper flag substrate depends on the campaign environment and distribution scale:
       </p>
       <ul class="list-disc pl-6 space-y-2 text-slate-300 mb-6">
-        <li><strong>Virgin Biodegradable Plastic Flags (प्लास्टिक झंडा):</strong> Ideal for door-to-door distribution, street garland bunting (50 flags/string), and motorcycle rallies. Engineered with 35–50 micron virgin film to withstand sudden rain and high winds without ink bleeding.</li>
-        <li><strong>Knitted Nylon & Satin Flags (नायलॉन व साटन झंडा):</strong> Designed for candidate SUV car hoods (Scorpio, Bolero, Fortuner), party office headquarters, and stage backdrops. Warp-knitted 120–140 GSM polyester with double-needle lockstitching ensures longevity across multi-week campaign yatras.</li>
+        <li><strong>Woven Cloth & Rally Flags (कपड़ा व रैली झंडा):</strong> Ideal for door-to-door distribution, street garland bunting (50 flags/string), mass mobilization, and motorcycle rallies. Engineered with lightweight, rain-resistant woven fabric to withstand sudden rain and high winds without ink bleeding.</li>
+        <li><strong>Warp-Knitted Satin & Fabric Flags (साटन व फैब्रिक झंडा):</strong> Designed for candidate SUV car hoods (Scorpio, Bolero, Fortuner), party office headquarters, and stage backdrops. Warp-knitted 120–140 GSM polyester and heavy satin with double-needle lockstitching ensures longevity across multi-week campaign yatras.</li>
         <li><strong>Gloss Paper Flags (कागज़ झंडा):</strong> Printed on 130–170 GSM gloss art paper with lightweight sticks, perfect for mega rallies and worker mobilization where cost-efficiency per 10,000 units is paramount.</li>
       </ul>
 
@@ -88,92 +88,66 @@ export const blogPosts = [
         Friends Graphics operates high-speed offset and flex machinery at Bari Path, Patna, producing over 100,000 flags and posters daily. We provide direct factory wholesale rates and dispatch orders to all 38 districts of Bihar within 24 to 48 hours via dedicated bus parcels and train couriers.
       </p>
     `,
-    relatedServiceSlug: "plastic-election-flag",
-    relatedServiceTitle: "Plastic Election Flag (प्लास्टिक चुनाव झंडा)"
+    relatedServiceSlug: "rally-election-flag",
+    relatedServiceTitle: "Election Campaign Rally Flag (चुनावी रैली झंडा)"
   },
   {
     id: "blog-02",
-    slug: "acrylic-vs-acp-glow-sign-board-patna-guide",
-    title: "Choosing the Right Sign Board in Patna: 3D Acrylic LED vs ACP Glow Sign vs Brass Board",
-    subtitle: "A practical buyer's guide for retail storefronts, showrooms, hospitals, and corporate offices in Bihar.",
-    excerpt: "Compare durability, illumination, pricing per sq. ft., and aesthetic impact among 3D Acrylic LED Letters, CNC Routed ACP Glow Signs, and Cast Brass Signboards in Patna.",
-    category: "Signage & LED Boards (साइनेज व बोर्ड)",
+    slug: "bihar-election-candidate-publicity-guide",
+    title: "Complete Election Campaign Kit Guide: सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी प्रचार रणनीति",
+    subtitle: "Strategic roadmap for political candidates in Bihar & Eastern UP to plan bulk rally flags, candidate wall posters, waterproof canopy tents, and voter slips.",
+    excerpt: "Comprehensive election campaign kit planning for सांसद, विधायक, जिला परिषद, मुखिया, चेयरमैन एवं मेयर प्रत्याशी. Complete guide on flags, candidate posters, canopy tents, LED batons, and express 24-hr dispatch to Bihar & UP border districts.",
+    category: "Chunav Samagri (चुनाव प्रचार)",
     author: "Ranjan Sharma",
-    authorRole: "Proprietor & Master Print Specialist, Friends Graphics Patna",
-    publishedDate: "2026-10-22",
-    readTime: "6 min read",
-    coverImage: "/images/ACP Sign Board & Cladding.png",
+    authorRole: "Proprietor & Election Print Specialist, Friends Graphics Patna",
+    publishedDate: "2026-10-25",
+    readTime: "7 min read",
+    coverImage: "/images/campaign_posters.jpg",
     tableOfContents: [
-      { id: "overview", title: "1. Why Outdoor Signage Defines Your Business Footfall" },
-      { id: "acrylic-letters", title: "2. 3D Acrylic LED Letter Signboards" },
-      { id: "acp-glow", title: "3. CNC Routed ACP Glow Signboards" },
-      { id: "brass-boards", title: "4. Mirror-Polished Brass & Stainless Steel Boards" },
-      { id: "cost-comparison", title: "5. Cost & Durability Comparison in Patna" }
+      { id: "candidate-hierarchy", title: "1. Hierarchy-Wise Campaign Strategy: Sansad to Mayor" },
+      { id: "core-kit-components", title: "2. Essential Kit: Flags, Posters, Tents & Batons" },
+      { id: "logistics-up-border", title: "3. Express 24-Hour Dispatch to Bihar & UP Border Districts" },
+      { id: "budget-planning", title: "4. Factory Wholesale Slab Pricing & Turnaround" }
     ],
     contentHtml: `
       <p class="lead text-lg text-slate-300 mb-6">
-        In bustling commercial corridors like <strong>Bari Path, Boring Road, Kankarbagh, and Bailey Road</strong> in Patna, a storefront signboard is your 24/7 silent salesperson. Selecting the right board material balances visual elegance, weather resistance against Patna's monsoon, and electrical durability.
+        Whether running for <strong>सांसद (Lok Sabha), विधायक (Vidhan Sabha), जिला परिषद (Zila Parishad), मुखिया (Gram Panchayat), चेयरमैन (Nagar Parishad), or मेयर (Nagar Nigam)</strong>, campaign visibility across streets, booths, and rallies determines voter recall on polling day.
       </p>
 
-      <h2 id="acrylic-letters" class="text-2xl font-bold text-white mt-8 mb-4">1. 3D Acrylic LED Letter Signboards</h2>
-      <p class="text-slate-300 mb-4 leading-relaxed">
-        3D Acrylic letters are fabricated using cast virgin acrylic sheets (3mm to 6mm thickness) laser-cut into individual letter profiles. Illumination is provided by IP67 waterproof LED injection modules (Samsung or Osram chips) mounted inside or behind the letters for edge-glow or halo backlighting.
+      <h2 id="candidate-hierarchy" class="text-2xl font-bold text-white mt-8 mb-4">1. Hierarchy-Wise Campaign Strategy: Sansad to Mayor</h2>
+      <p class="text-slate-300 leading-relaxed mb-4">
+        Every level of election demands a focused distribution mix:
       </p>
-      <ul class="list-disc pl-6 space-y-2 text-slate-300 mb-6">
-        <li><strong>Best For:</strong> Fashion boutiques, corporate brand showrooms, restaurants, and electronics retail outlets.</li>
-        <li><strong>Key Advantage:</strong> Luxurious 3D depth, crystal-clear night illumination, and 50,000+ hours LED lifespan.</li>
+      <ul class="list-disc list-inside space-y-3 text-slate-300 ml-2 mb-6">
+        <li><strong>सांसद (Member of Parliament):</strong> High-volume constituency coverage spanning multiple assembly segments. Requires 50,000+ rally flags, 20,000+ 18x24 inch posters, 50+ canopy tents for road intersections, and illuminated LED handheld batons for massive evening roadshows.</li>
+        <li><strong>विधायक (Member of Legislative Assembly):</strong> Assembly-wide saturation with candidate portrait posters at every marketplace, vehicle satin flags on 20+ campaign SUVs, branded caps and T-shirts for booth agents.</li>
+        <li><strong>जिला परिषद (Zila Parishad) & मुखिया (Mukhiya):</strong> Intensive village-level, tola, and panchayat saturation with durable fabric flags, door-to-door paper flags with symbol clarity, voter identity slips, and candidate badges.</li>
+        <li><strong>चेयरमैन एवं मेयर (Chairman & Mayor):</strong> Urban municipal ward coverage utilizing high-contrast flex banners, street garland buntings, and branded information kiosks.</li>
       </ul>
 
-      <h2 id="acp-glow" class="text-2xl font-bold text-white mt-8 mb-4">2. CNC Routed ACP Glow Signboards</h2>
-      <p class="text-slate-300 mb-4 leading-relaxed">
-        Aluminium Composite Panels (ACP) offer high structural rigidity. In an ACP Glow Sign, letters and logos are precision routed using CNC milling machines, with translucent acrylic inserted from behind and illuminated by high-output LED modules.
+      <h2 id="core-kit-components" class="text-2xl font-bold text-white mt-8 mb-4">2. Essential Kit: Flags, Posters, Tents & Batons</h2>
+      <p class="text-slate-300 leading-relaxed mb-4">
+        At Friends Graphics Bari Path, all key items are manufactured under one roof:
       </p>
-      <ul class="list-disc pl-6 space-y-2 text-slate-300 mb-6">
-        <li><strong>Best For:</strong> Pharmacies, clinics, coaching institutes, grocery supermarkets, and large road facades.</li>
-        <li><strong>Key Advantage:</strong> 100% weather-proof, rust-proof, resistant to fading in harsh sunlight, and highly cost-efficient.</li>
+      <ul class="list-disc list-inside space-y-3 text-slate-300 ml-2 mb-6">
+        <li><strong>Woven Cloth & Paper Rally Flags:</strong> Mounted on wooden sticks or stitched in strings of 50 for rapid street hanging.</li>
+        <li><strong>Satin Car & Vehicle Flags:</strong> Heavy-duty knitted fabric and satin for Scorpio, Bolero, and Thar campaign vehicles.</li>
+        <li><strong>Handheld LED Batons:</strong> Rechargeable acrylic LED batons with laser-etched party symbols for high-energy night yatras.</li>
+        <li><strong>Waterproof Folding Canopy Tents:</strong> 6x6 ft and 10x10 ft instant pop-up gazebos for voter helpdesks.</li>
       </ul>
 
-      <h2 id="brass-boards" class="text-2xl font-bold text-white mt-8 mb-4">3. Mirror-Polished Brass & SS Signboards</h2>
-      <p class="text-slate-300 mb-4 leading-relaxed">
-        For executive institutions, high-court legal chambers, government administrative suites, and historic institutions, solid brass and grade 304 stainless steel signboards provide timeless prestige with chemical etching and golden titanium PVD coatings.
+      <h2 id="logistics-up-border" class="text-2xl font-bold text-white mt-8 mb-4">3. Express 24-Hour Dispatch to Bihar & UP Border Districts</h2>
+      <p class="text-slate-300 leading-relaxed mb-4">
+        Time is critical during the campaign window. Friends Graphics operates a dedicated 24/7 campaign control room during elections, providing overnight express delivery across all 38 Bihar districts and Eastern Uttar Pradesh bordering districts (<strong>Ballia, Kushinagar, Deoria, Ghazipur, Chandauli, Maharajganj</strong>).
       </p>
 
-      <h2 id="cost-comparison" class="text-2xl font-bold text-white mt-8 mb-4">4. Summary Comparison</h2>
-      <div class="overflow-x-auto my-6">
-        <table class="w-full text-left text-sm text-slate-300 border border-white/10 rounded-xl">
-          <thead class="bg-white/5 text-white font-bold">
-            <tr>
-              <th class="p-3 border-b border-white/10">Type</th>
-              <th class="p-3 border-b border-white/10">Lifespan</th>
-              <th class="p-3 border-b border-white/10">Weather Resistance</th>
-              <th class="p-3 border-b border-white/10">Visual Impact</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="border-b border-white/5">
-              <td class="p-3 font-semibold text-white">3D Acrylic LED</td>
-              <td class="p-3">5 - 7 Years</td>
-              <td class="p-3">High (IP67 Ingress)</td>
-              <td class="p-3">Ultra Premium Modern</td>
-            </tr>
-            <tr class="border-b border-white/5">
-              <td class="p-3 font-semibold text-white">ACP Glow Sign</td>
-              <td class="p-3">7 - 10 Years</td>
-              <td class="p-3">Highest (Aluminium Core)</td>
-              <td class="p-3">Bold & Crisp Storefront</td>
-            </tr>
-            <tr>
-              <td class="p-3 font-semibold text-white">Brass / SS Metal</td>
-              <td class="p-3">15+ Years</td>
-              <td class="p-3">Immune to Rust</td>
-              <td class="p-3">Prestigious & Formal</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h2 id="budget-planning" class="text-2xl font-bold text-white mt-8 mb-4">4. Factory Wholesale Slab Pricing & Turnaround</h2>
+      <p class="text-slate-300 leading-relaxed mb-4">
+        By manufacturing directly in our own Bari Path workshop, candidates eliminate middleman commissions, saving 30% to 45% on bulk publicity budgets with guaranteed on-time field delivery.
+      </p>
     `,
-    relatedServiceSlug: "led-acrylic-sign-board",
-    relatedServiceTitle: "LED Acrylic Sign Board (3D Glowing Letters)"
+    relatedServiceSlug: "election-management-services",
+    relatedServiceTitle: "Election Campaign Management Services (चुनाव प्रबंधन सेवाएं)"
   },
   {
     id: "blog-03",
@@ -218,7 +192,7 @@ export const blogPosts = [
       <ul class="list-disc pl-6 space-y-2 text-slate-300 mb-6">
         <li><strong>Normal Flex (240 - 280 GSM):</strong> Suitable for short-term promotional banners, one-day events, and indoor temporary decorations.</li>
         <li><strong>Star Flex (340 - 440 GSM):</strong> High-tensile woven polyester fabric with superior tear resistance, high-gloss surface finish, and deep ink absorption for road hoardings that withstand severe wind and rain.</li>
-        <li><strong>Backlit Flex:</strong> Specially engineered translucent flex with optimal light dispersion for illuminated night signboards.</li>
+        <li><strong>Backlit Flex:</strong> Specially engineered translucent flex with optimal light dispersion for illuminated lightboxes and outdoor hoardings.</li>
       </ul>
     `,
     relatedServiceSlug: "flex-printing-services",

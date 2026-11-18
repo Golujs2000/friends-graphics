@@ -21,10 +21,14 @@ import { getServiceSchema, getBreadcrumbSchema } from '../data/schemaData';
 export default function ServiceDetailPage() {
   const { slug } = useParams();
   const [previewImage, setPreviewImage] = useState(null);
-  const service = servicesData.find((s) => s.slug === slug);
+  const service = servicesData.find((s) => s.slug === slug || s.aliases?.includes(slug));
 
   if (!service) {
     return <Navigate to="/services" replace />;
+  }
+
+  if (service.slug !== slug) {
+    return <Navigate to={`/services/${service.slug}`} replace />;
   }
 
   const breadcrumbs = [

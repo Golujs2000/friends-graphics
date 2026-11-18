@@ -118,7 +118,7 @@ export default function RealWorkCarousel({ defaultCategory = 'all', title, subti
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/10 border border-[#ff6a00]/30 text-[#ff6a00] mb-3">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Real Factory &amp; Workshop Showcase • 180+ Original Photos</span>
+              <span>Real Factory &amp; Workshop Showcase • 140+ Original Photos</span>
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight">
               {title || (
@@ -128,7 +128,7 @@ export default function RealWorkCarousel({ defaultCategory = 'all', title, subti
               )}
             </h2>
             <p className="text-sm sm:text-base text-slate-300 mt-2 max-w-2xl leading-relaxed">
-              {subtitle || "लंगरटोली, बारी पथ स्थित हमारी अपनी फैक्ट्री में तैयार किए गए असली ऑर्डर्स, प्रिंटिंग मशीनरी, एलईडी बोर्ड्स और चुनाव प्रचार सामग्री की वास्तविक गैलरी।"}
+              {subtitle || "लंगरटोली, बारी पथ स्थित हमारी अपनी फैक्ट्री में तैयार किए गए असली ऑर्डर्स, प्रिंटिंग मशीनरी, टी-शर्ट, बैग्स, बैटन और चुनाव प्रचार सामग्री की वास्तविक गैलरी।"}
             </p>
           </div>
 
@@ -206,14 +206,14 @@ export default function RealWorkCarousel({ defaultCategory = 'all', title, subti
               >
                 <div className="group bg-[#0f1420] border border-white/10 hover:border-[#ff6a00]/50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-[0_10px_30px_rgba(0,0,0,0.5)] flex flex-col h-full">
                   {/* Image Container */}
-                  <div className="relative aspect-[4/3] bg-black/60 overflow-hidden cursor-pointer" onClick={() => setSelectedImage(item)}>
+                  <div className="relative h-64 sm:h-72 w-full bg-gradient-to-b from-[#0a0d14] via-[#0d121c] to-[#080b11] p-3 flex items-center justify-center overflow-hidden cursor-pointer" onClick={() => setSelectedImage(item)}>
                     <img
                       src={item.image}
                       alt={item.title}
                       loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="max-h-full max-w-full w-auto h-auto object-contain transition-transform duration-500 group-hover:scale-105 drop-shadow-[0_8px_16px_rgba(0,0,0,0.8)]"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 opacity-60 group-hover:opacity-40 transition-opacity" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/10 opacity-40 group-hover:opacity-20 transition-opacity pointer-events-none" />
                     
                     {/* Top Badges */}
                     <div className="absolute top-3 left-3 right-3 flex items-center justify-between gap-2 pointer-events-none">

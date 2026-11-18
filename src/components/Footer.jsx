@@ -6,7 +6,7 @@ import { trackPhoneCall, trackWhatsAppClick } from '../utils/analyticsEvents';
 
 export default function Footer() {
   const electionServices = servicesData.filter((s) =>
-    ['plastic-election-flag', 'nylon-election-flag', 'paper-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services'].includes(s.slug)
+    ['rally-election-flag', 'satin-election-flag', 'paper-election-flag', 'national-paper-flag', 'election-campaign-poster', 'election-management-services', 'promotional-canopy-tent'].includes(s.slug)
   );
 
   const googleMapsDirectionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(companyDetails.address)}`;
@@ -30,7 +30,7 @@ export default function Footer() {
 
             <p className="text-sm leading-relaxed text-slate-300">
               Patna's premier commercial printing hub established in <strong>{companyDetails.established}</strong>.
-              Over <strong>{companyDetails.yearsOfExperience}+ years</strong> of craftsmanship in <strong>चुनाव प्रचार सामग्री (Election Campaign Materials)</strong>, 3D LED acrylic boards, and Heidelberg offset printing in Bari Path.
+              Over <strong>{companyDetails.yearsOfExperience}+ years</strong> of craftsmanship in <strong>चुनाव प्रचार सामग्री (Election Campaign Materials)</strong>, custom candidate merchandise, and Heidelberg offset printing in Bari Path.
             </p>
 
             <div className="flex items-center gap-2 pt-1">
@@ -104,8 +104,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog/acrylic-vs-acp-glow-sign-board-patna-guide" className="hover:text-[#ff6a00] transition-colors line-clamp-1">
-                  Sign Board Comparison Guide
+                <Link to="/services?category=election" className="hover:text-[#ff6a00] transition-colors line-clamp-1">
+                  Candidate Kits (सांसद, विधायक, मुखिया)
                 </Link>
               </li>
               <li>

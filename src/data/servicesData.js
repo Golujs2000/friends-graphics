@@ -6,7 +6,7 @@ export const servicesData = [
     shortTitle: "Flex Printing",
     tagline: "High-Impact Outdoor Flex Printing, Star Flex & MS Iron Frame Banners",
     shortDesc: "Vibrant, weather-proof flex printing, star flex rolls, hoardings, and roll-up standees for promotions, events, and shop fronts in Patna.",
-    fullDesc: "Friends Graphics delivers industry-leading large-format flex printing services with high-density UV and eco-solvent inks. Whether you need a roll-up standee for a trade expo, an MS iron frame flex signboard, or a gigantic 20x10 ft road hoarding, our reinforced hem stitching and rust-proof eyelets ensure your brand looks sharp and stands tall through rain and sun.",
+    fullDesc: "Friends Graphics delivers industry-leading large-format flex printing services with high-density UV and eco-solvent inks. Whether you need a roll-up standee for a trade expo, an MS iron frame flex display, or a gigantic 20x10 ft road hoarding, our reinforced hem stitching and rust-proof eyelets ensure your brand looks sharp and stands tall through rain and sun.",
     heroImage: "/images/Flex Banner with MS Iron Frame.png",
     sampleImages: [
       "/images/Flex Banner with MS Iron Frame.png",
@@ -18,7 +18,7 @@ export const servicesData = [
     ],
     materials: [
       "Heavy Duty Star Flex (340 GSM - 440 GSM)",
-      "Backlit Flex for Glow Signboards",
+      "Backlit Flex for Illuminated Lightboxes",
       "Blackout Non-Tearable Fabric Flex",
       "Eco-Solvent Vinyl with Gloss/Matte Lamination"
     ],
@@ -46,13 +46,14 @@ export const servicesData = [
   },
   {
     id: "02",
-    slug: "plastic-election-flag",
-    title: "Plastic Election Flag",
-    hindiTitle: "प्लास्टिक चुनाव झंडा",
-    shortTitle: "Plastic Flags",
-    tagline: "Waterproof, High-Speed Rotogravure Printed Plastic Election Flags",
-    shortDesc: "Durable, tear-resistant plastic election flags with party symbols and candidate photos for roadshows and mass distribution.",
-    fullDesc: "Friends Graphics is Bihar's high-speed manufacturer of plastic election flags for Vidhan Sabha, Lok Sabha, and Panchayat elections. Manufactured using durable, lightweight, rain-proof virgin biodegradable film with ultra-vibrant party color matching. Supplied ready-to-mount with plastic sticks or welded string sleeves for easy street hanging.",
+    slug: "rally-election-flag",
+    aliases: ["plastic-election-flag"],
+    title: "Election Rally Flag",
+    hindiTitle: "चुनावी रैली झंडा",
+    shortTitle: "Rally Flags",
+    tagline: "Weatherproof Handheld & Bunting Rally Flags for Mass Campaigning",
+    shortDesc: "Durable, high-visibility election rally flags with party symbols and candidate photos for roadshows and mass distribution.",
+    fullDesc: "Friends Graphics is Bihar's high-speed manufacturer of election rally flags for Lok Sabha, Vidhan Sabha, and Panchayat elections. Manufactured using durable, lightweight, rain-proof film with ultra-vibrant party color matching. Supplied ready-to-mount with sticks or string sleeves for easy street hanging.",
     heroImage: "/images/plastic_election_flags.jpg",
     sampleImages: [
       "/images/plastic_election_flags.jpg",
@@ -61,9 +62,9 @@ export const servicesData = [
       "/images/Canopy Tent.png"
     ],
     materials: [
-      "High-Tensile Virgin Biodegradable Plastic Film (35 - 50 Micron)",
+      "High-Tensile Weatherproof Film (35 - 50 Micron)",
       "Non-Bleed Weatherproof Pigment Inks",
-      "Hollow Rigid PVC / Polypropylene Mounting Sticks"
+      "Hollow Rigid Mounting Sticks"
     ],
     finishes: [
       "Ultrasonic Edge Welding for High Wind Resistance",
@@ -72,8 +73,8 @@ export const servicesData = [
       "Vibrant Double-Sided High Opacity Screen Print"
     ],
     popularSizes: [
-      "Handheld Rally Flag: 6 x 9 in (with 12 in plastic stick)",
-      "Standard Campaign Flag: 8 x 12 in (with 18 in plastic stick)",
+      "Handheld Rally Flag: 6 x 9 in (with 12 in stick)",
+      "Standard Campaign Flag: 8 x 12 in (with 18 in stick)",
       "Street Hanging Bunting: 7 x 10 in triangular & rectangular flags"
     ],
     useCases: [
@@ -92,7 +93,7 @@ export const servicesData = [
     hindiTitle: "कागज़ चुनाव झंडा",
     shortTitle: "Paper Flags",
     tagline: "High-Gloss Coated Paper Flags for Mass Student & Worker Mobilization",
-    shortDesc: "Cost-effective, sharp multi-color paper election flags mounted on wooden or plastic sticks for political rallies.",
+    shortDesc: "Cost-effective, sharp multi-color paper election flags mounted on smooth wooden or rigid sticks for political rallies.",
     fullDesc: "Eco-friendly, budget-friendly paper election flags printed on high-brightness gloss art paper. Perfect for massive political gatherings, public meetings (sabhas), student union elections, and parade demonstrations where crisp graphic printing and candidate recognition are crucial.",
     heroImage: "/images/paper_election_flags.jpg",
     sampleImages: [
@@ -128,13 +129,14 @@ export const servicesData = [
   },
   {
     id: "04",
-    slug: "nylon-election-flag",
-    title: "Nylon Election Flag",
-    hindiTitle: "नायलॉन चुनाव झंडा",
-    shortTitle: "Nylon Flags",
-    tagline: "Weatherproof 100% Knitted Nylon & Satin Flags for Vehicles & Offices",
-    shortDesc: "Heavy-duty knitted nylon election flags with stitched borders for car hoods, party headquarters, and giant parade poles.",
-    fullDesc: "Engineered to withstand the toughest weather conditions during long election campaigns. Our nylon election flags are printed on 100% warp-knitted polyester and premium satin fabric using deep digital sublimation and screen printing. Colors penetrate deeply into the fabric fibres so your party symbol shines vividly from both sides.",
+    slug: "satin-election-flag",
+    aliases: ["nylon-election-flag"],
+    title: "Fabric & Satin Election Flag",
+    hindiTitle: "फैब्रिक एवं साटन चुनाव झंडा",
+    shortTitle: "Fabric & Satin Flags",
+    tagline: "Weatherproof 100% Knitted Fabric & Satin Flags for Vehicles & Offices",
+    shortDesc: "Heavy-duty knitted fabric and satin election flags with stitched borders for car hoods, party headquarters, and giant parade poles.",
+    fullDesc: "Engineered to withstand the toughest weather conditions during long election campaigns. Our fabric and satin election flags are printed on 100% warp-knitted polyester and premium satin fabric using deep digital sublimation and screen printing. Colors penetrate deeply into the fabric fibres so your party symbol shines vividly from both sides.",
     heroImage: "/images/nylon_election_flag.jpg",
     sampleImages: [
       "/images/nylon_election_flag.jpg",
@@ -143,7 +145,7 @@ export const servicesData = [
       "/images/Custom Embroidered Corporate Caps.png"
     ],
     materials: [
-      "100% Knitted Nylon / Polyester Flag Fabric (110 GSM - 140 GSM)",
+      "100% Knitted Fabric / Polyester Flag Fabric (110 GSM - 140 GSM)",
       "High-Gloss Heavy Satin Fabric",
       "Heavy Cotton Webbing Reinforcement on Hoist Edge",
       "Brass Grommets & Heavy-Duty Polyester Ropes"
@@ -279,7 +281,7 @@ export const servicesData = [
     finishes: [
       "High-Speed Hot Melt Perfect Softcover Binding",
       "Deluxe Section-Sewn Hardcover / Case Binding with Headband",
-      "Wire-O Spiral & Heavy-Duty Plastic Coil Binding for Workbooks",
+      "Wire-O Spiral & Heavy-Duty Durable Coil Binding for Workbooks",
       "Cover Finishes: Thermal Velvet Matte, Spot UV & Gold Foil Stamping"
     ],
     popularSizes: [
@@ -382,208 +384,170 @@ export const servicesData = [
   },
   {
     id: "10",
-    slug: "led-acrylic-sign-board",
-    title: "LED Acrylic Sign Board",
-    shortTitle: "LED Acrylic Signs",
-    tagline: "Stunning 3D Cast Acrylic Letters with High-Lumen Samsung LED Modules",
-    shortDesc: "Premium 3D laser-cut acrylic frontlit and backlit letter sign boards for luxury storefronts and showroom facades.",
-    fullDesc: "Transform your commercial facade into a high-visibility landmark. Friends Graphics designs and fabricates precision laser-cut 3D cast acrylic letter sign boards powered by IP67 waterproof Samsung LED modules. With radiant, uniform light diffusion and exceptional durability against Patna's extreme summers and monsoons.",
-    heroImage: "/images/Glossy LED Acrylic 3D Letters.png",
+    slug: "custom-tshirt-printing",
+    title: "Custom Election & Corporate T-Shirts",
+    hindiTitle: "कस्टम चुनाव व कॉर्पोरेट टी-शर्ट",
+    shortTitle: "T-Shirts & Uniforms",
+    tagline: "Vibrant Polyester & Cotton Custom Screen Printed & Sublimation T-Shirts",
+    shortDesc: "High-speed customized political campaign rally t-shirts, promotional round neck tees, and corporate polo uniforms in wholesale quantities.",
+    fullDesc: "Mobilize party workers, campaign volunteers, and corporate staff with custom-printed t-shirts from Friends Graphics Patna. We offer dry-fit polyester rally t-shirts with vibrant candidate photo printing, heavy combed cotton round neck tees, and collared polo t-shirts with embroidered emblems and multi-color silk screen prints.",
+    heroImage: "/images/real-work/custom-polo-tshirt-team-excellent.jpg",
     sampleImages: [
-      "/images/Glossy LED Acrylic 3D Letters.png",
-      "/images/3d latter sign.png",
-      "/images/LED Glow Sign Board & Box.png",
-      "/images/ACP Sign Board & Cladding.png"
+      "/images/real-work/custom-polo-tshirt-team-excellent.jpg",
+      "/images/real-work/custom-embroidered-polo-tshirt-yadav.jpg",
+      "/images/real-work/plain-promotional-round-neck-tshirts-assorted.jpg",
+      "/images/real-work/custom-gym-tshirt-planet-gym-yellow.jpg"
     ],
     materials: [
-      "Virgin Grade Cast Acrylic Sheet (3mm to 12mm thickness)",
-      "Waterproof IP67 Injection Samsung LED Modules (Warm / Cool / RGB)",
-      "Heavy Gauge Aluminium / Acrylic Side Trim Return Bends",
-      "Mean Well / Philips Certified SMPS Power Supplies"
+      "100% Micro-Polyester Dry-Fit Rally Fabric (140 - 160 GSM)",
+      "100% Super-Combed Bio-Washed Cotton (180 - 220 GSM)",
+      "High-Density Sublimation & Plastisol Inks",
+      "Reinforced Ribbed Collars & Double Stitched Hemlines"
     ],
     finishes: [
-      "Frontlit Glowing Acrylic Face with Solid Color / Vinyl Lamination",
-      "Backlit / Halo Glowing Effect with 20mm Standoff Spacers",
-      "Dual-Lit (Frontlit + Backlit Glow Combination)",
-      "Precision Laser CNC Machine Polished Edge Profile"
+      "All-Over Digital Sublimation Printing with Zero Color Fading",
+      "Precision Multi-Color Plastisol & Water-Based Screen Printing",
+      "Computerized Multi-Needle Zari & Thread Embroidery",
+      "Custom Brand Labeling & Individual Polybag Packaging"
     ],
     popularSizes: [
-      "Letter Heights: 8 in, 12 in, 18 in, 24 in, 36 in up to 5 ft",
-      "Complete Storefront Board: 10 x 3 ft, 15 x 4 ft, 20 x 5 ft",
-      "Custom Logo Sculptures and Monograms"
+      "Standard Fit: S (36), M (38), L (40), XL (42), XXL (44)",
+      "Unisex Volunteer Campaign T-Shirts",
+      "Custom Corporate Collared Polos"
     ],
     useCases: [
-      "Jewellery Showrooms & High-End Fashion Boutiques",
-      "Hospitals, Pathology Labs & Super-Specialty Clinics",
-      "Corporate Headquarters & Reception Desk Brandings",
-      "Fine Dining Restaurants, Cafes & Bakeries"
+      "Political Rally Volunteers & Yatra Marchers (सांसद, विधायक, मुखिया अभियान)",
+      "Party Booth Level Agents & Security Staff Uniforms",
+      "Corporate Team Building & Brand Promotional Giveaways",
+      "School Sports Meets, College Fests & Marathon Events"
     ],
-    turnaround: "4 to 7 Business Days with On-Site Installation",
-    minOrder: "1 Complete Signboard"
+    turnaround: "2 to 4 Business Days",
+    minOrder: "50 Pieces"
   },
   {
     id: "11",
-    slug: "led-acp-glow-sign-board",
-    title: "LED ACP Glow Sign Board",
-    shortTitle: "LED ACP Glow Signs",
-    tagline: "CNC-Groove Routed ACP Panels with Vibrant Acrylic Inlay Illumination",
-    shortDesc: "Sleek, architectural aluminum composite panel glow sign boards with laser-cut acrylic inlays and internal LED illumination.",
-    fullDesc: "For corporate brands and retail outlets seeking a flush, architectural aesthetic. We utilize high-precision CNC routers to cut brand letters into premium 3mm/4mm exterior-grade ACP panels. Thick cast acrylic letters are pushed through or mounted flush, creating an ultra-modern glowing signage box that withstands heavy dust, heat, and rain.",
-    heroImage: "/images/LED Glow Sign Board & Box.png",
+    slug: "non-woven-carry-bag-printing",
+    title: "Non-Woven Promotional Carry Bags",
+    hindiTitle: "नॉन-वोवेन प्रचार व शॉपिंग बैग्स",
+    shortTitle: "Non-Woven Bags",
+    tagline: "Eco-Friendly D-Cut, W-Cut & Box Bags with Custom Brand & Candidate Printing",
+    shortDesc: "Durable, eco-friendly non-woven shopping bags, political rally tote bags, and retail packaging bags printed in vibrant colors.",
+    fullDesc: "Friends Graphics manufactures durable non-woven carry bags for election campaigns, medical shops, jewelry showrooms, retail stores, and corporate gifting. Constructed from ultrasonic heat-sealed virgin polypropylene non-woven fabric, our bags offer superior tensile strength, tear resistance, and high-contrast multi-color flexographic or screen printing.",
+    heroImage: "/images/real-work/non-woven-promotional-shopping-bag-orient-electric.jpg",
     sampleImages: [
-      "/images/LED Glow Sign Board & Box.png",
-      "/images/ACP Sign Board & Cladding.png",
-      "/images/Glossy LED Acrylic 3D Letters.png",
-      "/images/Stainless Steel Sign Board (Outdoor).png"
+      "/images/real-work/non-woven-promotional-shopping-bag-orient-electric.jpg",
+      "/images/real-work/non-woven-retail-carry-bag-manu-mens-fashion.jpg",
+      "/images/real-work/election-campaign-non-woven-tote-bag-blue.jpg",
+      "/images/real-work/non-woven-fashion-shopping-bag-bhuvin.jpg"
     ],
     materials: [
-      "3mm / 4mm Exterior Grade ACP (Alstrong, Eurobond, Viva)",
-      "Dense Optical Cast Acrylic Inlay Sheets (10mm - 18mm)",
-      "High-Efficiency Waterproof Wide-Beam LED Injection Modules",
-      "Heavy 1-inch MS Square Tube Structural Subframe"
+      "Virgin Grade Non-Woven Polypropylene Fabric (50 to 100 GSM)",
+      "Ultrasonic Auto-Sealed Ultrasonic Welds",
+      "Heavy-Duty Loop and D-Cut Handles"
     ],
     finishes: [
-      "CNC Router Precision Groove Routing & Chamfering",
-      "Push-Through Acrylic 3D Relief (5mm - 15mm Projection)",
-      "Flush-Mount Clean Architectural Face",
-      "Anti-Rust Zinc Chromate Primer & Industrial Polyurethane Coating"
+      "High-Speed Automatic Flexo Single & Double Color Printing",
+      "Vibrant Multi-Color Silk Screen Printing for Candidate Portraits",
+      "D-Cut, W-Cut / U-Cut, and Loop Handle Formats",
+      "Side and Bottom Gusset Expansion for High Volume Capacity"
     ],
     popularSizes: [
-      "Storefront Fascia: 8 x 3 ft, 12 x 3.5 ft, 16 x 4 ft, 24 x 5 ft",
-      "Double-Sided Projecting Flange Sign (2 ft & 3 ft diameter / square)",
-      "Pillar Cladding Panels with Internal Lighting"
+      "Standard D-Cut: 10 x 14 in / 12 x 16 in",
+      "Large Shopping Bag: 14 x 19 in / 16 x 20 in",
+      "Jumbo Box Bag: 16 x 22 x 6 in with Loop Handle"
     ],
     useCases: [
-      "Bari Path & Fraser Road Retail Outlets & Brand Franchises",
-      "Bank Branches, Insurance Companies & ATM Kiosks",
-      "Automobile & Two-Wheeler Authorized Dealerships",
-      "Hotels, Banquet Entry Portals & Commercial Complexes"
+      "Election Campaign Voter Kit & Manifesto Distribution Bags",
+      "Garment Showrooms, Retail Stores & Footwear Shops",
+      "Pharmaceutical Distributors & Hospital Medical Record Kits",
+      "Exhibitions, Trade Fairs & Corporate Seminar Handouts"
     ],
-    turnaround: "5 to 7 Business Days",
-    minOrder: "1 Board"
+    turnaround: "2 to 3 Business Days",
+    minOrder: "500 Bags"
   },
   {
     id: "12",
-    slug: "outdoor-acp-sign-board",
-    title: "Outdoor ACP Sign Board",
-    shortTitle: "Outdoor ACP Signage",
-    tagline: "Weatherproof Exterior ACP Cladding, Commercial Building Facades & Structural Boards",
-    shortDesc: "Heavy-duty outdoor ACP cladding boards and commercial signboards engineered to withstand all weather conditions.",
-    fullDesc: "Turn ordinary commercial building exteriors into striking modern corporate storefronts. Friends Graphics specializes in end-to-end ACP (Aluminum Composite Panel) facade cladding, structural frame engineering, and weather-sealed signage backdrops. Engineered with heavy-duty galvanized structural frames to resist strong storm winds.",
-    heroImage: "/images/ACP Sign Board & Cladding.png",
+    slug: "promotional-canopy-tent",
+    title: "Promotional Canopy Tents & Gazebos",
+    hindiTitle: "प्रचार कैनोपी टेंट व बूथ",
+    shortTitle: "Canopy Tents",
+    tagline: "Heavy-Duty All-Weather 6x6 & 10x10 Ft Foldable Pop-Up Campaign Tents",
+    shortDesc: "Weatherproof folding canopy tents, election inquiry kiosks, and outdoor promotional booths with custom branded top, side walls, and backdrops.",
+    fullDesc: "Set up instant outdoor campaign centers and promotional hubs across Bihar and Uttar Pradesh. Our pop-up canopy tents feature heavy powder-coated MS metal scissor frames with high-grade waterproof Oxford fabric tops. Fully customized with candidate photos, election slogans, and party symbols for roadside public meetings and voter helpdesks.",
+    heroImage: "/images/Canopy Tent.png",
     sampleImages: [
-      "/images/ACP Sign Board & Cladding.png",
-      "/images/Stainless Steel Sign Board (Outdoor).png",
-      "/images/LED Glow Sign Board & Box.png",
-      "/images/Glossy LED Acrylic 3D Letters.png"
+      "/images/Canopy Tent.png",
+      "/images/real-work/outdoor-promotional-canopy-tent-striped-frame.jpg",
+      "/images/promotional_flags.png",
+      "/images/banners.png"
     ],
     materials: [
-      "Heavy 4mm PVDF Coated Exterior Grade ACP (15-Year Color Warranty)",
-      "Tata / Jindal Galvanized Iron & MS Structural Tubes (1.5 x 1.5 in)",
-      "High-Strength Dow Corning Silicone Weather Sealants",
-      "Zinc-Plated Self-Drilling Screws & Anchor Fasteners"
+      "Heavy-Duty MS Steel Scissor Frame (Powder Coated Rust-Proof)",
+      "500D Waterproof Tetron / Oxford Polyester Fabric",
+      "UV-Resistant Multi-Color Sublimation Inks",
+      "Heavy-Duty Corner Brackets and Telescoping Push-Pin Legs"
     ],
     finishes: [
-      "Seamless V-Groove Panel Folding & Interlocking System",
-      "Matte, Metallic, Woodgrain, & Marble ACP Finish Textures",
-      "Complete Silicon Weatherproofing of All Joints",
-      "Integrated Wire Channelling for Concealed Electricals"
+      "Full Multi-Color Digital Printing Across 4 Roof Peaks & Valances",
+      "Velcro-Attachable Full and Half Side Walls with Candidate Graphics",
+      "Quick 3-Minute Pop-Up Mechanism (No Tools Required)",
+      "Includes Heavy-Duty Oxford Storage Carrying Bag"
     ],
     popularSizes: [
-      "Storefront Facade: 15 ft x 6 ft, 25 ft x 8 ft, 40 ft x 12 ft",
-      "Full Multi-Story Commercial Building Front Elevation",
-      "Entrance Portal & Canopy Cladding"
+      "Compact Roadside Booth: 6 x 6 x 7 ft",
+      "Standard Campaign Kiosk: 8 x 8 x 7.5 ft",
+      "Major Rally & Field Hub: 10 x 10 x 8 ft"
     ],
     useCases: [
-      "Retail Showrooms, Shopping Malls & Hypermarkets",
-      "Commercial Hospital Facades & Medical Colleges",
-      "Automobile Service Stations & Fuel Petrol Pumps",
-      "Office Towers & Corporate Regional Hubs in Patna"
+      "Voter Assistance Helpdesk & Polling Station Field Support Booths",
+      "Candidate Roadshow Information Centers in Patna & District Wards",
+      "Mobile Sim Card & Telecommunication Promo Stalls",
+      "Automobile Test Drive Kiosks & Rural Product Activation"
     ],
-    turnaround: "7 to 10 Business Days",
-    minOrder: "50 Sq. Ft."
+    turnaround: "24 to 48 Hours",
+    minOrder: "1 Tent"
   },
   {
     id: "13",
-    slug: "brass-sign-board",
-    title: "Brass Sign Board & Metal Letters",
-    shortTitle: "Brass & Metal Signs",
-    tagline: "Prestige Solid Brass, Gold Titanium & SS 304 Mirror-Finish Architectural Signboards",
-    shortDesc: "Handcrafted, prestigious brass sign boards, gold-plated titanium letters, and stainless steel engraved nameplates for executive chambers.",
-    fullDesc: "Exude timeless prestige and authority. Friends Graphics produces handcrafted mirror-polished brass signboards, chemical acid-etched nameplates, and 3D fabricated stainless steel (SS 304) metal letters. Ideal for high-court advocates, senior medical doctors, chartered accountants, and heritage establishments.",
-    heroImage: "/images/Stainless Steel Sign Board (Outdoor).png",
+    slug: "candidate-badges-caps-printing",
+    title: "Candidate Badges, Caps & Campaign Sashes",
+    hindiTitle: "प्रत्याशी बैज, प्रचार टोपी व अंगवस्त्रम",
+    shortTitle: "Badges, Caps & Sashes",
+    tagline: "High-Volume Promotional Button Badges, Embroidered Caps & Satin Sashes",
+    shortDesc: "Vibrant round button badges (58mm), customized party caps, and golden-fringed satin election sashes (chunav patta) for rallies and candidate felicitations.",
+    fullDesc: "Essential frontline merchandise for political parties and election war rooms. Friends Graphics manufactures premium tinplate pin-back button badges with candidate portraits and party symbols, sunshade cotton/polyester caps with embroidered or printed logos, and ceremonial satin sashes (chunav patta) worn by candidates (सांसद, विधायक, मुखिया, चेयरमैन) during campaign yatras.",
+    heroImage: "/images/badges_and_pin.png",
     sampleImages: [
-      "/images/Stainless Steel Sign Board (Outdoor).png",
-      "/images/Glossy LED Acrylic 3D Letters.png",
-      "/images/ACP Sign Board & Cladding.png",
-      "/images/3d latter sign.png"
+      "/images/badges_and_pin.png",
+      "/images/Custom Embroidered Corporate Caps.png",
+      "/images/real-work/election-campaign-round-badge-sticker-jmm-louis-marandi.jpg",
+      "/images/real-work/custom-embroidered-polo-tshirt-corporate-navy.jpg"
     ],
     materials: [
-      "Solid Naval Brass Sheets (1.5mm - 5mm thick)",
-      "SS 304 Grade Non-Rusting Stainless Steel",
-      "Titanium Gold & Rose Gold Vacuum PVD Coatings",
-      "High-Density Teak Wood / Lacquered Acrylic Base Mounts"
+      "Rust-Resistant Tinplate & Stainless Steel Safety Pin Base",
+      "High-Gloss Mylar Film Over High-Res Photographic Print",
+      "100% Breathable Cotton & Poly Fabric for Caps with Adjustable Velcro",
+      "Heavy Satin Fabric with Gold Bullion Fringe for Campaign Sashes"
     ],
     finishes: [
-      "Mirror Hand-Polished High-Shine Finish with Clear Lacquer Seal",
-      "Satin Brushed Hairline Texture",
-      "Deep Chemical Acid Etching with Enamel Color Infill",
-      "3D Fabricated Hollow Metal Letters with Brass Stud Mounts"
+      "Crystal Clear Scratch-Proof Gloss Lamination on Badges",
+      "High-Density Thread Embroidery & Screen Printing on Caps",
+      "Full-Length Double-Sided Digital Dye-Sublimation on Sashes",
+      "Bulk Cardboard Box Packaging with Easy Field Distribution Bundling"
     ],
     popularSizes: [
-      "Chamber Nameplate: 12 x 8 in, 18 x 12 in, 24 x 18 in",
-      "Pillar & Gate Entry Plate: 24 x 24 in, 36 x 24 in",
-      "Large Corporate Wall Letters: 12 in to 36 in individual metal letters"
+      "Button Badges: 44mm & 58mm Diameter",
+      "Campaign Caps: Free-Size with Adjustable Strap (Adult & Youth)",
+      "Campaign Sashes (Patta): 4 x 72 inches with Golden Zari Fringes"
     ],
     useCases: [
-      "Patna High Court Senior Advocates & Legal Chamber Signage",
-      "Doctors, Surgeon Chambers & Diagnostic Clinic Entrances",
-      "Chartered Accountants (CA) & Architecture Firms",
-      "Luxury Jewellery Showrooms & Heritage Institutions"
+      "Candidate Felicitation & Roadshow Yatras (सांसद, विधायक, मुखिया)",
+      "Party Rally Volunteer Identification & Worker Badges",
+      "Voter Awareness Drives & Booth Cadre Uniformity",
+      "Corporate Brand Awareness & Event Delegate Badges"
     ],
-    turnaround: "5 to 7 Business Days",
-    minOrder: "1 Nameplate / Letter Set"
-  },
-  {
-    id: "14",
-    slug: "led-sign-boards",
-    title: "LED Sign Boards & Slim Lightboxes",
-    shortTitle: "LED Sign Boards",
-    tagline: "Ultra-Slim Snap Frame LED Clip-On Lightboxes & Storefront Illumination",
-    shortDesc: "High-brightness slim LED clip-on poster lightboxes, back-lit displays, and vibrant neon signage panels.",
-    fullDesc: "Capture immediate consumer attention with crystal-clear, evenly diffused light. Our LED signboards and ultra-slim clip-on snap lightboxes feature edge-lit laser-dotted LGP (Light Guide Plates) that deliver ultra-bright illumination with minimal power consumption.",
-    heroImage: "/images/LED Slim Light Box Poster Panels.png",
-    sampleImages: [
-      "/images/LED Slim Light Box Poster Panels.png",
-      "/images/Ultra Slim LED Clip-On Poster Frame.png",
-      "/images/LED Glow Sign Board & Box.png",
-      "/images/Glossy LED Acrylic 3D Letters.png"
-    ],
-    materials: [
-      "Extruded Anodized Aluminium Snap Frame Profile (18mm - 28mm depth)",
-      "Optical Grade Mitsubishi Acrylic Light Guide Plate (LGP)",
-      "High-Density SMD 2835 Edge LED Light Strips (6500K Pure White)",
-      "Anti-Glare Protective PVC Front Cover Sheet"
-    ],
-    finishes: [
-      "Four-Sided Front Snap-Opening for 10-Second Poster Changes",
-      "Silver, Black & Rose Gold Anodized Aluminium Framing",
-      "Ultra-Thin Profile Less Than 1-Inch Thickness",
-      "Even Light Diffusion with Zero Hotspots or Shadows"
-    ],
-    popularSizes: [
-      "Standard Frame Sizes: A3, A2, A1, A0",
-      "Commercial Lightbox Sizes: 2 x 3 ft, 2 x 4 ft, 3 x 5 ft",
-      "Custom Giant Wall Mounted LED Panels"
-    ],
-    useCases: [
-      "Restaurant & Fast Food Drive-Through Glowing Menu Boards",
-      "Cinema Theatres, Multiplex & Entertainment Lounges",
-      "Retail Brand Showroom Product Poster Displays",
-      "Hospital & Airport Directional Guidance Signage"
-    ],
-    turnaround: "2 to 4 Business Days",
-    minOrder: "1 Unit"
+    turnaround: "24 to 48 Hours for Bulk Quantities",
+    minOrder: "100 Pieces"
   },
   {
     id: "15",
@@ -776,7 +740,7 @@ export const servicesData = [
       "350 GSM - 400 GSM Rigid Art Board",
       "Non-Tearable Waterproof Synthetic PVC",
       "Textured & Kraft Eco-Friendly Paper",
-      "Frosted & Crystal Clear Transparent Plastic"
+      "Frosted & Crystal Clear Transparent Poly-PVC"
     ],
     finishes: [
       "Velvet Soft-Touch Luxury Lamination",
@@ -899,13 +863,13 @@ export const companyDetails = {
   email: "friendsgraphicspatna@gmail.com",
   website: "https://www.friendsgraphics.in",
   address: "Shop No. - B-12, Popular Palace, Langartoli, Bari Path, Patna - 800 004, Bihar",
-  hours: "Monday - Saturday: 10:00 AM – 8:30 PM (Sunday Closed)",
+  hours: "Monday – Saturday: 10:00 AM – 8:30 PM | Sunday: 1:00 PM – 9:00 PM",
   googleMapsQuery: "Popular Palace, Langartoli, Bari Path, Patna 800004"
 };
 
 export const industriesData = [
-  { icon: "Flag", name: "Elections & Political Campaigns (चुनाव प्रचार)", desc: "Plastic, paper & nylon flags, national paper flags, T-flags, posters, badges & canopies" },
-  { icon: "Store", name: "Retail & Shops", desc: "LED signboards, promotional banners, product stickers & bill books" },
+  { icon: "Flag", name: "Elections & Political Campaigns (चुनाव प्रचार)", desc: "Cloth, satin & paper flags, national flags, T-flags, posters, badges, caps & canopies" },
+  { icon: "Store", name: "Retail & Shops", desc: "Promotional banners, custom t-shirts, product stickers & bill books" },
   { icon: "HeartPulse", name: "Hospitals & Clinics", desc: "Prescription pads, patient files, direction signage & camp forms" },
   { icon: "GraduationCap", name: "Schools & Colleges", desc: "Prospectuses, student ID cards, admission pamphlets, books & diaries" },
   { icon: "Building2", name: "Corporate Offices", desc: "Letterheads, visiting cards, calendars, envelopes & presentation folders" },
