@@ -8,11 +8,11 @@ import RealWorkCarousel from '../components/RealWorkCarousel';
 
 const portfolioItems = [
   {
-    title: "Large Format Outdoor Billboard Banner",
+    title: "Large Format Flex Billboard & Outdoor Hoarding",
     category: "banners",
     categoryName: "Banners & Flex",
-    image: "/images/banners.png",
-    desc: "Weather-resistant 440 GSM frontlit flex banner mounted on high-impact outdoor frame."
+    image: "/images/large-format-flex-hoarding-banner.jpg",
+    desc: "Weather-resistant 440 GSM Star Flex banner with brass eyelets and hem stitching on Japanese wide-format plotters."
   },
   {
     title: "Standing Roll-Up Banner Standee",
@@ -120,11 +120,18 @@ const portfolioItems = [
     desc: "12x18 and 18x24 inch multi-color candidate campaign posters with voter appeal layout."
   },
   {
-    title: "Candidate Badges, Promotion Caps & Canopy Tent",
+    title: "Election Campaign Canopy Tent & Voter Booth",
     category: "election",
     categoryName: "Election & Flags (चुनाव)",
-    image: "/images/Canopy Tent.png",
-    desc: "Turnkey election management publicity kits with canopy tents, badges, and candidate caps."
+    image: "/images/election-campaign-canopy-tent.jpg",
+    desc: "All-weather waterproof foldable 10x10 ft candidate canopy tent with accordion steel frame for voter helpdesks."
+  },
+  {
+    title: "Election Candidate Badges, Caps & Campaign Sashes",
+    category: "election",
+    categoryName: "Election & Flags (चुनाव)",
+    image: "/images/election-candidate-badges-and-caps.jpg",
+    desc: "Glossy 58mm metal pinback candidate badges, embroidered campaign caps, and golden-fringed satin sashes."
   },
   {
     title: "Custom Embroidered Corporate & Election Polo T-Shirts",

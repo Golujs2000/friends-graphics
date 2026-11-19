@@ -1,258 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Core Main Pages -->
+  <!-- Core Static Pages -->
   <url>
     <loc>https://www.friendsgraphics.in/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.friendsgraphics.in/images/hero-bg-election.jpg</image:loc>
-      <image:title>Friends Graphics Patna — Election Material &amp; Printing Hub</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/locations</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/portfolio</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/about</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/why-us</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/testimonials</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/contact</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/faqs</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Knowledge Hub & Topic Clusters -->
   <url>
     <loc>https://www.friendsgraphics.in/blog</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.friendsgraphics.in/blog/bihar-election-campaign-materials-guide</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.friendsgraphics.in/privacy-policy</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.friendsgraphics.in/blog/acrylic-vs-acp-glow-sign-board-patna-guide</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.friendsgraphics.in/terms-and-conditions</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.friendsgraphics.in/blog/paper-gsm-flex-quality-guide</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://www.friendsgraphics.in/sitemap</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.4</priority>
   </url>
 
-  <!-- Chunav Prachar Samagri (Election Publicity Services) -->
+  <!-- 20 Service Pages (Election & Commercial) -->
   <url>
-    <loc>https://www.friendsgraphics.in/services/plastic-election-flag</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://www.friendsgraphics.in/services/rally-election-flag</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://www.friendsgraphics.in/images/plastic_election_flags.jpg</image:loc>
-      <image:title>Plastic Election Flag Manufacturer Patna</image:title>
+      <image:title>Election Rally Flag</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://www.friendsgraphics.in/services/nylon-election-flag</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://www.friendsgraphics.in/services/satin-election-flag</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
     <image:image>
       <image:loc>https://www.friendsgraphics.in/images/nylon_election_flag.jpg</image:loc>
-      <image:title>Nylon Election Flag for Vehicles</image:title>
+      <image:title>Fabric &amp; Satin Election Flag</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/paper-election-flag</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/national-paper-flag</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/paper_election_flags.jpg</image:loc>
+      <image:title>Paper Election Flag</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/election-campaign-poster</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://www.friendsgraphics.in/images/campaign_posters.jpg</image:loc>
-      <image:title>Election Campaign Poster Printing Patna</image:title>
+      <image:title>Election Campaign Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/promotional-canopy-tent</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/election-campaign-canopy-tent.jpg</image:loc>
+      <image:title>Promotional Canopy Tents &amp; Gazebos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/candidate-badges-caps-printing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/election-candidate-badges-and-caps.jpg</image:loc>
+      <image:title>Candidate Badges, Caps &amp; Campaign Sashes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/custom-tshirt-printing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/real-work/custom-polo-tshirt-team-excellent.jpg</image:loc>
+      <image:title>Custom Election &amp; Corporate T-Shirts</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/non-woven-carry-bag-printing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/real-work/non-woven-promotional-shopping-bag-orient-electric.jpg</image:loc>
+      <image:title>Non-Woven Promotional Carry Bags</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/national-paper-flag</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/national_t_flags.jpg</image:loc>
+      <image:title>National Paper Flag &amp; T-Flags</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/election-management-services</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.friendsgraphics.in/images/Canopy%20Tent.png</image:loc>
-      <image:title>Election Canopy Tents and Campaign Kits</image:title>
+      <image:loc>https://www.friendsgraphics.in/images/election-campaign-canopy-tent.jpg</image:loc>
+      <image:title>Election Management Services</image:title>
     </image:image>
-  </url>
-
-  <!-- Signage & LED Boards -->
-  <url>
-    <loc>https://www.friendsgraphics.in/services/led-acrylic-sign-board</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/led-acp-glow-sign-board</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/outdoor-acp-sign-board</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/brass-sign-board</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/led-sign-boards</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <!-- Commercial Printing & Stationery -->
-  <url>
-    <loc>https://www.friendsgraphics.in/services/flex-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/bill-book-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/book-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/calendar-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/pamphlet-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/id-card-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/offset-printing-services</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/services/visiting-card-printing</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/product_box.png</image:loc>
+      <image:title>Offset Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/business-card-printing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/visiting-cards.png</image:loc>
+      <image:title>Business Card Printing</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/brochure-flyer-printing</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/customized_brochure.png</image:loc>
+      <image:title>Brochure &amp; Flyer Printing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/pamphlet-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/flyers.png</image:loc>
+      <image:title>Pamphlet Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/bill-book-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/custom_bill_books_invoice_printing (1).png</image:loc>
+      <image:title>Bill Book Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/id-card-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/institue_id_cards.png</image:loc>
+      <image:title>ID Card Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/book-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/Full Production Book Printing & Publication.png</image:loc>
+      <image:title>Book Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/calendar-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/Wall & Desk Calendar Printing.png</image:loc>
+      <image:title>Calendar Printing Services</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.friendsgraphics.in/services/flex-printing-services</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/large-format-flex-hoarding-banner.jpg</image:loc>
+      <image:title>Large Format Flex Printing &amp; Giant Hoardings</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.friendsgraphics.in/services/flex-vinyl-printing</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.friendsgraphics.in/images/sunboard_printing.png</image:loc>
+      <image:title>Vinyl Stickers &amp; Sunboard Printing</image:title>
+    </image:image>
+  </url>
+
+  <!-- Informational Blog Guides (E-E-A-T Topical Authority) -->
+  <url>
+    <loc>https://www.friendsgraphics.in/blog/bihar-election-campaign-materials-guide</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- Legal & Sitemap Pages -->
   <url>
-    <loc>https://www.friendsgraphics.in/sitemap</loc>
-    <lastmod>2026-11-11</lastmod>
+    <loc>https://www.friendsgraphics.in/blog/bihar-election-candidate-publicity-guide</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.friendsgraphics.in/privacy-policy</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.friendsgraphics.in/terms-and-conditions</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <loc>https://www.friendsgraphics.in/blog/paper-gsm-flex-quality-guide</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 </urlset>
-

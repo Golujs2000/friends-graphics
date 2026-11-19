@@ -293,88 +293,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Featured Spotlight: Banner & Poster Printing */}
-      <section className="py-20 relative bg-gradient-to-b from-[#0a0e17] via-[#101625] to-[#0a0e17] border-y border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/10 border border-[#ff6a00]/25 text-[#ff6a00]">
-                <span>Featured Core Specialty</span>
-              </div>
-
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
-                Make Your Message <br /><span className="brand-gradient-text">Impossible to Miss</span>
-              </h2>
-
-              <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                Get professionally printed banners and posters in vibrant colors, sharp details and durable materials. Whether you're promoting a business, launching an offer or organizing an event in Patna, we turn your design into high-impact printed marketing material.
-              </p>
-
-              {/* Use Cases Pills */}
-              <div>
-                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
-                  Key Printing Applications:
-                </h4>
-                <div className="grid grid-cols-2 gap-2 text-xs text-slate-200">
-                  {[
-                    "Business Promotions",
-                    "Shop & Showroom Banners",
-                    "Political & Social Events",
-                    "School & College Campaigns",
-                    "Product Launches",
-                    "Sale & Discount Banners",
-                    "Corporate Conferences",
-                    "Religious & Community Events"
-                  ].map((uc, i) => (
-                    <div key={i} className="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-[#ff6a00] shrink-0" />
-                      <span>{uc}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="flex flex-wrap items-center gap-4 pt-2">
-                <Link
-                  to="/services/flex-printing-services"
-                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white font-bold text-sm flex items-center gap-2 shadow-lg shadow-[#ff6a00]/30 hover:scale-[1.02] transition-all"
-                >
-                  <span>Flex & Banner Printing Quote</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-
-                <Link
-                  to="/services/election-campaign-poster"
-                  className="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold text-sm transition-all"
-                >
-                  <span>Election Poster Printing →</span>
-                </Link>
-              </div>
-            </div>
-
-            {/* Right Visual Image */}
-            <div className="relative rounded-2xl overflow-hidden border border-[#ff6a00]/30 shadow-2xl group">
-              <img
-                src="/images/welding_banner.png"
-                alt="Friends Graphics Large Format Banner Printing Machine"
-                className="w-full h-[420px] object-cover group-hover:scale-102 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
-                <div className="bg-[#0f1420]/90 backdrop-blur-md border border-[#ff6a00]/30 rounded-xl p-4 w-full">
-                  <div className="text-xs font-bold text-[#ff6a00] uppercase tracking-wider mb-1">
-                    Japanese Plotter Precision
-                  </div>
-                  <p className="text-xs text-slate-300">
-                    High-density UV pigment inks, brass eyelets &amp; weather-resistant hem stitching.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* 5. Why Choose Friends Graphics */}
       <WhyUsGrid />
 
@@ -414,6 +332,97 @@ export default function HomePage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Large-Format Flex, Giant Hoardings & Highway Billboards (Moved Down with Big Flex Image) */}
+      <section className="py-20 relative bg-gradient-to-b from-[#0a0e17] via-[#101625] to-[#0a0e17] border-y border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="space-y-6">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/10 border border-[#ff6a00]/25 text-[#ff6a00]">
+                <span>विशालकाय आउटडोर फ्लेक्स व होर्डिंग्स • Large Format Production</span>
+              </div>
+
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+                Large Format Flex &amp; <br /><span className="brand-gradient-text">Giant Outdoor Hoardings</span>
+              </h2>
+
+              <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+                Friends Graphics is equipped with high-speed Japanese wide-format roll-to-roll plotters and heavy-duty 440 GSM Star Flex media. From 20x10 ft massive highway hoardings and political rally stage backdrops to welded MS iron shopfront frames — get vibrant, weather-resistant outdoor branding with brass eyelets and reinforced hem stitching.
+              </p>
+
+              {/* Use Cases Pills */}
+              <div>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
+                  Key Outdoor Large-Format Applications:
+                </h4>
+                <div className="grid grid-cols-2 gap-2 text-xs text-slate-200">
+                  {[
+                    "Highway & Bypass Billboards",
+                    "Massive Election Rally Backdrops",
+                    "MS Iron Welded Shop Hoardings",
+                    "Event Welcome Gates & Portals",
+                    "Real Estate Site Hoardings",
+                    "Coaching & School Mega Banners",
+                    "Backlit Commercial Lightboxes",
+                    "Roll-Up Exhibition Standees"
+                  ].map((uc, i) => (
+                    <div key={i} className="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-[#ff6a00] shrink-0" />
+                      <span>{uc}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-4 pt-2">
+                <Link
+                  to="/services/flex-printing-services"
+                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-[#ff6a00] to-[#ff8a00] text-white font-bold text-sm flex items-center gap-2 shadow-lg shadow-[#ff6a00]/30 hover:scale-[1.02] transition-all"
+                >
+                  <span>Flex &amp; Hoarding Printing Details</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+
+                <a
+                  href={`https://wa.me/${companyDetails.whatsappNumber}?text=${encodeURIComponent("नमस्ते फ्रेंड्स ग्राफिक्स! मुझे लार्ज-फॉर्मेट फ्लेक्स / आउटडोर होर्डिंग (Star Flex) का कोटेशन चाहिए।")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/15 text-white font-semibold text-sm flex items-center gap-2 transition-all"
+                >
+                  <MessageCircle className="w-4 h-4 text-emerald-400" />
+                  <span>Flex Printing Quote (WhatsApp)</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Right Visual Image - BIG FLEX HOARDING IMAGE */}
+            <div className="relative rounded-2xl overflow-hidden border border-[#ff6a00]/30 shadow-2xl group">
+              <img
+                src="/images/large-format-flex-hoarding-banner.jpg"
+                alt="Friends Graphics Large Format Flex Hoarding Banner Printing Press"
+                className="w-full h-[440px] object-cover group-hover:scale-102 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex items-end p-6">
+                <div className="bg-[#0f1420]/95 backdrop-blur-md border border-[#ff6a00]/30 rounded-xl p-4 w-full shadow-xl">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-xs font-extrabold text-[#ff6a00] uppercase tracking-wider">
+                      Industrial Roll-to-Roll Japanese Plotters
+                    </span>
+                    <span className="text-[10px] bg-red-600/30 text-red-400 px-2 py-0.5 rounded font-mono font-bold">
+                      Up to 10.5 ft Seamless
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300">
+                    Heavy-duty 440 GSM Star Flex, rust-free brass eyelets &amp; weather-resistant heat-welded hem stitching.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

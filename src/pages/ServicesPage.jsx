@@ -31,13 +31,15 @@ const merchandiseSlugs = [
 ];
 
 const commercialSlugs = [
-  'bill-book-printing-services',
-  'book-printing-services',
-  'calendar-printing-services',
-  'pamphlet-printing-services',
   'offset-printing-services',
   'business-card-printing',
   'brochure-flyer-printing',
+  'pamphlet-printing-services',
+  'bill-book-printing-services',
+  'id-card-printing-services',
+  'book-printing-services',
+  'calendar-printing-services',
+  'flex-printing-services',
   'flex-vinyl-printing'
 ];
 
